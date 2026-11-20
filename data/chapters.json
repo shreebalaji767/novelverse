@@ -1,4 +1,11 @@
 {
   "schemaVersion": 1,
-  "chapters": []
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "novelId": "the-wrong-heiress",
+      "title": "Congratulations, You're Not Our Daughter",
+      "path": "novels/the-wrong-heiress/chapters/chapter-1.md"
+    }
+  ]
 }
