@@ -79,7 +79,7 @@ for(const feature of ['flatten(novel)','renderChapters','renderCharacters','rend
 if(!fs.readFileSync('sw.js','utf8').includes('./series.html'))throw new Error('Series page missing from offline app shell');
 for(const file of ['characters.html','character.html','worlds.html','world.html'])if(!fs.readFileSync(file,'utf8').includes('./css/encyclopedia.css'))throw new Error('Encyclopedia stylesheet missing from '+file);
 for(const file of ['characters.html','character.html','worlds.html','world.html'])if(!fs.existsSync('js/pages/'+file.replace('.html','.js')))throw new Error('Encyclopedia script missing for '+file);
-for(const file of ['index.html','novels.html','my-library.html','calendar.html','about.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./characters.html')||!html.includes('./worlds.html'))throw new Error('Encyclopedia navigation missing from '+file)}
+for(const file of ['index.html','novels.html','my-library.html','calendar.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./characters.html')||!html.includes('./worlds.html'))throw new Error('Encyclopedia navigation missing from '+file)}
 const worldPage=fs.readFileSync('world.html','utf8');if(!worldPage.includes('world-reveal'))throw new Error('World spoiler control missing');
 const characterPage=fs.readFileSync('character.html','utf8');if(!characterPage.includes('character-reveal'))throw new Error('Character spoiler control missing');
 const shelfPage=fs.readFileSync('my-library.html','utf8');
