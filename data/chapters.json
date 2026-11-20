@@ -12,6 +12,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Man Who Ordered the Entire Restaurant",
       "path": "novels/the-wrong-heiress/chapters/chapter-2.md"
+    },
+    {
+      "id": "chapter-3",
+      "novelId": "the-wrong-heiress",
+      "title": "Four Brothers and One Very Bad Plan",
+      "path": "novels/the-wrong-heiress/chapters/chapter-3.md"
     }
   ]
 }
