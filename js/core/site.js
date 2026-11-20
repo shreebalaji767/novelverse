@@ -1,13 +1,47 @@
 (()=>{'use strict';
 const header=document.querySelector('.site-header');
+const navigation=[
+ ['Home','./','home'],
+ ['Novels','./novels.html','novels'],
+ ['Reader','./reader.html','reader'],
+ ['Characters','./characters.html','characters'],
+ ['Worlds','./worlds.html','worlds'],
+ ['My Library','./my-library.html','my-library'],
+ ['Release calendar','./calendar.html','calendar'],
+ ['Publishing Studio','./publish.html','publish'],
+ ['About','./about.html','about']
+];
 if(header){
- const nav=header.querySelector('.primary-nav');
- if(nav){
-  if(!nav.id)nav.id='primary-nav';
-  let toggle=header.querySelector('.menu-toggle');
-  if(!toggle){toggle=document.createElement('button');toggle.className='menu-toggle';toggle.type='button';toggle.textContent='Menu';toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-controls',nav.id);header.insertBefore(toggle,nav);}
-  toggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');toggle.setAttribute('aria-expanded',String(open));});
- }
+ let nav=header.querySelector('.primary-nav');
+ if(!nav){nav=document.createElement('nav');header.append(nav);}
+ nav.id='primary-nav';
+ nav.className='primary-nav';
+ nav.setAttribute('aria-label','Main navigation');
+ const file=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+ const activeKey=file==='index.html'?'home':
+  file==='series.html'?'novels':
+  file==='character.html'?'characters':
+  file==='world.html'?'worlds':
+  file.replace('.html','');
+ nav.replaceChildren(...navigation.map(([label,href,key])=>{
+  const link=document.createElement('a');
+  link.href=href;
+  link.textContent=label;
+  if(key===activeKey){link.classList.add('active');link.setAttribute('aria-current','page');}
+  return link;
+ }));
+ let toggle=header.querySelector('.menu-toggle');
+ if(!toggle){toggle=document.createElement('button');toggle.className='menu-toggle';toggle.type='button';toggle.textContent='Menu';header.insertBefore(toggle,nav);}
+ toggle.setAttribute('aria-expanded','false');
+ toggle.setAttribute('aria-controls',nav.id);
+ toggle.addEventListener('click',()=>{
+  const open=nav.classList.toggle('is-open');
+  toggle.setAttribute('aria-expanded',String(open));
+ });
+ let cta=header.querySelector('.header-cta');
+ if(!cta){cta=document.createElement('a');cta.className='header-cta';header.append(cta);}
+ cta.href='./novels.html';
+ cta.innerHTML='Explore novels <span aria-hidden="true">↗</span>';
  if(!header.querySelector('.install-button')){
   const install=document.createElement('button');install.className='install-button';install.type='button';install.textContent='Install app';install.setAttribute('aria-label','Install NovelVerse app');header.append(install);
   let promptEvent=null;
