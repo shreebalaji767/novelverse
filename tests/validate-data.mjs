@@ -93,6 +93,8 @@ if(!seriesScript.includes("getJSON('characters.json')")||!seriesScript.includes(
 for(const control of ['series-title','series-synopsis','series-save','volume-list','character-list','world-content'])if(!seriesPage.includes('id="'+control+'"'))throw new Error('Missing series detail section: '+control);
 for(const feature of ['flatten(novel)','renderChapters','renderCharacters','renderWorld','NovelVerseShelf.add'])if(!seriesScript.includes(feature))throw new Error('Missing series detail feature: '+feature);
 if(!fs.readFileSync('sw.js','utf8').includes('./series.html'))throw new Error('Series page missing from offline app shell');
+if(!fs.readFileSync('series.html','utf8').includes('series-synopsis-panel'))throw new Error('Series synopsis should use the clean expandable presentation');
+if(fs.readFileSync('css/series.css','utf8').includes('.series-cover{'))throw new Error('Series page should not display a decorative placeholder cover');
 for(const file of ['characters.html','character.html','worlds.html','world.html'])if(!fs.readFileSync(file,'utf8').includes('./css/encyclopedia.css'))throw new Error('Encyclopedia stylesheet missing from '+file);
 for(const file of ['characters.html','character.html','worlds.html','world.html'])if(!fs.existsSync('js/pages/'+file.replace('.html','.js')))throw new Error('Encyclopedia script missing for '+file);
 for(const file of ['index.html','novels.html','my-library.html','calendar.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./characters.html')||!html.includes('./worlds.html'))throw new Error('Encyclopedia navigation missing from '+file)}
@@ -111,9 +113,10 @@ const readerScript=fs.readFileSync('js/core/reader.js','utf8');
 for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-button','progress-fill','chapter-progress-label'])if(!readerPage.includes('id="'+control+'"'))throw new Error('Missing reader control: '+control);
 for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
+if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v20'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v22'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
