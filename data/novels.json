@@ -143,6 +143,12 @@
               "title": "The Employee Who Was Never Dismissed",
               "path": "novels/the-wrong-heiress/chapters/chapter-20.md",
               "order": 19
+            },
+            {
+              "id": "chapter-21",
+              "title": "The File With Her Name on It",
+              "path": "novels/the-wrong-heiress/chapters/chapter-21.md",
+              "order": 20
             }
           ]
         }
