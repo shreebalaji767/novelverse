@@ -41,6 +41,12 @@
               "title": "Four Brothers and One Very Bad Plan",
               "path": "novels/the-wrong-heiress/chapters/chapter-3.md",
               "order": 2
+            },
+            {
+              "id": "chapter-4",
+              "title": "The Welcome Dinner Disaster",
+              "path": "novels/the-wrong-heiress/chapters/chapter-4.md",
+              "order": 3
             }
           ]
         }
