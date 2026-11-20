@@ -42,6 +42,12 @@
       "novelId": "the-wrong-heiress",
       "title": "An Invitation Nobody Asked For",
       "path": "novels/the-wrong-heiress/chapters/chapter-7.md"
+    },
+    {
+      "id": "chapter-8",
+      "novelId": "the-wrong-heiress",
+      "title": "The Woman Who Had Never Existed",
+      "path": "novels/the-wrong-heiress/chapters/chapter-8.md"
     }
   ]
 }
