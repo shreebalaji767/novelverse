@@ -54,6 +54,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Woman at the Door",
       "path": "novels/the-wrong-heiress/chapters/chapter-9.md"
+    },
+    {
+      "id": "chapter-10",
+      "novelId": "the-wrong-heiress",
+      "title": "Two Families, One Missing File",
+      "path": "novels/the-wrong-heiress/chapters/chapter-10.md"
     }
   ]
 }
