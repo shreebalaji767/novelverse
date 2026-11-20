@@ -137,6 +137,12 @@
               "title": "The Document Richard Sterling Hid",
               "path": "novels/the-wrong-heiress/chapters/chapter-19.md",
               "order": 18
+            },
+            {
+              "id": "chapter-20",
+              "title": "The Employee Who Was Never Dismissed",
+              "path": "novels/the-wrong-heiress/chapters/chapter-20.md",
+              "order": 19
             }
           ]
         }
