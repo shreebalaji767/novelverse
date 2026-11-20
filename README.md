@@ -1,12 +1,32 @@
 # NovelVerse
 
-A free static light novel publishing and reading platform for GitHub Pages.
+NovelVerse is a **100% static light-novel publishing and reading website** hosted on GitHub Pages.
+
+## Non-negotiable architecture
+
+NovelVerse does not use a database or backend. Do not add Supabase, Firebase, SQL databases, server APIs, paid APIs, serverless functions, authentication services, or hosted storage.
+
+| Need | Static implementation |
+|---|---|
+| Website | HTML, CSS and vanilla JavaScript |
+| Published novels and chapter metadata | JSON files committed to this repository |
+| Chapter text | Markdown or HTML/text files committed to this repository |
+| Characters, places, world lore and timelines | JSON data files committed to this repository |
+| Release calendar and announcements | JSON files committed to this repository |
+| My Library (personal saved novels) | Browser `localStorage` |
+| Reading preferences, bookmarks and progress | Browser `localStorage` |
+| Offline app shell and downloaded chapters | Service Worker, Cache API and browser storage |
+| Publishing and updates | Git commits to `main`, deployed by GitHub Pages |
+
+Local browser data is private to that browser profile and device. It is not synchronized between devices and is not uploaded to GitHub. Users should be offered export/import backups for portable personal data.
 
 ## Principles
 - Free public reading; no ads, subscriptions, mandatory accounts or paid APIs.
-- Static HTML, CSS and vanilla JavaScript.
-- Novel content will use Markdown and JSON.
-- Reader preferences and personal progress stay in the reader's browser.
+- Static HTML, CSS and vanilla JavaScript only.
+- No database, backend, server-side runtime or user-account system.
+- Novel content and all public catalogues are version-controlled files.
+- My Library is a local personal shelf, not the public catalogue.
+- The public discovery page is named **Novels**.
 - Publishing is manual through Git commits and GitHub Pages.
 
 ## Local preview
@@ -19,11 +39,13 @@ python -m http.server 8000
 Open http://localhost:8000/.
 
 ## Publishing a series
-1. Create a directory under novels/<series-id>/.
-2. Add novel metadata and volume/chapter catalogues.
-3. Register the series in data/novels.json.
+1. Create a directory under `novels/<series-id>/`.
+2. Add series metadata, volume/chapter catalogues and chapter text files.
+3. Register the series in `data/novels.json`.
 4. Validate IDs, paths, chapter order and cross-references.
-5. Commit to main and verify the GitHub Pages deployment.
+5. Commit to `main`; GitHub Actions validates and deploys the static files to GitHub Pages.
 
 ## Current status
-Phase 1 foundation: homepage, responsive design system, novel discovery page, localStorage-backed My Library shelf and calendar shell, global JSON catalogues, basic service-worker shell and GitHub Pages workflow. The reading room now includes adjustable typography, reading themes, width control, local bookmarks and saved scroll position for registered chapter records. The public catalogue currently has no published series; the reader therefore displays a clear unavailable state until content is published. Character/world encyclopedias, statistics, data backup and export features remain planned.
+The repository includes the homepage, responsive design system, public Novels catalogue, browser-local My Library, release-calendar shell, global JSON catalogues, reading room with adjustable typography/themes/width, local bookmarks and saved scroll position, service-worker app-shell caching, and GitHub Pages deployment validation.
+
+The public catalogue currently contains no published series. The reader displays an unavailable state until actual series and chapter files are committed. Character/world encyclopedias, statistics, personal-data backup/export and richer offline downloads are planned as static-file and browser-storage features only.
