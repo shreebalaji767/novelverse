@@ -45,7 +45,7 @@ for(const character of characters.characters){
   for(const relation of character.relationships||[])if(relation.characterId&&!characterKeys.has(character.novelId+':'+relation.characterId))throw new Error('Unknown character relationship: '+character.novelId+':'+relation.characterId);
 }
 const wrongHeiressWorlds=worlds.worlds.filter(w=>w.novelId==='the-wrong-heiress');
-if(wrongHeiressWorlds.length!==1||wrongHeiressWorlds[0].name!=='The Modern Sovereign World')throw new Error('The Wrong Heiress world record is missing');
+if(wrongHeiressWorlds.length!==1||wrongHeiressWorlds[0].name!=='The Modern Sovereign World'||wrongHeiressWorlds[0].powerHierarchy?.length!==6)throw new Error('The Wrong Heiress world record is missing');
 const worldKeys=new Set();
 for(const world of worlds.worlds){
   if(!world.id||!world.novelId||!world.name)throw new Error('Every world requires id, novelId and name');
