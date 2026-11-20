@@ -66,6 +66,12 @@
       "novelId": "the-wrong-heiress",
       "title": "A Very Ordinary Lunch",
       "path": "novels/the-wrong-heiress/chapters/chapter-11.md"
+    },
+    {
+      "id": "chapter-12",
+      "novelId": "the-wrong-heiress",
+      "title": "Three Brothers, One Lunch, and a Very Suspicious Address",
+      "path": "novels/the-wrong-heiress/chapters/chapter-12.md"
     }
   ]
 }
