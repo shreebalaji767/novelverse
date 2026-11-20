@@ -60,6 +60,12 @@
       "novelId": "the-wrong-heiress",
       "title": "Two Families, One Missing File",
       "path": "novels/the-wrong-heiress/chapters/chapter-10.md"
+    },
+    {
+      "id": "chapter-11",
+      "novelId": "the-wrong-heiress",
+      "title": "A Very Ordinary Lunch",
+      "path": "novels/the-wrong-heiress/chapters/chapter-11.md"
     }
   ]
 }
