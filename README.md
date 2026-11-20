@@ -70,7 +70,7 @@ Reader settings and progress use the `novelverse.reader.v1` browser storage key.
 
 ## My Library and personal backups
 
-**My Library** is a personal shelf stored on the current device, separate from the public Novels catalogue.
+**My Library** is a personal shelf stored on the current device, separate from the public Novels catalogue. Reading a novel or opening a chapter never adds it to My Library automatically. Readers must choose **Save** or **Add to My Library** themselves from a novel card or series page.
 
 Current tools include:
 
