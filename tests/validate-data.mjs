@@ -85,7 +85,7 @@ const readerScript=fs.readFileSync('js/core/reader.js','utf8');
 for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-button','progress-fill','chapter-progress-label'])if(!readerPage.includes('id="'+control+'"'))throw new Error('Missing reader control: '+control);
 for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v8'))throw new Error('Offline shell cache must include the latest reader and publishing studio assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v9'))throw new Error('Offline shell cache must include the latest reader and publishing studio assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
@@ -93,3 +93,7 @@ for(const control of ['novel-id','novel-title','publish-volumes','publish-charac
 for(const feature of ['novelverse-publishing-package','chapterFiles','localStorage.setItem(draftKey','safeId','createObjectURL','importState'])if(!publishingScript.includes(feature))throw new Error('Missing publishing studio feature: '+feature);
 if(!publishingScript.includes('Nothing is uploaded automatically')&&!publishingPage.includes('Nothing is uploaded automatically'))throw new Error('Publishing Studio must disclose local-only publishing');
 if(!fs.readFileSync('sw.js','utf8').includes('./publish.html'))throw new Error('Publishing Studio missing from offline app shell');
+
+for(const file of ['assets/logo/favicon.svg','assets/logo/novelverse-mark.svg'])if(!fs.existsSync(file))throw new Error('Missing transparent NovelVerse logo asset: '+file);
+for(const file of ['index.html','novels.html','reader.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','calendar.html','about.html','publish.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./assets/logo/favicon.svg'))throw new Error('Favicon missing from '+file);if(!html.includes('class="brand-logo"'))throw new Error('Brand logo missing from '+file)}
+const siteScript=fs.readFileSync('js/core/site.js','utf8');if(!siteScript.includes('beforeinstallprompt')||!siteScript.includes('Install app'))throw new Error('PWA install action missing');
