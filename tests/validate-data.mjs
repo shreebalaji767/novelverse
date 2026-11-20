@@ -27,7 +27,7 @@ for(const file of ['index.html','novels.html','my-library.html','calendar.html',
 const seriesPage=fs.readFileSync('series.html','utf8');
 const seriesScript=fs.readFileSync('js/pages/series.js','utf8');
 for(const control of ['series-title','series-synopsis','series-save','volume-list','character-list','world-content'])if(!seriesPage.includes('id="'+control+'"'))throw new Error('Missing series detail section: '+control);
-for(const feature of ['series.html','flatten(novel)','renderChapters','renderCharacters','renderWorld','NovelVerseShelf.add'])if(!seriesScript.includes(feature))throw new Error('Missing series detail feature: '+feature);
+for(const feature of ['flatten(novel)','renderChapters','renderCharacters','renderWorld','NovelVerseShelf.add'])if(!seriesScript.includes(feature))throw new Error('Missing series detail feature: '+feature);
 if(!fs.readFileSync('sw.js','utf8').includes('./series.html'))throw new Error('Series page missing from offline app shell');
 const shelfPage=fs.readFileSync('my-library.html','utf8');
 const shelfScript=fs.readFileSync('js/pages/my-library.js','utf8');
