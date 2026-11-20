@@ -71,6 +71,12 @@
               "title": "The Woman Who Had Never Existed",
               "path": "novels/the-wrong-heiress/chapters/chapter-8.md",
               "order": 7
+            },
+            {
+              "id": "chapter-9",
+              "title": "The Woman at the Door",
+              "path": "novels/the-wrong-heiress/chapters/chapter-9.md",
+              "order": 8
             }
           ]
         }
