@@ -108,6 +108,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Second Transfer Was Never Finished",
       "path": "novels/the-wrong-heiress/chapters/chapter-18.md"
+    },
+    {
+      "id": "chapter-19",
+      "novelId": "the-wrong-heiress",
+      "title": "The Document Richard Sterling Hid",
+      "path": "novels/the-wrong-heiress/chapters/chapter-19.md"
     }
   ]
 }
