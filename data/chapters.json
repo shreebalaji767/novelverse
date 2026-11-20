@@ -78,6 +78,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Man Who Remembered the Wrong Thing",
       "path": "novels/the-wrong-heiress/chapters/chapter-13.md"
+    },
+    {
+      "id": "chapter-14",
+      "novelId": "the-wrong-heiress",
+      "title": "The Name That Wasn't on the List",
+      "path": "novels/the-wrong-heiress/chapters/chapter-14.md"
     }
   ]
 }
