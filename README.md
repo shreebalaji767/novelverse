@@ -67,3 +67,12 @@ Each world record has a stable `id`, its parent `novelId`, and a `name`. Optiona
 Use `spoiler: true` on a character, world, relationship or individual world entry to hide that information by default. Readers must deliberately enable spoiler reveal on the encyclopedia page. Keep public descriptions spoiler-safe; the toggle is a reader convenience, not access control.
 
 The pages `characters.html` and `worlds.html` provide searchable, series-filtered directories. `character.html` and `world.html` provide individual profiles. Series detail pages link to filtered encyclopedia views. All public data is static and committed to Git; no account, server or database is involved.
+
+
+## Publishing Studio
+
+Open `publish.html` to prepare your own series metadata, volumes, chapter Markdown and optional character/world JSON. The Studio validates the local draft and exports one JSON publishing package containing the metadata and chapter file contents. You can import that package back into the Studio to continue editing.
+
+The Studio saves optional drafts only in this browser's `localStorage`. Exported packages are downloaded to the user's device. Nothing is uploaded, committed, or deployed by the Studio. To publish, manually create the listed chapter files, merge the supplied entries into the relevant JSON catalogues, and commit the changes to `main`. GitHub Actions performs the repository validation and deploys the static site.
+
+The publishing package is a preparation/export format, not a server-side publisher. Never put GitHub tokens or other credentials into the Studio. It is designed for one-series-at-a-time authoring; existing repository catalogues must be merged rather than replaced.
