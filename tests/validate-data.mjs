@@ -3,6 +3,8 @@ import path from 'node:path';
 const json=(file)=>JSON.parse(fs.readFileSync(file,'utf8'));
 const catalogue=json('data/novels.json');
 if(!Array.isArray(catalogue.novels))throw new Error('novels.json must contain a novels array');
+const wrongHeiress=catalogue.novels.find(n=>n.id==='the-wrong-heiress');
+if(!wrongHeiress||!wrongHeiress.title||!wrongHeiress.synopsis||!Array.isArray(wrongHeiress.genres)||!wrongHeiress.genres.length)throw new Error('The Wrong Heiress title, synopsis and genres must be published');
 const chapterIndex=json('data/chapters.json');
 if(!Array.isArray(chapterIndex.chapters))throw new Error('chapters.json must contain a chapters array');
 const ids=new Set();
@@ -27,6 +29,8 @@ const characters=json('data/characters.json');
 const worlds=json('data/worlds.json');
 if(!Array.isArray(characters.characters))throw new Error('characters.json must contain a characters array');
 if(!Array.isArray(worlds.worlds))throw new Error('worlds.json must contain a worlds array');
+const wrongHeiressCharacters=characters.characters.filter(c=>c.novelId==='the-wrong-heiress');
+if(wrongHeiressCharacters.length!==20)throw new Error('The Wrong Heiress character records are incomplete');
 const characterKeys=new Set();
 for(const character of characters.characters){
   if(!character.id||!character.novelId||!character.name)throw new Error('Every character requires id, novelId and name');
@@ -40,6 +44,8 @@ for(const character of characters.characters){
 for(const character of characters.characters){
   for(const relation of character.relationships||[])if(relation.characterId&&!characterKeys.has(character.novelId+':'+relation.characterId))throw new Error('Unknown character relationship: '+character.novelId+':'+relation.characterId);
 }
+const wrongHeiressWorlds=worlds.worlds.filter(w=>w.novelId==='the-wrong-heiress');
+if(wrongHeiressWorlds.length!==1||wrongHeiressWorlds[0].name!=='The Modern Sovereign World')throw new Error('The Wrong Heiress world record is missing');
 const worldKeys=new Set();
 for(const world of worlds.worlds){
   if(!world.id||!world.novelId||!world.name)throw new Error('Every world requires id, novelId and name');
@@ -67,6 +73,7 @@ for(const link of ['Home','Novels','Reader','Characters','Worlds','My Library','
 for(const file of ['index.html','novels.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','publish.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./js/core/site.js'))throw new Error('Shared navigation controller missing from '+file)}
 const seriesPage=fs.readFileSync('series.html','utf8');
 const seriesScript=fs.readFileSync('js/pages/series.js','utf8');
+if(!seriesScript.includes("getJSON('characters.json')")||!seriesScript.includes("getJSON('worlds.json')"))throw new Error('Series page must load published character and world records');
 for(const control of ['series-title','series-synopsis','series-save','volume-list','character-list','world-content'])if(!seriesPage.includes('id="'+control+'"'))throw new Error('Missing series detail section: '+control);
 for(const feature of ['flatten(novel)','renderChapters','renderCharacters','renderWorld','NovelVerseShelf.add'])if(!seriesScript.includes(feature))throw new Error('Missing series detail feature: '+feature);
 if(!fs.readFileSync('sw.js','utf8').includes('./series.html'))throw new Error('Series page missing from offline app shell');
@@ -88,7 +95,7 @@ const readerScript=fs.readFileSync('js/core/reader.js','utf8');
 for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-button','progress-fill','chapter-progress-label'])if(!readerPage.includes('id="'+control+'"'))throw new Error('Missing reader control: '+control);
 for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v14'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v15'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
