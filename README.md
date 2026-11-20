@@ -26,4 +26,4 @@ Open http://localhost:8000/.
 5. Commit to main and verify the GitHub Pages deployment.
 
 ## Current status
-Phase 1 foundation: homepage, responsive design system, novel discovery page, localStorage-backed My Library shelf and calendar shell, global JSON catalogues, basic service-worker shell and GitHub Pages workflow. Reader, encyclopedia, bookmarks, statistics and export features are planned for later phases.
+Phase 1 foundation: homepage, responsive design system, novel discovery page, localStorage-backed My Library shelf and calendar shell, global JSON catalogues, basic service-worker shell and GitHub Pages workflow. The reading room now includes adjustable typography, reading themes, width control, local bookmarks and saved scroll position for registered chapter records. The public catalogue currently has no published series; the reader therefore displays a clear unavailable state until content is published. Character/world encyclopedias, statistics, data backup and export features remain planned.
