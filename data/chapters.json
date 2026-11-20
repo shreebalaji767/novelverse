@@ -102,6 +102,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Instruction Nobody Was Allowed to Read",
       "path": "novels/the-wrong-heiress/chapters/chapter-17.md"
+    },
+    {
+      "id": "chapter-18",
+      "novelId": "the-wrong-heiress",
+      "title": "The Second Transfer Was Never Finished",
+      "path": "novels/the-wrong-heiress/chapters/chapter-18.md"
     }
   ]
 }
