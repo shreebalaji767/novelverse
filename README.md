@@ -53,3 +53,17 @@ The public catalogue and series pages are read-only displays of committed conten
 The repository includes the homepage, responsive design system, public Novels catalogue with series-detail pages, volume/chapter navigation, character and world overview sections, browser-local My Library, release-calendar shell, global JSON catalogues, reading room with adjustable typography/themes/width, local bookmarks and saved scroll position, service-worker app-shell caching, and GitHub Pages deployment validation.
 
 The public catalogue currently contains no published series. The reader displays an unavailable state until actual series and chapter files are committed. Character/world encyclopedias, statistics, personal-data backup/export and richer offline downloads are planned as static-file and browser-storage features only.
+
+## Character and world encyclopedias
+
+The public encyclopedia uses two committed JSON catalogues:
+- `data/characters.json` — character profiles, aliases, appearance, personality, history, abilities, affiliations, relationships and chapter appearances.
+- `data/worlds.json` — world settings, geography, history, locations, organizations/factions and chronological events.
+
+Each character record has a stable `id`, its parent `novelId`, a `name`, and optional `role`, `summary`, `aliases`, `appearance`, `personality`, `history`, `abilities`, `affiliations`, `relationships`, and `appearances`. Relationship entries can point to another character ID in the same series. Appearance entries can reference a chapter ID.
+
+Each world record has a stable `id`, its parent `novelId`, and a `name`. Optional fields include `type`, `summary`, `geography`, `history`, `locations`, `organizations`, and `timeline`. Location, organization and timeline entries each require their own stable `id` and `name` or `title`. Timeline entries may reference a published chapter ID.
+
+Use `spoiler: true` on a character, world, relationship or individual world entry to hide that information by default. Readers must deliberately enable spoiler reveal on the encyclopedia page. Keep public descriptions spoiler-safe; the toggle is a reader convenience, not access control.
+
+The pages `characters.html` and `worlds.html` provide searchable, series-filtered directories. `character.html` and `world.html` provide individual profiles. Series detail pages link to filtered encyclopedia views. All public data is static and committed to Git; no account, server or database is involved.
