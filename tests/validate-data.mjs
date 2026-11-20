@@ -90,6 +90,10 @@ for(const novel of catalogue.novels){
     if(!chapter14||chapter14.title!=="The Name That Wasn't on the List"||chapter14.path!=='novels/the-wrong-heiress/chapters/chapter-14.md')throw new Error('The Wrong Heiress Chapter 14 must be registered with its published title and path');
     const chapter14Content=fs.readFileSync(chapter14.path,'utf8');
     if(!chapter14Content.includes("## **Chapter 14 — The Name That Wasn't on the List**")||!chapter14Content.trimEnd().endsWith('Jonathan Vale had died eleven years ago.'))throw new Error('The Wrong Heiress Chapter 14 content file is incomplete');
+    const chapter15=allChapters.find(item=>item.id==='chapter-15');
+    if(!chapter15||chapter15.title!=='The Courier Who Left Two Receipts'||chapter15.path!=='novels/the-wrong-heiress/chapters/chapter-15.md')throw new Error('The Wrong Heiress Chapter 15 must be registered with its published title and path');
+    const chapter15Content=fs.readFileSync(chapter15.path,'utf8');
+    if(!chapter15Content.includes('## **Chapter 15 — The Courier Who Left Two Receipts**')||!chapter15Content.trimEnd().endsWith('And the next document might finally explain why two deliveries had been necessary.'))throw new Error('The Wrong Heiress Chapter 15 content file is incomplete');
 
   }
 
@@ -169,7 +173,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v33'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v34'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
