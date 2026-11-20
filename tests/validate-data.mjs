@@ -17,6 +17,7 @@ if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-7'&&chapter.novelI
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-8'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Woman Who Had Never Existed'))throw new Error('The Wrong Heiress Chapter 8 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-9'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Woman at the Door'))throw new Error('The Wrong Heiress Chapter 9 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-10'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='Two Families, One Missing File'))throw new Error('The Wrong Heiress Chapter 10 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-11'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='A Very Ordinary Lunch'))throw new Error('The Wrong Heiress Chapter 11 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -70,6 +71,10 @@ for(const novel of catalogue.novels){
     if(!chapter10||chapter10.title!=='Two Families, One Missing File'||chapter10.path!=='novels/the-wrong-heiress/chapters/chapter-10.md')throw new Error('The Wrong Heiress Chapter 10 must be registered with its published title and path');
     const chapter10Content=fs.readFileSync(chapter10.path,'utf8');
     if(!chapter10Content.includes('## **Chapter 10 — Two Families, One Missing File**')||!chapter10Content.trimEnd().endsWith('And locked it.'))throw new Error('The Wrong Heiress Chapter 10 content file is incomplete');
+    const chapter11=allChapters.find(item=>item.id==='chapter-11');
+    if(!chapter11||chapter11.title!=='A Very Ordinary Lunch'||chapter11.path!=='novels/the-wrong-heiress/chapters/chapter-11.md')throw new Error('The Wrong Heiress Chapter 11 must be registered with its published title and path');
+    const chapter11Content=fs.readFileSync(chapter11.path,'utf8');
+    if(!chapter11Content.includes('## **Chapter 11 — A Very Ordinary Lunch**')||!chapter11Content.trimEnd().endsWith('For the first time, the Vespers had an address.**'))throw new Error('The Wrong Heiress Chapter 11 content file is incomplete');
 
   }
 
@@ -149,7 +154,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v29'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v30'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
