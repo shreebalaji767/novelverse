@@ -13,7 +13,7 @@ function render(){
  if(count)count.textContent=found.length===1?'01 published series':String(found.length).padStart(2,'0')+' published series';
  if(!found.length){
   const empty=el('div','novels-empty');
-  empty.append(el('span','empty-ornament','✦'),el('strong','',novels.length?'No stories found.':'The first chapter of this collection is yet to be written.'),el('p','',novels.length?'Try another title, genre or status.':'New series will appear here when they are published.'));
+  empty.append(el('span','empty-ornament','✦'),el('strong','',novels.length?'No stories found.':'The collection is ready for its first published story.'),el('p','',novels.length?'Try another title, genre or status.':'New series will appear here when they are published.'));
   grid.append(empty);return;
  }
  found.forEach((novel,index)=>{
@@ -29,7 +29,7 @@ function render(){
   cover.append(coverTop,monogram,coverRule,coverTitle,coverBottom);
   const body=el('div','novel-card-body');
   const meta=el('div','novel-card-meta');
-  const status=el('span','novel-status novel-status-'+(novel.status||'series'),(novel.status||'series').replace(/-/g,' ').toUpperCase());
+  const status=el('span','novel-status novel-status-'+(novel.status||'series'),(novel.status||'published').replace(/-/g,' ').toUpperCase());
   meta.append(status);
   if(novel.author)meta.append(el('span','novel-author','BY '+novel.author.toUpperCase()));
   const heading=el('h3','');
