@@ -90,6 +90,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Courier Who Left Two Receipts",
       "path": "novels/the-wrong-heiress/chapters/chapter-15.md"
+    },
+    {
+      "id": "chapter-16",
+      "novelId": "the-wrong-heiress",
+      "title": "The Receipt Nobody Was Supposed to Keep",
+      "path": "novels/the-wrong-heiress/chapters/chapter-16.md"
     }
   ]
 }
