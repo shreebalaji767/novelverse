@@ -19,8 +19,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Validate JSON catalogues
-        run: node -e "for (const f of ['data/site.json','data/novels.json','data/releases.json','data/announcements.json','manifest.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('JSON validation passed')"
+      - name: Validate catalogues and chapter references
+        run: node tests/validate-data.mjs
+      - name: Check JavaScript syntax
+        run: for file in js/core/*.js js/pages/*.js; do node --check "$file"; done
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
