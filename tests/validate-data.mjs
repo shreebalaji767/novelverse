@@ -60,7 +60,7 @@ for(const world of worlds.worlds){
   }
 }
 for(const file of ['data/site.json','data/releases.json','data/announcements.json','manifest.json'])json(file);
-for(const file of ['index.html','novels.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','sw.js'])if(!fs.existsSync(file))throw new Error('Missing required page: '+file);
+for(const file of ['index.html','novels.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','publish.html','sw.js'])if(!fs.existsSync(file))throw new Error('Missing required page: '+file);
 for(const file of ['index.html','novels.html','my-library.html','calendar.html','about.html'])if(!fs.readFileSync(file,'utf8').includes('./reader.html'))throw new Error('Reader navigation missing from '+file);
 const seriesPage=fs.readFileSync('series.html','utf8');
 const seriesScript=fs.readFileSync('js/pages/series.js','utf8');
