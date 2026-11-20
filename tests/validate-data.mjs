@@ -26,6 +26,7 @@ for(const file of ['index.html','novels.html','my-library.html','calendar.html',
 const shelfPage=fs.readFileSync('my-library.html','utf8');
 const shelfScript=fs.readFileSync('js/pages/my-library.js','utf8');
 for(const control of ['export-backup','import-backup','clear-shelf','shelf-search','shelf-stats'])if(!shelfPage.includes('id="'+control+'"'))throw new Error('Missing My Library control: '+control);
-for(const feature of ['novelverse-local-backup','Import merges','MAX_BACKUP','validBackup','mergeReader'])if(!shelfScript.includes(feature))throw new Error('Missing local backup safeguard: '+feature);
+if(!shelfPage.includes('Import merges with existing data'))throw new Error('Missing merge behavior explanation');
+for(const feature of ['novelverse-local-backup','MAX_BACKUP','validBackup','mergeReader'])if(!shelfScript.includes(feature))throw new Error('Missing local backup safeguard: '+feature);
 if(!shelfScript.includes('novelverse.reader.v1'))throw new Error('Local backup must preserve reader data');
 console.log('NovelVerse validation passed; registered novels:',ids.size,'; chapter index entries:',chapterIndex.chapters.length,'; local backup controls: verified');
