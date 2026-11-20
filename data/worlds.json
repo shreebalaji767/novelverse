@@ -7,7 +7,6 @@
       "name": "The Modern Sovereign World",
       "type": "Modern fictional setting",
       "summary": "An entirely fictional modern world with fictional countries, corporations, families, institutions and international alliances. It resembles contemporary civilization, with advanced technology, international finance, multinational corporations, modern governments and established criminal organizations.",
-      "geography": "Global influence structure: Level 1 — Ordinary wealth: millionaires, entrepreneurs, celebrities and wealthy individuals. Level 2 — National dynasties: Sterling-type industrial and financial families. Level 3 — International corporations: multinational conglomerates and financial groups. Level 4 — International power blocs: political, industrial, financial and security alliances. Level 5 — Hidden dynasties: secret international networks and competing family empires. Level 6 — Vesper Sovereign Dynasty: the world's most influential private dynasty.",
       "organizations": [
         {
           "id": "vesper-global-holdings",
@@ -95,6 +94,38 @@
           "id": "sterling-mansion",
           "name": "Sterling Mansion",
           "description": "The family residence Aria once called home."
+        }
+      ],
+      "powerHierarchy": [
+        {
+          "level": 1,
+          "title": "Ordinary wealth",
+          "description": "Millionaires, entrepreneurs, celebrities and wealthy individuals."
+        },
+        {
+          "level": 2,
+          "title": "National dynasties",
+          "description": "Sterling-type industrial and financial families."
+        },
+        {
+          "level": 3,
+          "title": "International corporations",
+          "description": "Multinational conglomerates and financial groups."
+        },
+        {
+          "level": 4,
+          "title": "International power blocs",
+          "description": "Political, industrial, financial and security alliances."
+        },
+        {
+          "level": 5,
+          "title": "Hidden dynasties",
+          "description": "Secret international networks and competing family empires."
+        },
+        {
+          "level": 6,
+          "title": "Vesper Sovereign Dynasty",
+          "description": "The world's most influential private dynasty."
         }
       ]
     }
