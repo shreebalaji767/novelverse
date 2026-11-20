@@ -79,3 +79,10 @@ if(!shelfPage.includes('Import merges with existing data'))throw new Error('Miss
 for(const feature of ['novelverse-local-backup','MAX_BACKUP','validBackup','mergeReader'])if(!shelfScript.includes(feature))throw new Error('Missing local backup safeguard: '+feature);
 if(!shelfScript.includes('novelverse.reader.v1'))throw new Error('Local backup must preserve reader data');
 console.log('NovelVerse validation passed; novels:',ids.size,'; chapters:',chapterIndex.chapters.length,'; characters:',characters.characters.length,'; worlds:',worlds.worlds.length,'; encyclopedia and backup controls: verified');
+
+const readerPage=fs.readFileSync('reader.html','utf8');
+const readerScript=fs.readFileSync('js/core/reader.js','utf8');
+for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-button','progress-fill','chapter-progress-label'])if(!readerPage.includes('id="'+control+'"'))throw new Error('Missing reader control: '+control);
+for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
+if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v7'))throw new Error('Reader upgrade must invalidate the old offline shell');
