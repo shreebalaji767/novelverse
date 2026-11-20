@@ -13,6 +13,7 @@ if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-3'&&chapter.novelI
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-4'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Welcome Dinner Disaster'))throw new Error('The Wrong Heiress Chapter 4 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-5'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Heiress Who Wanted Her Old Life Back'))throw new Error('The Wrong Heiress Chapter 5 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-6'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Price of an Ordinary Life'))throw new Error('The Wrong Heiress Chapter 6 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-7'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='An Invitation Nobody Asked For'))throw new Error('The Wrong Heiress Chapter 7 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -50,6 +51,10 @@ for(const novel of catalogue.novels){
     const chapter6=allChapters.find(item=>item.id==='chapter-6');
     if(!chapter6||chapter6.title!=='The Price of an Ordinary Life'||chapter6.path!=='novels/the-wrong-heiress/chapters/chapter-6.md')throw new Error('The Wrong Heiress Chapter 6 must be registered with its published title and path');
     if(!fs.readFileSync(chapter6.path,'utf8').includes('**End of Chapter 6**'))throw new Error('The Wrong Heiress Chapter 6 content file is incomplete');
+    const chapter7=allChapters.find(item=>item.id==='chapter-7');
+    if(!chapter7||chapter7.title!=='An Invitation Nobody Asked For'||chapter7.path!=='novels/the-wrong-heiress/chapters/chapter-7.md')throw new Error('The Wrong Heiress Chapter 7 must be registered with its published title and path');
+    const chapter7Content=fs.readFileSync(chapter7.path,'utf8');
+    if(!chapter7Content.includes('## **Chapter 7 — An Invitation Nobody Asked For**')||!chapter7Content.trimEnd().endsWith('And she had no idea what was waiting on the other side.'))throw new Error('The Wrong Heiress Chapter 7 content file is incomplete');
   }
 
 }
@@ -128,7 +133,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v25'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v26'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
