@@ -102,6 +102,10 @@ for(const novel of catalogue.novels){
     if(!chapter17||chapter17.title!=='The Instruction Nobody Was Allowed to Read'||chapter17.path!=='novels/the-wrong-heiress/chapters/chapter-17.md')throw new Error('The Wrong Heiress Chapter 17 must be registered with its published title and path');
     const chapter17Content=fs.readFileSync(chapter17.path,'utf8');
     if(!chapter17Content.includes('## **Chapter 17 — The Instruction Nobody Was Allowed to Read**')||!chapter17Content.trimEnd().endsWith('And why had she needed two children kept separate?'))throw new Error('The Wrong Heiress Chapter 17 content file is incomplete');
+    const chapter18=allChapters.find(item=>item.id==='chapter-18');
+    if(!chapter18||chapter18.title!=='The Second Transfer Was Never Finished'||chapter18.path!=='novels/the-wrong-heiress/chapters/chapter-18.md')throw new Error('The Wrong Heiress Chapter 18 must be registered with its published title and path');
+    const chapter18Content=fs.readFileSync(chapter18.path,'utf8');
+    if(!chapter18Content.includes('## **Chapter 18 — The Second Transfer Was Never Finished**')||!chapter18Content.trimEnd().endsWith('And he had known that all along.'))throw new Error('The Wrong Heiress Chapter 18 content file is incomplete');
 
   }
 
