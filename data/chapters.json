@@ -6,6 +6,12 @@
       "novelId": "the-wrong-heiress",
       "title": "Congratulations, You're Not Our Daughter",
       "path": "novels/the-wrong-heiress/chapters/chapter-1.md"
+    },
+    {
+      "id": "chapter-2",
+      "novelId": "the-wrong-heiress",
+      "title": "The Man Who Ordered the Entire Restaurant",
+      "path": "novels/the-wrong-heiress/chapters/chapter-2.md"
     }
   ]
 }
