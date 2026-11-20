@@ -17,6 +17,21 @@
         "Mystery",
         "Political Intrigue",
         "Ensemble Cast"
+      ],
+      "volumes": [
+        {
+          "id": "volume-1",
+          "title": "Volume 1",
+          "order": 0,
+          "chapters": [
+            {
+              "id": "chapter-1",
+              "title": "Congratulations, You're Not Our Daughter",
+              "path": "novels/the-wrong-heiress/chapters/chapter-1.md",
+              "order": 0
+            }
+          ]
+        }
       ]
     }
   ]
