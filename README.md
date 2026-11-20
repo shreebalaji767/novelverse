@@ -177,7 +177,7 @@ A successful commit does not by itself mean the live site has updated. Check the
 
 ## Current content status
 
-The catalogue files currently contain **zero published novels, chapters, character records, world records, release entries and announcements**. The platform features and publishing tools are present, but no fictional story content has been added. The Reader therefore shows its empty state until actual novels and chapter files are published.
+The catalogue currently contains **1 published novel, 1 chapter, 20 character records and 1 world record** for *The Wrong Heiress*. There are currently no release entries or announcements. No additional story content should be added unless it is supplied and explicitly approved.
 
 ## Repository structure
 
