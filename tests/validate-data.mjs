@@ -14,6 +14,7 @@ if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-4'&&chapter.novelI
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-5'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Heiress Who Wanted Her Old Life Back'))throw new Error('The Wrong Heiress Chapter 5 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-6'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Price of an Ordinary Life'))throw new Error('The Wrong Heiress Chapter 6 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-7'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='An Invitation Nobody Asked For'))throw new Error('The Wrong Heiress Chapter 7 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-8'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Woman Who Had Never Existed'))throw new Error('The Wrong Heiress Chapter 8 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -55,6 +56,11 @@ for(const novel of catalogue.novels){
     if(!chapter7||chapter7.title!=='An Invitation Nobody Asked For'||chapter7.path!=='novels/the-wrong-heiress/chapters/chapter-7.md')throw new Error('The Wrong Heiress Chapter 7 must be registered with its published title and path');
     const chapter7Content=fs.readFileSync(chapter7.path,'utf8');
     if(!chapter7Content.includes('## **Chapter 7 — An Invitation Nobody Asked For**')||!chapter7Content.trimEnd().endsWith('And she had no idea what was waiting on the other side.'))throw new Error('The Wrong Heiress Chapter 7 content file is incomplete');
+    const chapter8=allChapters.find(item=>item.id==='chapter-8');
+    if(!chapter8||chapter8.title!=='The Woman Who Had Never Existed'||chapter8.path!=='novels/the-wrong-heiress/chapters/chapter-8.md')throw new Error('The Wrong Heiress Chapter 8 must be registered with its published title and path');
+    const chapter8Content=fs.readFileSync(chapter8.path,'utf8');
+    if(!chapter8Content.includes('## **Chapter 8 — The Woman Who Had Never Existed**')||!chapter8Content.trimEnd().endsWith('began preparing to meet Aria.'))throw new Error('The Wrong Heiress Chapter 8 content file is incomplete');
+
   }
 
 }
