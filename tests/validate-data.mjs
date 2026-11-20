@@ -9,6 +9,7 @@ const chapterIndex=json('data/chapters.json');
 if(!Array.isArray(chapterIndex.chapters))throw new Error('chapters.json must contain a chapters array');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-1'&&chapter.novelId==='the-wrong-heiress'))throw new Error('The Wrong Heiress Chapter 1 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-2'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Man Who Ordered the Entire Restaurant'))throw new Error('The Wrong Heiress Chapter 2 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-3'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='Four Brothers and One Very Bad Plan'))throw new Error('The Wrong Heiress Chapter 3 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -34,6 +35,9 @@ for(const novel of catalogue.novels){
     const chapter2=allChapters.find(item=>item.id==='chapter-2');
     if(!chapter2||chapter2.title!=='The Man Who Ordered the Entire Restaurant'||chapter2.path!=='novels/the-wrong-heiress/chapters/chapter-2.md')throw new Error('The Wrong Heiress Chapter 2 must be registered with its published title and path');
     if(!fs.readFileSync(chapter2.path,'utf8').includes('**End of Chapter 2**'))throw new Error('The Wrong Heiress Chapter 2 content file is incomplete');
+    const chapter3=allChapters.find(item=>item.id==='chapter-3');
+    if(!chapter3||chapter3.title!=='Four Brothers and One Very Bad Plan'||chapter3.path!=='novels/the-wrong-heiress/chapters/chapter-3.md')throw new Error('The Wrong Heiress Chapter 3 must be registered with its published title and path');
+    if(!fs.readFileSync(chapter3.path,'utf8').includes('**End of Chapter 3**'))throw new Error('The Wrong Heiress Chapter 3 content file is incomplete');
   }
 
 }
