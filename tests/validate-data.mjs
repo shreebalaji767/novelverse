@@ -95,7 +95,7 @@ const readerScript=fs.readFileSync('js/core/reader.js','utf8');
 for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-button','progress-fill','chapter-progress-label'])if(!readerPage.includes('id="'+control+'"'))throw new Error('Missing reader control: '+control);
 for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v15'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v16'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
@@ -108,6 +108,13 @@ for(const file of ['assets/logo/favicon.svg','assets/logo/novelverse-mark.svg'])
 for(const file of ['index.html','novels.html','reader.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','calendar.html','about.html','publish.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./assets/logo/favicon.svg'))throw new Error('Favicon missing from '+file);if(!html.includes('class="brand-logo"'))throw new Error('Brand logo missing from '+file)}
 const siteScript=fs.readFileSync('js/core/site.js','utf8');if(!siteScript.includes('beforeinstallprompt')||!siteScript.includes('Install app'))throw new Error('PWA install action missing');
 
+const novelsPage=fs.readFileSync('novels.html','utf8');
+const novelsScript=fs.readFileSync('js/pages/novels.js','utf8');
+const novelsStyles=fs.readFileSync('css/novels.css','utf8');
+if(!novelsPage.includes('./css/novels.css'))throw new Error('Novels page stylesheet missing');
+for(const selector of ['novels-intro','novels-catalogue','novels-toolbar','catalogue-count'])if(!novelsPage.includes(selector))throw new Error('Missing redesigned Novels section: '+selector);
+for(const feature of ['novel-cover','novel-genres','novel-save-button','catalogue-count'])if(!novelsScript.includes(feature))throw new Error('Missing redesigned novel card feature: '+feature);
+if(!novelsStyles.includes('@media(max-width:640px)')||!fs.readFileSync('sw.js','utf8').includes('./css/novels.css'))throw new Error('Novels page responsive/offline styling missing');
 const aboutPage=fs.readFileSync('about.html','utf8');
 for(const section of ['about-hero','about-principles','about-reading','about-how','about-privacy','about-publishing','about-final-cta'])if(!aboutPage.includes('class="'+section+'"'))throw new Error('Missing About page section: '+section);
 if(!aboutPage.includes('./css/about.css'))throw new Error('About page stylesheet missing');
