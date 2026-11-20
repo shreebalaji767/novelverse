@@ -72,6 +72,12 @@
       "novelId": "the-wrong-heiress",
       "title": "Three Brothers, One Lunch, and a Very Suspicious Address",
       "path": "novels/the-wrong-heiress/chapters/chapter-12.md"
+    },
+    {
+      "id": "chapter-13",
+      "novelId": "the-wrong-heiress",
+      "title": "The Man Who Remembered the Wrong Thing",
+      "path": "novels/the-wrong-heiress/chapters/chapter-13.md"
     }
   ]
 }
