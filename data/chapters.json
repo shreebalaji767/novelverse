@@ -84,6 +84,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Name That Wasn't on the List",
       "path": "novels/the-wrong-heiress/chapters/chapter-14.md"
+    },
+    {
+      "id": "chapter-15",
+      "novelId": "the-wrong-heiress",
+      "title": "The Courier Who Left Two Receipts",
+      "path": "novels/the-wrong-heiress/chapters/chapter-15.md"
     }
   ]
 }
