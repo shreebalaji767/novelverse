@@ -36,6 +36,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Price of an Ordinary Life",
       "path": "novels/the-wrong-heiress/chapters/chapter-6.md"
+    },
+    {
+      "id": "chapter-7",
+      "novelId": "the-wrong-heiress",
+      "title": "An Invitation Nobody Asked For",
+      "path": "novels/the-wrong-heiress/chapters/chapter-7.md"
     }
   ]
 }
