@@ -126,6 +126,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The File With Her Name on It",
       "path": "novels/the-wrong-heiress/chapters/chapter-21.md"
+    },
+    {
+      "id": "chapter-22",
+      "novelId": "the-wrong-heiress",
+      "title": "The Child Without a Family",
+      "path": "novels/the-wrong-heiress/chapters/chapter-22.md"
     }
   ]
 }
