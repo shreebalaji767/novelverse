@@ -41,11 +41,15 @@ Open http://localhost:8000/.
 ## Publishing a series
 1. Create a directory under `novels/<series-id>/`.
 2. Add series metadata, volume/chapter catalogues and chapter text files.
-3. Register the series in `data/novels.json`.
-4. Validate IDs, paths, chapter order and cross-references.
-5. Commit to `main`; GitHub Actions validates and deploys the static files to GitHub Pages.
+3. Register the series in `data/novels.json`. Each series uses a stable `id`, `title`, `synopsis`, optional `subtitle`, `author`, `status`, `genres`, `tags`, `updatedAt`, and ordered `volumes`.
+4. Each volume has a stable `id`, `title`, optional `order`, and a `chapters` array. Each chapter has a stable `id`, `title`, safe repository-relative `path`, and optional `order` and `subtitle`.
+5. Optional `characters` entries use `id`, `name`, `role`, `description`, and optional `spoiler`. Optional `world` metadata uses `name`, `summary`, and `details` entries with `title` and `description`.
+6. Validate IDs, paths, chapter order and cross-references.
+7. Commit to `main`; GitHub Actions validates and deploys the static files to GitHub Pages.
+
+The public catalogue and series pages are read-only displays of committed content. No in-browser authoring or remote publishing service is required.
 
 ## Current status
-The repository includes the homepage, responsive design system, public Novels catalogue, browser-local My Library, release-calendar shell, global JSON catalogues, reading room with adjustable typography/themes/width, local bookmarks and saved scroll position, service-worker app-shell caching, and GitHub Pages deployment validation.
+The repository includes the homepage, responsive design system, public Novels catalogue with series-detail pages, volume/chapter navigation, character and world overview sections, browser-local My Library, release-calendar shell, global JSON catalogues, reading room with adjustable typography/themes/width, local bookmarks and saved scroll position, service-worker app-shell caching, and GitHub Pages deployment validation.
 
 The public catalogue currently contains no published series. The reader displays an unavailable state until actual series and chapter files are committed. Character/world encyclopedias, statistics, personal-data backup/export and richer offline downloads are planned as static-file and browser-storage features only.
