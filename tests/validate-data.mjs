@@ -8,6 +8,7 @@ if(!wrongHeiress||!wrongHeiress.title||!wrongHeiress.synopsis||!Array.isArray(wr
 const chapterIndex=json('data/chapters.json');
 if(!Array.isArray(chapterIndex.chapters))throw new Error('chapters.json must contain a chapters array');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-1'&&chapter.novelId==='the-wrong-heiress'))throw new Error('The Wrong Heiress Chapter 1 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-2'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Man Who Ordered the Entire Restaurant'))throw new Error('The Wrong Heiress Chapter 2 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -30,6 +31,9 @@ for(const novel of catalogue.novels){
     const chapter=allChapters.find(item=>item.id==='chapter-1');
     if(!chapter||chapter.title!=="Congratulations, You're Not Our Daughter"||chapter.path!=='novels/the-wrong-heiress/chapters/chapter-1.md')throw new Error('The Wrong Heiress Chapter 1 must be registered with its published title and path');
     if(!fs.readFileSync(chapter.path,'utf8').includes('**End of Chapter 1**'))throw new Error('The Wrong Heiress Chapter 1 content file is incomplete');
+    const chapter2=allChapters.find(item=>item.id==='chapter-2');
+    if(!chapter2||chapter2.title!=='The Man Who Ordered the Entire Restaurant'||chapter2.path!=='novels/the-wrong-heiress/chapters/chapter-2.md')throw new Error('The Wrong Heiress Chapter 2 must be registered with its published title and path');
+    if(!fs.readFileSync(chapter2.path,'utf8').includes('**End of Chapter 2**'))throw new Error('The Wrong Heiress Chapter 2 content file is incomplete');
   }
 
 }
@@ -105,7 +109,7 @@ for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','t
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v18'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v19'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
