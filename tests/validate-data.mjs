@@ -98,6 +98,10 @@ for(const novel of catalogue.novels){
     if(!chapter16||chapter16.title!=='The Receipt Nobody Was Supposed to Keep'||chapter16.path!=='novels/the-wrong-heiress/chapters/chapter-16.md')throw new Error('The Wrong Heiress Chapter 16 must be registered with its published title and path');
     const chapter16Content=fs.readFileSync(chapter16.path,'utf8');
     if(!chapter16Content.includes('## **Chapter 16 — The Receipt Nobody Was Supposed to Keep**')||!chapter16Content.trimEnd().endsWith('And whoever had arranged the transfers had just learned that the Vespers were getting closer.'))throw new Error('The Wrong Heiress Chapter 16 content file is incomplete');
+    const chapter17=allChapters.find(item=>item.id==='chapter-17');
+    if(!chapter17||chapter17.title!=='The Instruction Nobody Was Allowed to Read'||chapter17.path!=='novels/the-wrong-heiress/chapters/chapter-17.md')throw new Error('The Wrong Heiress Chapter 17 must be registered with its published title and path');
+    const chapter17Content=fs.readFileSync(chapter17.path,'utf8');
+    if(!chapter17Content.includes('## **Chapter 17 — The Instruction Nobody Was Allowed to Read**')||!chapter17Content.trimEnd().endsWith('And why had she needed two children kept separate?'))throw new Error('The Wrong Heiress Chapter 17 content file is incomplete');
 
   }
 
