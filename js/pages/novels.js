@@ -3,54 +3,68 @@ const grid=document.getElementById('novels-grid');
 const search=document.getElementById('novel-search');
 const filter=document.getElementById('status-filter');
 const count=document.getElementById('catalogue-count');
-if(!grid)return;
+if(!grid||!search||!filter)return;
 let novels=[];
 const el=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node};
 function render(){
  const q=(search.value||'').trim().toLowerCase(),status=filter.value;
  const found=novels.filter(n=>(status==='all'||n.status===status)&&[n.title,n.subtitle,n.author,n.synopsis,...(n.genres||[]),...(n.tags||[])].join(' ').toLowerCase().includes(q));
  grid.replaceChildren();
- if(count)count.textContent=found.length===1?'01 published series':String(found.length).padStart(2,'0')+' published series';
+ if(count)count.textContent=found.length===1?'1 published novel':found.length+' published novels';
  if(!found.length){
   const empty=el('div','novels-empty');
-  empty.append(el('span','empty-ornament','✦'),el('strong','',novels.length?'No stories found.':'The collection is ready for its first published story.'),el('p','',novels.length?'Try another title, genre or status.':'New series will appear here when they are published.'));
+  empty.append(el('strong','',novels.length?'No matching novels':'No novels published yet'),el('p','',novels.length?'Try a different search or status filter.':'Published series will appear here.'));
   grid.append(empty);return;
  }
- found.forEach((novel,index)=>{
+ found.forEach(novel=>{
   const card=el('article','novel-card');
   const href='./series.html?id='+encodeURIComponent(novel.id);
-  const cover=el('div','novel-cover');
-  const coverTop=el('div','novel-cover-top');
-  coverTop.append(el('span','novel-cover-edition','NOVELVERSE ORIGINAL'),el('span','novel-cover-number',String(index+1).padStart(2,'0')));
-  const monogram=el('span','novel-cover-monogram',novel.coverMark||((novel.title||'NV').trim().split(/\s+/).slice(0,2).map(word=>word[0]).join('').toUpperCase()));
-  const coverRule=el('span','novel-cover-rule');
-  const coverTitle=el('span','novel-cover-title',novel.subtitle||novel.title||'Untitled');
-  const coverBottom=el('span','novel-cover-bottom','A STORY TO DISCOVER');
-  cover.append(coverTop,monogram,coverRule,coverTitle,coverBottom);
-  const body=el('div','novel-card-body');
   const meta=el('div','novel-card-meta');
-  const status=el('span','novel-status novel-status-'+(novel.status||'series'),(novel.status||'published').replace(/-/g,' ').toUpperCase());
+  const status=el('span','novel-status novel-status-'+(novel.status||'published'),(novel.status||'published').replace(/-/g,' ').toUpperCase());
   meta.append(status);
   if(novel.author)meta.append(el('span','novel-author','BY '+novel.author.toUpperCase()));
   const heading=el('h3','');
-  const titleLink=el('a','',novel.title||'Untitled');titleLink.href=href;heading.append(titleLink);
-  const synopsis=el('p','novel-synopsis',novel.synopsis||'Discover this series and explore its world.');
+  const titleLink=el('a','',novel.title||'Untitled');
+  titleLink.href=href;
+  heading.append(titleLink);
+  const synopsis=el('p','novel-synopsis',novel.synopsis||'');
   const genres=el('div','novel-genres');
   (novel.genres||[]).slice(0,4).forEach(genre=>genres.append(el('span','novel-genre',genre)));
   if((novel.genres||[]).length>4)genres.append(el('span','novel-genre novel-genre-more','+'+((novel.genres||[]).length-4)));
   const actions=el('div','novel-card-actions');
-  const view=el('a','novel-view-link','Explore series');view.href=href;view.setAttribute('aria-label','Explore '+(novel.title||'series'));
+  const view=el('a','novel-view-link','View novel');
+  view.href=href;
+  view.setAttribute('aria-label','View '+(novel.title||'novel'));
   const save=el('button','novel-save-button','');
   save.type='button';
-  function label(){const saved=NovelVerseShelf.has(novel.id);save.textContent=saved?'✓ Saved to My Library':'＋ Save';save.classList.toggle('is-saved',saved);save.setAttribute('aria-pressed',String(saved));}
-  label();
-  save.addEventListener('click',()=>{if(NovelVerseShelf.has(novel.id)){NovelVerseShelf.remove(novel.id)}else{const result=NovelVerseShelf.add(novel);if(!result.ok){save.textContent='Storage unavailable';return}}label()});
+  function updateSaveLabel(){
+   const saved=NovelVerseShelf.has(novel.id);
+   save.textContent=saved?'✓ Saved to My Library':'＋ Save to My Library';
+   save.classList.toggle('is-saved',saved);
+   save.setAttribute('aria-pressed',String(saved));
+  }
+  updateSaveLabel();
+  save.addEventListener('click',()=>{
+   if(NovelVerseShelf.has(novel.id)){NovelVerseShelf.remove(novel.id)}
+   else{const result=NovelVerseShelf.add(novel);if(!result.ok){save.textContent='Storage unavailable';return}}
+   updateSaveLabel();
+  });
   actions.append(view,save);
-  body.append(meta,heading,synopsis,genres,actions);
-  card.append(cover,body);grid.append(card);
+  card.append(meta,heading,synopsis,genres,actions);
+  grid.append(card);
  });
 }
-try{const data=await NovelVerseData.getJSON('novels.json');novels=(data.novels||[]).filter(n=>n.status!=='draft');render()}
-catch(error){console.warn('Novel catalogue error:',error);grid.textContent='The novel catalogue could not be loaded. Please try again.'}
-search.addEventListener('input',render);filter.addEventListener('change',render);
+try{
+ const data=await NovelVerseData.getJSON('novels.json');
+ novels=(data.novels||[]).filter(n=>n.status!=='draft');
+ render();
+}catch(error){
+ console.warn('Novel catalogue error:',error);
+ grid.replaceChildren();
+ const message=el('div','novels-empty');
+ message.append(el('strong','','Unable to load novels'),el('p','','Please refresh the page and try again.'));
+ grid.append(message);
+}
+search.addEventListener('input',render);
+filter.addEventListener('change',render);
 })();
