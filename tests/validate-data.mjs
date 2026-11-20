@@ -62,6 +62,9 @@ for(const world of worlds.worlds){
 for(const file of ['data/site.json','data/releases.json','data/announcements.json','manifest.json'])json(file);
 for(const file of ['index.html','novels.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','publish.html','sw.js'])if(!fs.existsSync(file))throw new Error('Missing required page: '+file);
 for(const file of ['index.html','novels.html','my-library.html','calendar.html','about.html'])if(!fs.readFileSync(file,'utf8').includes('./reader.html'))throw new Error('Reader navigation missing from '+file);
+const sharedSiteScript=fs.readFileSync('js/core/site.js','utf8');
+for(const link of ['Home','Novels','Reader','Characters','Worlds','My Library','Release calendar','Publishing Studio','About'])if(!sharedSiteScript.includes("'"+link+"'"))throw new Error('Shared navigation link missing: '+link);
+for(const file of ['index.html','novels.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','publish.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./js/core/site.js'))throw new Error('Shared navigation controller missing from '+file)}
 const seriesPage=fs.readFileSync('series.html','utf8');
 const seriesScript=fs.readFileSync('js/pages/series.js','utf8');
 for(const control of ['series-title','series-synopsis','series-save','volume-list','character-list','world-content'])if(!seriesPage.includes('id="'+control+'"'))throw new Error('Missing series detail section: '+control);
@@ -85,7 +88,7 @@ const readerScript=fs.readFileSync('js/core/reader.js','utf8');
 for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-button','progress-fill','chapter-progress-label'])if(!readerPage.includes('id="'+control+'"'))throw new Error('Missing reader control: '+control);
 for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v12'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v13'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
