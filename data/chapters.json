@@ -96,6 +96,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Receipt Nobody Was Supposed to Keep",
       "path": "novels/the-wrong-heiress/chapters/chapter-16.md"
+    },
+    {
+      "id": "chapter-17",
+      "novelId": "the-wrong-heiress",
+      "title": "The Instruction Nobody Was Allowed to Read",
+      "path": "novels/the-wrong-heiress/chapters/chapter-17.md"
     }
   ]
 }
