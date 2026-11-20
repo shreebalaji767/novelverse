@@ -1,1 +1,102 @@
-{"schemaVersion":1,"worlds":[]}
+{
+  "schemaVersion": 1,
+  "worlds": [
+    {
+      "id": "the-modern-sovereign-world",
+      "novelId": "the-wrong-heiress",
+      "name": "The Modern Sovereign World",
+      "type": "Modern fictional setting",
+      "summary": "An entirely fictional modern world with fictional countries, corporations, families, institutions and international alliances. It resembles contemporary civilization, with advanced technology, international finance, multinational corporations, modern governments and established criminal organizations.",
+      "geography": "Global influence structure: Level 1 — Ordinary wealth: millionaires, entrepreneurs, celebrities and wealthy individuals. Level 2 — National dynasties: Sterling-type industrial and financial families. Level 3 — International corporations: multinational conglomerates and financial groups. Level 4 — International power blocs: political, industrial, financial and security alliances. Level 5 — Hidden dynasties: secret international networks and competing family empires. Level 6 — Vesper Sovereign Dynasty: the world's most influential private dynasty.",
+      "organizations": [
+        {
+          "id": "vesper-global-holdings",
+          "name": "Vesper Global Holdings",
+          "description": "The central holding empire and parent organization; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "vesper-financial-consortium",
+          "name": "Vesper Financial Consortium",
+          "description": "Banking, investment, insurance and financial institutions; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "vesper-industrial-group",
+          "name": "Vesper Industrial Group",
+          "description": "Infrastructure, manufacturing, aerospace, energy and logistics; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "vesper-technologies",
+          "name": "Vesper Technologies",
+          "description": "Cybersecurity, communications, computing and research; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "vesper-life-sciences",
+          "name": "Vesper Life Sciences",
+          "description": "Healthcare, biotechnology, pharmaceutical research and hospitals; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "the-black-court",
+          "name": "The Black Court",
+          "description": "An international alliance of fictional criminal organizations; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "the-obsidian-directorate",
+          "name": "The Obsidian Directorate",
+          "description": "Intelligence, strategic analysis, security and counterintelligence; one of the seven pillars of the Vesper Dynasty."
+        },
+        {
+          "id": "aurelius-consortium",
+          "name": "Aurelius Consortium",
+          "description": "Competing international dynasty."
+        },
+        {
+          "id": "meridian-group",
+          "name": "Meridian Group",
+          "description": "Corporate and financial alliance."
+        },
+        {
+          "id": "iron-serpent-syndicate",
+          "name": "Iron Serpent Syndicate",
+          "description": "Rival criminal organization."
+        },
+        {
+          "id": "sovereign-circle",
+          "name": "Sovereign Circle",
+          "description": "Secret association of powerful families."
+        }
+      ],
+      "locations": [
+        {
+          "id": "vesper-estate",
+          "name": "Vesper Estate",
+          "description": "An enormous ancestral residence and the dynasty's historic family seat."
+        },
+        {
+          "id": "vesper-tower",
+          "name": "Vesper Tower",
+          "description": "The central corporate headquarters."
+        },
+        {
+          "id": "black-court-headquarters",
+          "name": "Black Court Headquarters",
+          "description": "The alliance's principal meeting location."
+        },
+        {
+          "id": "obsidian-headquarters",
+          "name": "Obsidian Headquarters",
+          "description": "The intelligence organization's secure central facility."
+        },
+        {
+          "id": "elysium-island",
+          "name": "Elysium Island",
+          "description": "A private island used for family retreats and diplomatic gatherings."
+        },
+        {
+          "id": "sterling-mansion",
+          "name": "Sterling Mansion",
+          "description": "The family residence Aria once called home."
+        }
+      ]
+    }
+  ]
+}
