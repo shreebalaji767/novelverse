@@ -119,6 +119,12 @@
               "title": "The Receipt Nobody Was Supposed to Keep",
               "path": "novels/the-wrong-heiress/chapters/chapter-16.md",
               "order": 15
+            },
+            {
+              "id": "chapter-17",
+              "title": "The Instruction Nobody Was Allowed to Read",
+              "path": "novels/the-wrong-heiress/chapters/chapter-17.md",
+              "order": 16
             }
           ]
         }
