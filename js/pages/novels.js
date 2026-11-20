@@ -22,7 +22,7 @@ function render(){
   const cover=el('div','novel-cover');
   const coverTop=el('div','novel-cover-top');
   coverTop.append(el('span','novel-cover-edition','NOVELVERSE ORIGINAL'),el('span','novel-cover-number',String(index+1).padStart(2,'0')));
-  const monogram=el('span','novel-cover-monogram',novel.coverMark||((novel.title||'NV').trim().split(/\\s+/).slice(0,2).map(word=>word[0]).join('').toUpperCase()));
+  const monogram=el('span','novel-cover-monogram',novel.coverMark||((novel.title||'NV').trim().split(/\s+/).slice(0,2).map(word=>word[0]).join('').toUpperCase()));
   const coverRule=el('span','novel-cover-rule');
   const coverTitle=el('span','novel-cover-title',novel.subtitle||novel.title||'Untitled');
   const coverBottom=el('span','novel-cover-bottom','A STORY TO DISCOVER');
