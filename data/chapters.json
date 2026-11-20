@@ -30,6 +30,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Heiress Who Wanted Her Old Life Back",
       "path": "novels/the-wrong-heiress/chapters/chapter-5.md"
+    },
+    {
+      "id": "chapter-6",
+      "novelId": "the-wrong-heiress",
+      "title": "The Price of an Ordinary Life",
+      "path": "novels/the-wrong-heiress/chapters/chapter-6.md"
     }
   ]
 }
