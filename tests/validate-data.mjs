@@ -10,6 +10,7 @@ if(!Array.isArray(chapterIndex.chapters))throw new Error('chapters.json must con
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-1'&&chapter.novelId==='the-wrong-heiress'))throw new Error('The Wrong Heiress Chapter 1 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-2'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Man Who Ordered the Entire Restaurant'))throw new Error('The Wrong Heiress Chapter 2 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-3'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='Four Brothers and One Very Bad Plan'))throw new Error('The Wrong Heiress Chapter 3 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-4'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Welcome Dinner Disaster'))throw new Error('The Wrong Heiress Chapter 4 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -38,6 +39,9 @@ for(const novel of catalogue.novels){
     const chapter3=allChapters.find(item=>item.id==='chapter-3');
     if(!chapter3||chapter3.title!=='Four Brothers and One Very Bad Plan'||chapter3.path!=='novels/the-wrong-heiress/chapters/chapter-3.md')throw new Error('The Wrong Heiress Chapter 3 must be registered with its published title and path');
     if(!fs.readFileSync(chapter3.path,'utf8').includes('**End of Chapter 3**'))throw new Error('The Wrong Heiress Chapter 3 content file is incomplete');
+    const chapter4=allChapters.find(item=>item.id==='chapter-4');
+    if(!chapter4||chapter4.title!=='The Welcome Dinner Disaster'||chapter4.path!=='novels/the-wrong-heiress/chapters/chapter-4.md')throw new Error('The Wrong Heiress Chapter 4 must be registered with its published title and path');
+    if(!fs.readFileSync(chapter4.path,'utf8').includes('**End of Chapter 4**'))throw new Error('The Wrong Heiress Chapter 4 content file is incomplete');
   }
 
 }
@@ -116,7 +120,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v22'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v23'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
