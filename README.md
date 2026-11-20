@@ -26,4 +26,4 @@ Open http://localhost:8000/.
 5. Commit to main and verify the GitHub Pages deployment.
 
 ## Current status
-Phase 1 foundation: homepage, responsive design system, library and calendar shells, global JSON catalogues, basic service-worker shell and GitHub Pages workflow. Reader, encyclopedia, bookmarks, statistics and export features are planned for later phases.
+Phase 1 foundation: homepage, responsive design system, novel discovery page, localStorage-backed My Library shelf and calendar shell, global JSON catalogues, basic service-worker shell and GitHub Pages workflow. Reader, encyclopedia, bookmarks, statistics and export features are planned for later phases.
