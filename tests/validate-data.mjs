@@ -102,6 +102,11 @@ for(const novel of catalogue.novels){
     if(!chapter17||chapter17.title!=='The Instruction Nobody Was Allowed to Read'||chapter17.path!=='novels/the-wrong-heiress/chapters/chapter-17.md')throw new Error('The Wrong Heiress Chapter 17 must be registered with its published title and path');
     const chapter17Content=fs.readFileSync(chapter17.path,'utf8');
     if(!chapter17Content.includes('## **Chapter 17 — The Instruction Nobody Was Allowed to Read**')||!chapter17Content.trimEnd().endsWith('And why had she needed two children kept separate?'))throw new Error('The Wrong Heiress Chapter 17 content file is incomplete');
+    const chapter19=allChapters.find(item=>item.id==='chapter-19');
+    if(!chapter19||chapter19.title!=='The Document Richard Sterling Hid'||chapter19.path!=='novels/the-wrong-heiress/chapters/chapter-19.md')throw new Error('The Wrong Heiress Chapter 19 must be registered with its published title and path');
+    const chapter19Content=fs.readFileSync(chapter19.path,'utf8');
+    if(!chapter19Content.includes('## **Chapter 19 — The Document Richard Sterling Hid**')||!chapter19Content.trimEnd().endsWith('And whoever had done it might still know where he was.'))throw new Error('The Wrong Heiress Chapter 19 content file is incomplete');
+
     const chapter18=allChapters.find(item=>item.id==='chapter-18');
     if(!chapter18||chapter18.title!=='The Second Transfer Was Never Finished'||chapter18.path!=='novels/the-wrong-heiress/chapters/chapter-18.md')throw new Error('The Wrong Heiress Chapter 18 must be registered with its published title and path');
     const chapter18Content=fs.readFileSync(chapter18.path,'utf8');
@@ -185,7 +190,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v35'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v38'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
