@@ -16,6 +16,7 @@ if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-6'&&chapter.novelI
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-7'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='An Invitation Nobody Asked For'))throw new Error('The Wrong Heiress Chapter 7 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-8'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Woman Who Had Never Existed'))throw new Error('The Wrong Heiress Chapter 8 must appear in the chapter index');
 if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-9'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='The Woman at the Door'))throw new Error('The Wrong Heiress Chapter 9 must appear in the chapter index');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='chapter-10'&&chapter.novelId==='the-wrong-heiress'&&chapter.title==='Two Families, One Missing File'))throw new Error('The Wrong Heiress Chapter 10 must appear in the chapter index');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
@@ -65,6 +66,10 @@ for(const novel of catalogue.novels){
     if(!chapter9||chapter9.title!=='The Woman at the Door'||chapter9.path!=='novels/the-wrong-heiress/chapters/chapter-9.md')throw new Error('The Wrong Heiress Chapter 9 must be registered with its published title and path');
     const chapter9Content=fs.readFileSync(chapter9.path,'utf8');
     if(!chapter9Content.includes('## **Chapter 9 — The Woman at the Door**')||!chapter9Content.trimEnd().endsWith('The other towards the person who had been trying to keep it buried.'))throw new Error('The Wrong Heiress Chapter 9 content file is incomplete');
+    const chapter10=allChapters.find(item=>item.id==='chapter-10');
+    if(!chapter10||chapter10.title!=='Two Families, One Missing File'||chapter10.path!=='novels/the-wrong-heiress/chapters/chapter-10.md')throw new Error('The Wrong Heiress Chapter 10 must be registered with its published title and path');
+    const chapter10Content=fs.readFileSync(chapter10.path,'utf8');
+    if(!chapter10Content.includes('## **Chapter 10 — Two Families, One Missing File**')||!chapter10Content.trimEnd().endsWith('And locked it.'))throw new Error('The Wrong Heiress Chapter 10 content file is incomplete');
 
   }
 
@@ -144,7 +149,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v28'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v29'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
