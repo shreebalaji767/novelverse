@@ -24,6 +24,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Welcome Dinner Disaster",
       "path": "novels/the-wrong-heiress/chapters/chapter-4.md"
+    },
+    {
+      "id": "chapter-5",
+      "novelId": "the-wrong-heiress",
+      "title": "The Heiress Who Wanted Her Old Life Back",
+      "path": "novels/the-wrong-heiress/chapters/chapter-5.md"
     }
   ]
 }
