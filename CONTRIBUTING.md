@@ -1,16 +1,21 @@
-# Publishing guide
+# Contributing to NovelVerse
 
-## Add a series
-- Use a stable lowercase ID with hyphens.
-- Create novels/<series-id>/ and add novel.json plus volumes.json.
-- Register it in data/novels.json.
-- Keep IDs stable after publication.
+NovelVerse is a static GitHub Pages project. Contributions must preserve this architecture.
 
-## Publish a chapter
-- Add its Markdown file in the appropriate volume directory.
-- Register its ID, title, order and relative content path.
-- Update data/releases.json only for a genuinely announced or published release.
-- Preview the chapter and validate links before committing.
+## Architecture rules
+- Use HTML, CSS and vanilla JavaScript.
+- Store public content and metadata as files in this repository (JSON plus Markdown/HTML chapter files).
+- Store personal reader data only in browser storage such as localStorage or IndexedDB.
+- Use the Service Worker and Cache API for offline support.
+- Do not introduce a database, backend, server-side functions, API service, account/authentication provider, hosted user storage, paid dependency or subscription.
+- Do not describe My Library as the public novel catalogue. Public discovery is **Novels**; **My Library** is the reader's local saved shelf.
+- Do not claim local data syncs between devices. Provide user-controlled export/import when portability is implemented.
 
-## Safety
-Treat Markdown as untrusted input. Use a safe renderer and sanitize generated HTML. Never put scripts, credentials, private drafts or reader data in public files.
+## Publishing content
+1. Add files under `novels/<series-id>/`.
+2. Update the relevant JSON catalogue.
+3. Use stable unique IDs and repository-relative paths.
+4. Run `node tests/validate-data.mjs` and JavaScript syntax checks.
+5. Commit to `main` and confirm the GitHub Pages workflow succeeds.
+
+Keep all features compatible with free static hosting.
