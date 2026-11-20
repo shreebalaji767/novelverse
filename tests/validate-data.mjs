@@ -126,9 +126,11 @@ const novelsPage=fs.readFileSync('novels.html','utf8');
 const novelsScript=fs.readFileSync('js/pages/novels.js','utf8');
 const novelsStyles=fs.readFileSync('css/novels.css','utf8');
 if(!novelsPage.includes('./css/novels.css'))throw new Error('Novels page stylesheet missing');
-for(const selector of ['novels-intro','novels-catalogue','novels-toolbar','catalogue-count'])if(!novelsPage.includes(selector))throw new Error('Missing redesigned Novels section: '+selector);
-for(const feature of ['novel-cover','novel-genres','novel-save-button','catalogue-count'])if(!novelsScript.includes(feature))throw new Error('Missing redesigned novel card feature: '+feature);
+for(const selector of ['novels-intro','novels-catalogue','novels-toolbar','catalogue-count'])if(!novelsPage.includes(selector))throw new Error('Missing Novels section: '+selector);
+for(const feature of ['novel-card-meta','novel-genres','novel-save-button','catalogue-count','View novel'])if(!novelsScript.includes(feature))throw new Error('Missing clean novel card feature: '+feature);
+if(novelsScript.includes('novel-cover')||novelsStyles.includes('novel-cover'))throw new Error('Novels catalogue should not render decorative placeholder book covers');
 if(!novelsStyles.includes('@media(max-width:640px)')||!fs.readFileSync('sw.js','utf8').includes('./css/novels.css'))throw new Error('Novels page responsive/offline styling missing');
+
 const aboutPage=fs.readFileSync('about.html','utf8');
 for(const section of ['about-hero','about-principles','about-reading','about-how','about-privacy','about-publishing','about-final-cta'])if(!aboutPage.includes('class="'+section+'"'))throw new Error('Missing About page section: '+section);
 if(!aboutPage.includes('./css/about.css'))throw new Error('About page stylesheet missing');
