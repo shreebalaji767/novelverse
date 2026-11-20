@@ -83,6 +83,12 @@
               "title": "Two Families, One Missing File",
               "path": "novels/the-wrong-heiress/chapters/chapter-10.md",
               "order": 9
+            },
+            {
+              "id": "chapter-11",
+              "title": "A Very Ordinary Lunch",
+              "path": "novels/the-wrong-heiress/chapters/chapter-11.md",
+              "order": 10
             }
           ]
         }
