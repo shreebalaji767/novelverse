@@ -86,3 +86,10 @@ for(const control of ['chapter-meta','reader-width','reader-theme','bookmark-but
 for(const feature of ['renderMarkdown','reading-status','noopener noreferrer','toLocaleString','aria-valuenow'])if(!readerScript.includes(feature))throw new Error('Missing reader enhancement: '+feature);
 if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must support narrow mobile screens');
 if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v7'))throw new Error('Reader upgrade must invalidate the old offline shell');
+
+const publishingPage=fs.readFileSync('publish.html','utf8');
+const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
+for(const control of ['novel-id','novel-title','publish-volumes','publish-characters','publish-worlds','validate-package','export-package','draft-import'])if(!publishingPage.includes('id="'+control+'"'))throw new Error('Missing publishing studio control: '+control);
+for(const feature of ['novelverse-publishing-package','chapterFiles','localStorage.setItem(draftKey','safeId','createObjectURL','importState'])if(!publishingScript.includes(feature))throw new Error('Missing publishing studio feature: '+feature);
+if(!publishingScript.includes('Nothing is uploaded automatically')&&!publishingPage.includes('Nothing is uploaded automatically'))throw new Error('Publishing Studio must disclose local-only publishing');
+if(!fs.readFileSync('sw.js','utf8').includes('./publish.html'))throw new Error('Publishing Studio missing from offline app shell');
