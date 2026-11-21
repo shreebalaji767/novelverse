@@ -179,6 +179,12 @@
               "title": "The Handover That Never Reached Its Destination",
               "path": "novels/the-wrong-heiress/chapters/chapter-26.md",
               "order": 25
+            },
+            {
+              "id": "chapter-27",
+              "title": "The Man Who Had Been Paid to Disappear",
+              "path": "novels/the-wrong-heiress/chapters/chapter-27.md",
+              "order": 26
             }
           ]
         }
