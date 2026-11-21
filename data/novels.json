@@ -161,6 +161,12 @@
               "title": "The Child Sent to the Wrong Address",
               "path": "novels/the-wrong-heiress/chapters/chapter-23.md",
               "order": 22
+            },
+            {
+              "id": "chapter-24",
+              "title": "The Woman Who Asked About the Missing Child",
+              "path": "novels/the-wrong-heiress/chapters/chapter-24.md",
+              "order": 23
             }
           ]
         }
