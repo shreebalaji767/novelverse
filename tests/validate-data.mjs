@@ -159,7 +159,7 @@ for(const novel of catalogue.novels){
     const chapter32=allChapters.find(item=>item.id==='chapter-32');
     if(!chapter32||chapter32.title!=='The Girl Who Had Two Names'||chapter32.path!=='novels/the-wrong-heiress/chapters/chapter-32.md')throw new Error('The Wrong Heiress Chapter 32 must be registered with its published title and path');
     const chapter32Content=fs.readFileSync(chapter32.path,'utf8');
-    if(!chapter32Content.includes('## **Chapter 32 — The Girl Who Had Two Names**')||!chapter32Content.trimEnd().endsWith('To Victoria.'))throw new Error('The Wrong Heiress Chapter 32 content file is incomplete');
+    if(!chapter32Content.includes('## **Chapter 32 — The Girl Who Had Two Names**')||!chapter32Content.trimEnd().endsWith('“To Victoria.”'))throw new Error('The Wrong Heiress Chapter 32 content file is incomplete');
 
     const chapter20=allChapters.find(item=>item.id==='chapter-20');
     if(!chapter20||chapter20.title!=='The Employee Who Was Never Dismissed'||chapter20.path!=='novels/the-wrong-heiress/chapters/chapter-20.md')throw new Error('The Wrong Heiress Chapter 20 must be registered with its published title and path');
