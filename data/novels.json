@@ -173,6 +173,12 @@
               "title": "The Nurse Who Took the Child",
               "path": "novels/the-wrong-heiress/chapters/chapter-25.md",
               "order": 24
+            },
+            {
+              "id": "chapter-26",
+              "title": "The Handover That Never Reached Its Destination",
+              "path": "novels/the-wrong-heiress/chapters/chapter-26.md",
+              "order": 25
             }
           ]
         }
