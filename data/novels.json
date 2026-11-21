@@ -215,6 +215,12 @@
               "title": "The Girl Who Had Two Names",
               "path": "novels/the-wrong-heiress/chapters/chapter-32.md",
               "order": 31
+            },
+            {
+              "id": "chapter-33",
+              "title": "The Registration Nobody Wanted Found",
+              "path": "novels/the-wrong-heiress/chapters/chapter-33.md",
+              "order": 32
             }
           ]
         }
