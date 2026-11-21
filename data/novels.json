@@ -185,6 +185,12 @@
               "title": "The Man Who Had Been Paid to Disappear",
               "path": "novels/the-wrong-heiress/chapters/chapter-27.md",
               "order": 26
+            },
+            {
+              "id": "chapter-28",
+              "title": "The Child Who Was Supposed to Become a Sterling",
+              "path": "novels/the-wrong-heiress/chapters/chapter-28.md",
+              "order": 27
             }
           ]
         }
