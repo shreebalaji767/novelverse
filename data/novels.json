@@ -197,6 +197,12 @@
               "title": "The Courier Who Took the Wrong Child",
               "path": "novels/the-wrong-heiress/chapters/chapter-29.md",
               "order": 28
+            },
+            {
+              "id": "chapter-30",
+              "title": "The Child in the Photograph",
+              "path": "novels/the-wrong-heiress/chapters/chapter-30.md",
+              "order": 29
             }
           ]
         }
