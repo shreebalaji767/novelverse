@@ -190,6 +190,11 @@ for(const novel of catalogue.novels){
     const chapter38Content=fs.readFileSync(chapter38.path,'utf8');
     if(!chapter38Content.includes('## **Chapter 38 — The Photograph of Two Babies**')||!chapter38Content.trimEnd().endsWith('It was about what someone had been trying to protect them from.'))throw new Error('The Wrong Heiress Chapter 38 content file is incomplete');
 
+    const chapter39=allChapters.find(item=>item.id==='chapter-39');
+    if(!chapter39||chapter39.title!=="The Dead Man's Authority"||chapter39.path!=='novels/the-wrong-heiress/chapters/chapter-39.md')throw new Error('The Wrong Heiress Chapter 39 must be registered with its published title and path');
+    const chapter39Content=fs.readFileSync(chapter39.path,'utf8');
+    if(!chapter39Content.includes("## **Chapter 39 — The Dead Man's Authority**")||!chapter39Content.trimEnd().endsWith('And somewhere inside the Vesper family, the person who had authorised the reversal was still alive.'))throw new Error('The Wrong Heiress Chapter 39 content file is incomplete');
+
     const chapter20=allChapters.find(item=>item.id==='chapter-20');
     if(!chapter20||chapter20.title!=='The Employee Who Was Never Dismissed'||chapter20.path!=='novels/the-wrong-heiress/chapters/chapter-20.md')throw new Error('The Wrong Heiress Chapter 20 must be registered with its published title and path');
     const chapter20Content=fs.readFileSync(chapter20.path,'utf8');
@@ -283,7 +288,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v57'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v58'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
