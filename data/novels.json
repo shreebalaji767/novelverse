@@ -257,6 +257,12 @@
               "title": "The Dead Man's Authority",
               "path": "novels/the-wrong-heiress/chapters/chapter-39.md",
               "order": 38
+            },
+            {
+              "id": "chapter-40",
+              "title": "The Initials on the Document",
+              "path": "novels/the-wrong-heiress/chapters/chapter-40.md",
+              "order": 39
             }
           ]
         }
