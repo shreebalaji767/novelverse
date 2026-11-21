@@ -408,7 +408,7 @@ Cassian leaned back.
 
 “It's a little more complicated than that,” Felix said.
 
-“ It always is when you say it.”
+“It always is when you say it.”
 
 Aria looked at the signature.
 
