@@ -287,6 +287,12 @@
               "title": "The Man Who Never Died",
               "path": "novels/the-wrong-heiress/chapters/chapter-44.md",
               "order": 43
+            },
+            {
+              "id": "chapter-45",
+              "title": "The Woman Who Was Supposed to Be Dead",
+              "path": "novels/the-wrong-heiress/chapters/chapter-45.md",
+              "order": 44
             }
           ]
         }
