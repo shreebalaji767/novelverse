@@ -132,6 +132,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Child Without a Family",
       "path": "novels/the-wrong-heiress/chapters/chapter-22.md"
+    },
+    {
+      "id": "chapter-23",
+      "novelId": "the-wrong-heiress",
+      "title": "The Child Sent to the Wrong Address",
+      "path": "novels/the-wrong-heiress/chapters/chapter-23.md"
     }
   ]
 }
