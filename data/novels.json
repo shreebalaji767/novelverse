@@ -269,6 +269,12 @@
               "title": "The Father Who Signed the First Document",
               "path": "novels/the-wrong-heiress/chapters/chapter-41.md",
               "order": 40
+            },
+            {
+              "id": "chapter-42",
+              "title": "The Inheritance Nobody Wanted",
+              "path": "novels/the-wrong-heiress/chapters/chapter-42.md",
+              "order": 41
             }
           ]
         }
