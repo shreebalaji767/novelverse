@@ -168,7 +168,7 @@ for(const novel of catalogue.novels){
     const chapter34=allChapters.find(item=>item.id==='chapter-34');
     if(!chapter34||chapter34.title!=='The Girl Who Was Called Lily'||chapter34.path!=='novels/the-wrong-heiress/chapters/chapter-34.md')throw new Error('The Wrong Heiress Chapter 34 must be registered with its published title and path');
     const chapter34Content=fs.readFileSync(chapter34.path,'utf8');
-    if(!chapter34Content.includes('## **Chapter 34 — The Girl Who Was Called Lily**')||!chapter34Content.trimEnd().endsWith('“They still don't know who ordered it.”'))throw new Error('The Wrong Heiress Chapter 34 content file is incomplete');
+    if(!chapter34Content.includes('## **Chapter 34 — The Girl Who Was Called Lily**')||!chapter34Content.trimEnd().endsWith("“They still don't know who ordered it.”"))throw new Error('The Wrong Heiress Chapter 34 content file is incomplete');
 
     const chapter20=allChapters.find(item=>item.id==='chapter-20');
     if(!chapter20||chapter20.title!=='The Employee Who Was Never Dismissed'||chapter20.path!=='novels/the-wrong-heiress/chapters/chapter-20.md')throw new Error('The Wrong Heiress Chapter 20 must be registered with its published title and path');
