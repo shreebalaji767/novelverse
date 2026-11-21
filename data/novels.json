@@ -227,6 +227,12 @@
               "title": "The Girl Who Was Called Lily",
               "path": "novels/the-wrong-heiress/chapters/chapter-34.md",
               "order": 33
+            },
+            {
+              "id": "chapter-35",
+              "title": "The Person Who Ordered the Switch",
+              "path": "novels/the-wrong-heiress/chapters/chapter-35.md",
+              "order": 34
             }
           ]
         }
