@@ -167,6 +167,12 @@
               "title": "The Woman Who Asked About the Missing Child",
               "path": "novels/the-wrong-heiress/chapters/chapter-24.md",
               "order": 23
+            },
+            {
+              "id": "chapter-25",
+              "title": "The Nurse Who Took the Child",
+              "path": "novels/the-wrong-heiress/chapters/chapter-25.md",
+              "order": 24
             }
           ]
         }
