@@ -275,6 +275,12 @@
               "title": "The Inheritance Nobody Wanted",
               "path": "novels/the-wrong-heiress/chapters/chapter-42.md",
               "order": 41
+            },
+            {
+              "id": "chapter-43",
+              "title": "The Man Who Was Supposed to Protect Them",
+              "path": "novels/the-wrong-heiress/chapters/chapter-43.md",
+              "order": 42
             }
           ]
         }
