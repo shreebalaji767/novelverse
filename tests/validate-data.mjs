@@ -122,6 +122,11 @@ for(const novel of catalogue.novels){
     const chapter24Content=fs.readFileSync(chapter24.path,'utf8');
     if(!chapter24Content.includes('## **Chapter 24 — The Woman Who Asked About the Missing Child**')||!chapter24Content.trimEnd().endsWith('**M. VOSS.**'))throw new Error('The Wrong Heiress Chapter 24 content file is incomplete');
 
+    const chapter25=allChapters.find(item=>item.id==='chapter-25');
+    if(!chapter25||chapter25.title!=='The Nurse Who Took the Child'||chapter25.path!=='novels/the-wrong-heiress/chapters/chapter-25.md')throw new Error('The Wrong Heiress Chapter 25 must be registered with its published title and path');
+    const chapter25Content=fs.readFileSync(chapter25.path,'utf8');
+    if(!chapter25Content.includes('## **Chapter 25 — The Nurse Who Took the Child**')||!chapter25Content.trimEnd().endsWith('“Daniel Mercer.”'))throw new Error('The Wrong Heiress Chapter 25 content file is incomplete');
+
     const chapter20=allChapters.find(item=>item.id==='chapter-20');
     if(!chapter20||chapter20.title!=='The Employee Who Was Never Dismissed'||chapter20.path!=='novels/the-wrong-heiress/chapters/chapter-20.md')throw new Error('The Wrong Heiress Chapter 20 must be registered with its published title and path');
     const chapter20Content=fs.readFileSync(chapter20.path,'utf8');
