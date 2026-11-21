@@ -156,6 +156,10 @@ for(const novel of catalogue.novels){
     if(!chapter31||chapter31.title!=='The Name Before Victoria'||chapter31.path!=='novels/the-wrong-heiress/chapters/chapter-31.md')throw new Error('The Wrong Heiress Chapter 31 must be registered with its published title and path');
     const chapter31Content=fs.readFileSync(chapter31.path,'utf8');
     if(!chapter31Content.includes('## **Chapter 31 — The Name Before Victoria**')||!chapter31Content.trimEnd().endsWith('And the name on it was the one thing she could not afford to let them read.'))throw new Error('The Wrong Heiress Chapter 31 content file is incomplete');
+    const chapter32=allChapters.find(item=>item.id==='chapter-32');
+    if(!chapter32||chapter32.title!=='The Girl Who Had Two Names'||chapter32.path!=='novels/the-wrong-heiress/chapters/chapter-32.md')throw new Error('The Wrong Heiress Chapter 32 must be registered with its published title and path');
+    const chapter32Content=fs.readFileSync(chapter32.path,'utf8');
+    if(!chapter32Content.includes('## **Chapter 32 — The Girl Who Had Two Names**')||!chapter32Content.trimEnd().endsWith('To Victoria.'))throw new Error('The Wrong Heiress Chapter 32 content file is incomplete');
 
     const chapter20=allChapters.find(item=>item.id==='chapter-20');
     if(!chapter20||chapter20.title!=='The Employee Who Was Never Dismissed'||chapter20.path!=='novels/the-wrong-heiress/chapters/chapter-20.md')throw new Error('The Wrong Heiress Chapter 20 must be registered with its published title and path');
