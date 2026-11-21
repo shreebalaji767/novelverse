@@ -180,6 +180,12 @@
       "novelId": "the-wrong-heiress",
       "title": "The Child in the Photograph",
       "path": "novels/the-wrong-heiress/chapters/chapter-30.md"
+    },
+    {
+      "id": "chapter-31",
+      "novelId": "the-wrong-heiress",
+      "title": "The Name Before Victoria",
+      "path": "novels/the-wrong-heiress/chapters/chapter-31.md"
     }
   ]
 }
