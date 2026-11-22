@@ -214,6 +214,10 @@ for(const novel of catalogue.novels){
 
 
 
+const chapter56=allChapters.find(item=>item.id==='chapter-56');
+if(!chapter56||chapter56.title!=="The Woman Who Appeared Twice"||chapter56.path!=='novels/the-wrong-heiress/chapters/chapter-56.md')throw new Error('The Wrong Heiress Chapter 56 must be registered with its published title and path');
+const chapter56Content=fs.readFileSync(chapter56.path,'utf8');
+if(!chapter56Content.includes("## **Chapter 56 — The Woman Who Appeared Twice**")||!chapter56Content.trimEnd().endsWith('**The hospital had preserved the wrong person's identity.**'))throw new Error('The Wrong Heiress Chapter 56 content file is incomplete');
 const chapter55=allChapters.find(item=>item.id==='chapter-55');
 if(!chapter55||chapter55.title!=="The Archive That Was Never Empty"||chapter55.path!=='novels/the-wrong-heiress/chapters/chapter-55.md')throw new Error('The Wrong Heiress Chapter 55 must be registered with its published title and path');
 const chapter55Content=fs.readFileSync(chapter55.path,'utf8');
@@ -364,7 +368,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v74'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v75'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
