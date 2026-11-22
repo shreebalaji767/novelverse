@@ -36,6 +36,3 @@
 
 /* Offline download controls on series details and chapter list */
 .series-actions #series-download-all{cursor:pointer}.series-download-status{min-height:18px;margin:4px 0 0;color:var(--muted);font-size:11px}.chapter-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px}.chapter-list li>a{min-width:0}.chapter-download{border:1px solid var(--line);border-radius:2px;background:transparent;color:var(--muted);font-size:10px;padding:9px 11px;cursor:pointer;white-space:nowrap;transition:border-color .18s,color .18s}.chapter-download:hover:not(:disabled){border-color:var(--gold);color:var(--gold-light)}.chapter-download:disabled,#series-download-all:disabled{opacity:.55;cursor:wait}@media(max-width:480px){.chapter-list li{gap:5px}.chapter-download{font-size:9px;padding:8px 7px}.series-actions #series-download-all{flex:1 1 100%;justify-content:center}}
-
-/* PNG download icon used by the novel and per-chapter download controls */
-.download-action,.chapter-download{display:inline-flex;align-items:center;justify-content:center;gap:8px}.download-icon{display:block;width:16px;height:16px;object-fit:contain;flex:0 0 auto}.series-actions .download-icon{width:18px;height:18px}.chapter-download{min-height:38px}
