@@ -279,6 +279,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-27.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch28",
+              "number": "28",
+              "order": 28,
+              "title": "The Woman Listed as an Emergency Contact",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-28.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
