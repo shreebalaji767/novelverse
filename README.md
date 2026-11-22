@@ -179,7 +179,7 @@ A successful commit does not by itself mean the live site has updated. Check the
 
 ## Current content status
 
-The catalogue currently contains **1 published novel, 66 chapters, 20 character records and 1 world record** for *The Wrong Heiress*. There are currently no release entries or announcements. No additional story content should be added unless it is supplied and explicitly approved.
+The published catalogue is currently empty. No novel chapters, character profiles or world records are listed. New content can be added through the Publishing Studio and published by committing approved files to `main`.
 
 ## Repository structure
 
