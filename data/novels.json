@@ -81,6 +81,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-05.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch06",
+              "number": "06",
+              "order": 6,
+              "title": "The Photograph from Eighteen Years Ago",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-06.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
