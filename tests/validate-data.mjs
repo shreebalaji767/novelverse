@@ -97,7 +97,7 @@ if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reade
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
 const offlineShell=fs.readFileSync('sw.js','utf8');
-if(!/const VERSION='novelverse-shell-v\\d+'/.test(offlineShell))throw new Error('Offline shell cache must use a versioned cache key');
+if(!/const VERSION='novelverse-shell-v[0-9]+'/.test(offlineShell))throw new Error('Offline shell cache must use a versioned cache key');
 for(const asset of ['./assets/logo/novelverse-mark.svg','./assets/icons/download.png'])if(!offlineShell.includes(asset))throw new Error('Offline shell cache missing required asset: '+asset);
 if(!seriesPage.includes('series-download-all')||!seriesPage.includes('./assets/icons/download.png'))throw new Error('Complete-novel PNG download button missing from series page');
 if(!seriesScript.includes("downloadIcon.src='./assets/icons/download.png'"))throw new Error('Chapter PNG download buttons missing from series script');
