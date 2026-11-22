@@ -207,6 +207,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-19.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch20",
+              "number": "20",
+              "order": 20,
+              "title": "The Woman Who Received the Second Instruction",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-20.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
