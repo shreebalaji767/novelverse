@@ -162,6 +162,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-14.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch15",
+              "number": "15",
+              "order": 15,
+              "title": "The Person Who Received the Report",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-15.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
