@@ -341,6 +341,12 @@
               "title": "The Receipt in the Locked Drawer",
               "path": "novels/the-wrong-heiress/chapters/chapter-53.md",
               "order": 52
+            },
+            {
+              "id": "chapter-54",
+              "title": "The Man Who Was Declared Dead",
+              "path": "novels/the-wrong-heiress/chapters/chapter-54.md",
+              "order": 53
             }
           ]
         }
