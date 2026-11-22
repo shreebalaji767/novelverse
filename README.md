@@ -8,7 +8,7 @@
 
 NovelVerse is deliberately a static website. It uses HTML, CSS and vanilla JavaScript, with public content stored as files in this repository and personal reading data stored locally in the reader's browser.
 
-**The Wrong Heiress:** 52 published chapters.
+**The Wrong Heiress:** 53 published chapters.
 
 ## Project principles and architecture
 
@@ -179,7 +179,7 @@ A successful commit does not by itself mean the live site has updated. Check the
 
 ## Current content status
 
-The catalogue currently contains **1 published novel, 52 chapters, 20 character records and 1 world record** for *The Wrong Heiress*. There are currently no release entries or announcements. No additional story content should be added unless it is supplied and explicitly approved.
+The catalogue currently contains **1 published novel, 53 chapters, 20 character records and 1 world record** for *The Wrong Heiress*. There are currently no release entries or announcements. No additional story content should be added unless it is supplied and explicitly approved.
 
 ## Repository structure
 
