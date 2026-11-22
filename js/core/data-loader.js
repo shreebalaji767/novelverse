@@ -1,1 +1,0 @@
-(()=>{'use strict';async function getJSON(file){const r=await fetch('./data/'+file,{cache:'no-cache'});if(!r.ok)throw new Error('Unable to load '+file+': '+r.status);return r.json();}window.NovelVerseData={getJSON};})();
