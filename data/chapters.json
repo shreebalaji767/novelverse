@@ -1,4 +1,17 @@
 {
   "schemaVersion": 1,
-  "chapters": []
+  "chapters": [
+    {
+      "id": "fake-heiress-v1-ch01",
+      "number": "01",
+      "order": 1,
+      "title": "An Ordinary Morning in the Valmont Mansion",
+      "subtitle": "Volume 1 — The Fake Heiress",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-01.md",
+      "publishedAt": "2026-11-22",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
+    }
+  ]
 }
