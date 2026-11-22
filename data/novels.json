@@ -99,6 +99,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-07.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch08",
+              "number": "08",
+              "order": 8,
+              "title": "The Signature on the File",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-08.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
