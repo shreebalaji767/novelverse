@@ -218,6 +218,10 @@ const chapter59=allChapters.find(item=>item.id==='chapter-59');
 if(!chapter59||chapter59.title!=="The Authority of a Dead Man"||chapter59.path!=='novels/the-wrong-heiress/chapters/chapter-59.md')throw new Error('The Wrong Heiress Chapter 59 must be registered with its published title and path');
 const chapter59Content=fs.readFileSync(chapter59.path,'utf8');
 if(!chapter59Content.includes("## **Chapter 59 — The Authority of a Dead Man**")||!chapter59Content.trimEnd().endsWith('“That is my father.”'))throw new Error('The Wrong Heiress Chapter 59 content file is incomplete');
+const chapter60=allChapters.find(item=>item.id==='chapter-60');
+if(!chapter60||chapter60.title!=="The Auditor Who Refused to Sign"||chapter60.path!=='novels/the-wrong-heiress/chapters/chapter-60.md')throw new Error('The Wrong Heiress Chapter 60 must be registered with its published title and path');
+const chapter60Content=fs.readFileSync(chapter60.path,'utf8');
+if(!chapter60Content.includes("## **Chapter 60 — The Auditor Who Refused to Sign**")||!chapter60Content.trimEnd().endsWith('**They had wanted Elias Vesper declared dead.**'))throw new Error('The Wrong Heiress Chapter 60 content file is incomplete');
 const chapter58=allChapters.find(item=>item.id==='chapter-58');
 if(!chapter58||chapter58.title!=="The Signature That Wasn't There"||chapter58.path!=='novels/the-wrong-heiress/chapters/chapter-58.md')throw new Error('The Wrong Heiress Chapter 58 must be registered with its published title and path');
 const chapter58Content=fs.readFileSync(chapter58.path,'utf8');
@@ -380,7 +384,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v78'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v79'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
