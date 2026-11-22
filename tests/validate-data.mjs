@@ -102,6 +102,7 @@ for(const asset of ['./assets/logo/novelverse-mark.svg','./assets/icons/download
 if(!seriesPage.includes('series-download-all')||!seriesPage.includes('./assets/icons/download.png'))throw new Error('Complete-novel PNG download button missing from series page');
 if(!seriesScript.includes("downloadIcon.src='./assets/icons/download.png'"))throw new Error('Chapter PNG download buttons missing from series script');
 if(!fs.existsSync('assets/icons/download.png'))throw new Error('PNG download icon asset is missing');
+for(const id of ['download-html','download-txt','download-chapter-html','download-chapter-txt']){const match=readerPage.match(new RegExp('<button[^>]*id="'+id+'"[^>]*>([\\s\\S]*?)</button>'));if(!match||!match[1].includes('./assets/icons/download.png'))throw new Error('Reader download control missing PNG icon: '+id)}
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');

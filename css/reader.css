@@ -27,3 +27,7 @@
 @media(max-width:640px){.reader-shell{width:calc(100% - 34px);padding:22px 0 64px}.reader-empty{margin:78px auto}.reader-book-heading{padding:42px 0 22px}.reader-toolbar{justify-content:flex-start;gap:8px}.reader-tool-group{flex-wrap:wrap}.reader-toolbar .button{margin-left:auto}.reader-progress{margin-bottom:30px}.chapter-body{font-size:18px;line-height:1.9}.reader-bottom{flex-wrap:wrap;margin-top:52px}.reader-bottom span{order:3;width:100%;text-align:center}.reader-bottom .button{flex:1;justify-content:center}.reader-nav{display:none}}
 @media(max-width:380px){.reader-shell{width:calc(100% - 26px)}.reader-toolbar{gap:6px}.reader-tool-group button,.reader-tool-group select{padding-inline:7px}.reader-toolbar .button{margin-left:0}}
 @media(prefers-reduced-motion:reduce){.reader-progress div{transition:none}}
+
+/* Consistent PNG icons for offline download actions */
+.reader-download-button{display:inline-flex;align-items:center;justify-content:center;gap:7px}.reader-download-button .download-icon{width:16px;height:16px;object-fit:contain;flex:0 0 16px}.reader-download-group{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.reader-download-group>span{white-space:nowrap}
+@media(max-width:640px){.reader-download-group{width:100%;gap:7px}.reader-download-group>span{min-width:86px}.reader-download-button{flex:1}}
