@@ -98,8 +98,12 @@ if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelver
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
 const offlineShell=fs.readFileSync('sw.js','utf8');
 if(!/const VERSION='novelverse-shell-v[0-9]+'/.test(offlineShell))throw new Error('Offline shell cache must use a versioned cache key');
-for(const asset of ['./assets/logo/novelverse-mark.svg','./assets/icons/download.png'])if(!offlineShell.includes(asset))throw new Error('Offline shell cache missing required asset: '+asset);
+for(const asset of ['./assets/logo/novelverse-mark.svg','./assets/icons/download.png','./assets/vendor/jspdf.umd.min.js'])if(!offlineShell.includes(asset))throw new Error('Offline shell cache missing required asset: '+asset);
 if(!seriesPage.includes('series-download-all')||!seriesPage.includes('./assets/icons/download.png'))throw new Error('Complete-novel PNG download button missing from series page');
+if(!seriesPage.includes('./assets/vendor/jspdf.umd.min.js'))throw new Error('Local PDF generator script missing from series page');
+if(!seriesScript.includes('new window.jspdf.jsPDF')||!seriesScript.includes('doc.save(filename)')||!seriesScript.includes("+'.pdf'"))throw new Error('Series downloads must generate and save PDF files locally');
+for(const legacyFormat of ['text/html;charset=utf-8','Standalone HTML','offline HTML file','.html','.txt'])if(seriesScript.includes(legacyFormat))throw new Error('Legacy HTML/TXT download implementation remains: '+legacyFormat);
+if(!fs.existsSync('assets/vendor/JSPDF-LICENSE.txt'))throw new Error('Bundled jsPDF license is missing');
 if(!seriesScript.includes("downloadIcon.src='./assets/icons/download.png'"))throw new Error('Chapter PNG download buttons missing from series script');
 if(!fs.existsSync('assets/icons/download.png'))throw new Error('PNG download icon asset is missing');
 if(readerPage.includes('download-html')||readerPage.includes('download-txt')||readerPage.includes('download-chapter-html')||readerPage.includes('download-chapter-txt')||readerScript.includes('downloadNovel')||readerScript.includes('downloadFile'))throw new Error('Reader chapters must not show or implement download controls');
