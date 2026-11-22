@@ -180,6 +180,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-16.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch17",
+              "number": "17",
+              "order": 17,
+              "title": "The File That Contained Two Names",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-17.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
