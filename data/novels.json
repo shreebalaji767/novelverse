@@ -45,6 +45,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-01.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch02",
+              "number": "02",
+              "order": 2,
+              "title": "The Girl Who Was Supposed to Be Their Daughter",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-02.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
