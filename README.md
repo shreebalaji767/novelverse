@@ -8,7 +8,7 @@
 
 NovelVerse is deliberately a static website. It uses HTML, CSS and vanilla JavaScript, with public content stored as files in this repository and personal reading data stored locally in the reader's browser.
 
-**The Wrong Heiress:** 61 published chapters.
+**The Wrong Heiress:** 62 published chapters.
 
 ## Project principles and architecture
 

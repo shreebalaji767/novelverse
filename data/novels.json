@@ -389,6 +389,12 @@
               "title": "The Man Who Borrowed a Name",
               "path": "novels/the-wrong-heiress/chapters/chapter-61.md",
               "order": 60
+            },
+            {
+              "id": "chapter-62",
+              "title": "The Name That Was Never There",
+              "path": "novels/the-wrong-heiress/chapters/chapter-62.md",
+              "order": 61
             }
           ]
         }
