@@ -234,6 +234,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-22.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch23",
+              "number": "23",
+              "order": 23,
+              "title": "The Box Reserved for a Mother",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-23.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
