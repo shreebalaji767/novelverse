@@ -1,4 +1,108 @@
 {
   "schemaVersion": 1,
-  "novels": []
+  "novels": [
+    {
+      "id": "fake-heiress-aurelius-dynasty",
+      "title": "I Was Kicked Out for Being a Fake Heiress. Why Is an Entire Dynasty Looking for Me?",
+      "subtitle": "A modern family mystery about the daughter one dynasty lost and another family cast aside.",
+      "author": "Original NovelVerse Story",
+      "status": "planned",
+      "featured": true,
+      "coverMark": "FA",
+      "genres": [
+        "Comedy",
+        "Family Drama",
+        "Slice of Life",
+        "Mystery",
+        "Modern Fiction",
+        "Wealth and Business",
+        "Psychological Drama"
+      ],
+      "tags": [
+        "Family Reunion",
+        "Hidden Identity",
+        "Corporate Rivalry",
+        "Sibling Relationships",
+        "Personal Growth",
+        "No Romance",
+        "10 Volumes",
+        "200 Chapters"
+      ],
+      "synopsis": "For eighteen years, Elena Valmont believed she was the youngest daughter of one of the country's most prestigious business families. That life collapses when a DNA examination identifies Isabelle as the biological Valmont heiress. Elena tries to accept the change without competing, but as her parents grow distant and her brothers begin prioritising Isabelle, she is gradually pushed out of the only home she has known. Offered a modest apartment and an allowance, Elena leaves without begging to stay. What she does not know is that the DNA result revealed only half the truth. Eighteen years earlier, a newborn exchange and falsified hospital records separated her from the Aurelius dynasty, an international business family that has never stopped searching for its missing youngest daughter. Her mother has kept her room, her father has continued the investigation, and her brothers have grown up wondering where she is. Now the Aurelius family has finally found Elena—but she is busy arranging furniture in her new apartment and has no idea that an entire dynasty is preparing to welcome her home. As family reunions, corporate rivalries and the hospital mystery unfold, Elena must decide what family means, build an independent future and discover who she wants to be beyond anyone's idea of an heiress.",
+      "plannedVolumes": 10,
+      "plannedChapterCount": 200,
+      "volumes": [
+        {
+          "id": "volume-01",
+          "title": "Volume 1",
+          "order": 1,
+          "chapters": []
+        },
+        {
+          "id": "volume-02",
+          "title": "Volume 2",
+          "order": 2,
+          "chapters": []
+        },
+        {
+          "id": "volume-03",
+          "title": "Volume 3",
+          "order": 3,
+          "chapters": []
+        },
+        {
+          "id": "volume-04",
+          "title": "Volume 4",
+          "order": 4,
+          "chapters": []
+        },
+        {
+          "id": "volume-05",
+          "title": "Volume 5",
+          "order": 5,
+          "chapters": []
+        },
+        {
+          "id": "volume-06",
+          "title": "Volume 6",
+          "order": 6,
+          "chapters": []
+        },
+        {
+          "id": "volume-07",
+          "title": "Volume 7",
+          "order": 7,
+          "chapters": []
+        },
+        {
+          "id": "volume-08",
+          "title": "Volume 8",
+          "order": 8,
+          "chapters": []
+        },
+        {
+          "id": "volume-09",
+          "title": "Volume 9",
+          "order": 9,
+          "chapters": []
+        },
+        {
+          "id": "volume-10",
+          "title": "Volume 10",
+          "order": 10,
+          "chapters": []
+        }
+      ],
+      "narrativeNotes": {
+        "pointOfView": "Third-person limited, primarily following Elena, with occasional perspectives from other characters when justified.",
+        "constraints": [
+          "No romance, love interests or romantic subplots.",
+          "No fourth-wall references.",
+          "Modern, non-supernatural setting.",
+          "Gradual pacing, earned reunions and evidence-based mystery resolution.",
+          "Maintain consistent chronology, character motivations and continuity."
+        ]
+      }
+    }
+  ]
 }
