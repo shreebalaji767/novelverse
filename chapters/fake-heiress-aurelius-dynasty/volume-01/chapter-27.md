@@ -114,7 +114,7 @@ Edward looked at him.
 
 "And the correspondence collection."
 
-"Margaret Vale, who had joined the meeting through a secure video call, adjusted her glasses."
+Margaret Vale, who had joined the meeting through a secure video call, adjusted her glasses.
 
 Margaret had been listening quietly.
 
