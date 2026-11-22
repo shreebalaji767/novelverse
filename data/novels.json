@@ -6,7 +6,7 @@
       "title": "I Was Kicked Out for Being a Fake Heiress. Why Is an Entire Dynasty Looking for Me?",
       "subtitle": "A modern family mystery about the daughter one dynasty lost and another family cast aside.",
       "author": "Original NovelVerse Story",
-      "status": "planned",
+      "status": "ongoing",
       "featured": true,
       "coverMark": "FA",
       "genres": [
@@ -36,7 +36,17 @@
           "id": "volume-01",
           "title": "Volume 1",
           "order": 1,
-          "chapters": []
+          "chapters": [
+            {
+              "id": "fake-heiress-v1-ch01",
+              "number": "01",
+              "order": 1,
+              "title": "An Ordinary Morning in the Valmont Mansion",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-01.md",
+              "publishedAt": "2026-11-22"
+            }
+          ]
         },
         {
           "id": "volume-02",
@@ -102,7 +112,8 @@
           "Gradual pacing, earned reunions and evidence-based mystery resolution.",
           "Maintain consistent chronology, character motivations and continuity."
         ]
-      }
+      },
+      "updatedAt": "2026-11-22"
     }
   ]
 }
