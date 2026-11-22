@@ -144,6 +144,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-12.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch13",
+              "number": "13",
+              "order": 13,
+              "title": "The Result That Wasn't Ready",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-13.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
