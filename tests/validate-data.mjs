@@ -102,7 +102,7 @@ for(const asset of ['./assets/logo/novelverse-mark.svg','./assets/icons/download
 if(!seriesPage.includes('series-download-all')||!seriesPage.includes('./assets/icons/download.png'))throw new Error('Complete-novel PNG download button missing from series page');
 if(!seriesPage.includes('./assets/vendor/jspdf.umd.min.js'))throw new Error('Local PDF generator script missing from series page');
 if(!seriesScript.includes('new window.jspdf.jsPDF')||!seriesScript.includes('doc.save(filename)')||!seriesScript.includes("+'.pdf'"))throw new Error('Series downloads must generate and save PDF files locally');
-for(const legacyFormat of ['text/html;charset=utf-8','Standalone HTML','offline HTML file','.html','.txt'])if(seriesScript.includes(legacyFormat))throw new Error('Legacy HTML/TXT download implementation remains: '+legacyFormat);
+for(const legacyFormat of ['text/html;charset=utf-8','Standalone HTML','offline HTML file','downloadBlob','.txt'])if(seriesScript.includes(legacyFormat))throw new Error('Legacy HTML/TXT download implementation remains: '+legacyFormat);
 if(!fs.existsSync('assets/vendor/JSPDF-LICENSE.txt'))throw new Error('Bundled jsPDF license is missing');
 if(!seriesScript.includes("downloadIcon.src='./assets/icons/download.png'"))throw new Error('Chapter PNG download buttons missing from series script');
 if(!fs.existsSync('assets/icons/download.png'))throw new Error('PNG download icon asset is missing');
