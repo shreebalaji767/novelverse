@@ -348,6 +348,18 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch30",
+      "number": "30",
+      "order": 30,
+      "title": "Received on Behalf of Another",
+      "subtitle": "Volume 1 — The Fake Heiress",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-30.md",
+      "publishedAt": "2026-11-22",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ]
 }
