@@ -72,6 +72,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-04.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch05",
+              "number": "05",
+              "order": 5,
+              "title": "The Woman Who Remembered",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-05.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
