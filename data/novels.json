@@ -261,6 +261,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-25.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch26",
+              "number": "26",
+              "order": 26,
+              "title": "The Man Who Left the Family Office",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-26.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
