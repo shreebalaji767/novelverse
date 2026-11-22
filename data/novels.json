@@ -317,6 +317,12 @@
               "title": "The Signature of a Dead Woman",
               "path": "novels/the-wrong-heiress/chapters/chapter-49.md",
               "order": 48
+            },
+            {
+              "id": "chapter-50",
+              "title": "The Woman Before the Dynasty",
+              "path": "novels/the-wrong-heiress/chapters/chapter-50.md",
+              "order": 49
             }
           ]
         }
