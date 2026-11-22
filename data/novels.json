@@ -90,6 +90,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-06.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch07",
+              "number": "07",
+              "order": 7,
+              "title": "The Family Behind the Initials",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-07.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
