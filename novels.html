@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171715">
+  <meta name="description" content="Explore original light novel series on NovelVerse. Discover new stories and save favourites to your personal shelf.">
+  <title>Novels — NovelVerse</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/pages.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/novels.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <img class="brand-logo" src="./assets/logo/novelverse-mark.svg" alt="" width="38" height="38">
+      <span class="brand-name">NOVEL<span>VERSE</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a class="active" href="./novels.html" aria-current="page">Novels</a>
+      <a href="./reader.html">Reader</a>
+      <a href="./characters.html">Characters</a>
+      <a href="./worlds.html">Worlds</a>
+      <a href="./my-library.html">My Library</a>
+      <a href="./calendar.html">Release calendar</a>
+      <a href="./about.html">About</a>
+    </nav>
+    <a class="header-cta" href="./">Home ↗</a>
+  </header>
+
+  <main id="main" class="novels-page">
+    <section class="novels-intro" aria-labelledby="novels-title">
+      <p class="eyebrow">NOVELVERSE · THE COLLECTION</p>
+      <h1 id="novels-title">Stories worth <em>staying for.</em></h1>
+      <p class="novels-intro-text">Explore original light novels, discover their worlds, and find your next favourite read.</p>
+    </section>
+
+    <section class="novels-catalogue" aria-labelledby="catalogue-heading">
+      <div class="catalogue-heading">
+        <div>
+          <p class="eyebrow">BROWSE</p>
+          <h2 id="catalogue-heading">All novels</h2>
+        </div>
+        <p id="catalogue-count" class="catalogue-count" aria-live="polite">Published series</p>
+      </div>
+
+      <div class="novels-toolbar" role="search">
+        <label class="novels-search-wrap">
+          <span class="novels-search-icon" aria-hidden="true">⌕</span>
+          <input id="novel-search" class="search-field" type="search" placeholder="Search novels, genres or descriptions" aria-label="Search novels">
+        </label>
+        <label class="novels-filter-wrap">
+          <span class="filter-label">STATUS</span>
+          <select id="status-filter" class="filter-select" aria-label="Filter by status">
+            <option value="all">All statuses</option>
+            <option value="ongoing">Ongoing</option>
+            <option value="completed">Completed</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="novels-grid" class="novel-grid" aria-live="polite">
+        <div class="novels-empty"><strong>Loading novels</strong><p>Please wait while the collection loads.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="./">
+      <img class="brand-logo" src="./assets/logo/novelverse-mark.svg" alt="" width="38" height="38">
+      <span class="brand-name">NOVEL<span>VERSE</span></span>
+    </a>
+    <p>Independent stories. Free public reading.</p>
+    <div class="footer-links">
+      <a href="./">Home</a>
+      <a href="./calendar.html">Calendar</a>
+      <a href="./about.html">About</a>
+    </div>
+    <small>© <span id="year"></span> NovelVerse.</small>
+  </footer>
+
+  <script src="./js/core/site.js" defer></script>
+  <script src="./js/core/data-loader.js" defer></script>
+  <script src="./js/core/my-library.js" defer></script>
+  <script src="./js/pages/novels.js" defer></script>
+</body>
+</html>

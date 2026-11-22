@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "NovelVerse — Free Light Novels",
+  "short_name": "NovelVerse",
+  "description": "Discover and read original light novel series for free.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#171715",
+  "theme_color": "#171715",
+  "icons": [
+    {
+      "src": "./assets/logo/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

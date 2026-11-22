@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "worlds": [
+    {
+      "id": "modern-aurelius-world",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "name": "The Modern World of the Aurelius Dynasty",
+      "type": "Modern setting · Corporate and family drama",
+      "summary": "A fictional contemporary world with realistic technology, education, finance, transportation, medicine and corporate institutions. Its power structures are shaped by global dynasties, multinational businesses, national elites, professional institutions and ordinary communities. There is no magic, supernatural system or hidden fantasy society.",
+      "geography": "The story moves between the Valmont family's home, the Aurelius ancestral estate, Elena's first independent apartment, an elite international university and the Aurelius Global headquarters. The country and city names remain to be established consistently before they are used in the story.",
+      "history": "Eighteen years before the main story, a newborn exchange at a hospital, falsified records and concealed evidence separated Elena from the Aurelius family. The incident was never properly resolved. The Aurelius family continued searching while Elena grew up in the Valmont household. The DNA revelation and Isabelle's return expose only part of the original mystery.",
+      "powerHierarchy": [
+        {
+          "level": 1,
+          "title": "Global dynasties",
+          "description": "Internationally influential families with enormous corporate empires and cross-border business relationships. The Aurelius family belongs to this level."
+        },
+        {
+          "level": 2,
+          "title": "International business families",
+          "description": "Wealthy families controlling multinational corporations and substantial investment portfolios."
+        },
+        {
+          "level": 3,
+          "title": "National elite families",
+          "description": "Powerful domestic industrialists, investors and business groups. The Valmont family is among the most influential at this level."
+        },
+        {
+          "level": 4,
+          "title": "Regional business families",
+          "description": "Successful local and regional enterprises with influence in their markets."
+        },
+        {
+          "level": 5,
+          "title": "Professional elite",
+          "description": "Leading doctors, lawyers, academics, specialists and executives whose expertise carries institutional influence."
+        },
+        {
+          "level": 6,
+          "title": "General population",
+          "description": "Ordinary working and middle-class people whose lives and perspectives remain part of the wider world."
+        }
+      ],
+      "locations": [
+        {
+          "id": "valmont-estate",
+          "name": "Valmont Estate",
+          "description": "Elena's childhood home: a mansion with private gardens, guest residences, a library, swimming pool, formal dining rooms and extensive grounds. It represents her old life and the relationships she gradually loses."
+        },
+        {
+          "id": "aurelius-estate",
+          "name": "Aurelius Estate",
+          "description": "The ancestral residence of the Aurelius dynasty, with multiple residential wings, private gardens, a family library, guesthouses, an indoor swimming pool, security facilities and a private medical centre. Elena's original bedroom has been preserved."
+        },
+        {
+          "id": "elena-apartment",
+          "name": "Elena's First Apartment",
+          "description": "A modest apartment arranged after Elena leaves the Valmont estate. It gives her a private space where she can make her own decisions and begin building an independent life."
+        },
+        {
+          "id": "international-university",
+          "name": "International University",
+          "description": "An elite university attended by members of wealthy families, scholarship students and academically exceptional people. Elena's education and friendships become important to her independent life."
+        },
+        {
+          "id": "aurelius-headquarters",
+          "name": "Aurelius Global Headquarters",
+          "description": "The central headquarters of the Aurelius business empire and the centre of major corporate storylines."
+        }
+      ],
+      "organizations": [
+        {
+          "id": "aurelius-capital",
+          "name": "Aurelius Capital",
+          "description": "Banking, investment and financial services."
+        },
+        {
+          "id": "aurelius-technologies",
+          "name": "Aurelius Technologies",
+          "description": "Software, hardware and advanced technology."
+        },
+        {
+          "id": "aurelius-medical",
+          "name": "Aurelius Medical",
+          "description": "Pharmaceuticals, hospitals and medical research."
+        },
+        {
+          "id": "aurelius-energy",
+          "name": "Aurelius Energy",
+          "description": "Energy production and infrastructure."
+        },
+        {
+          "id": "aurelius-logistics",
+          "name": "Aurelius Logistics",
+          "description": "Shipping, aviation and supply chains."
+        },
+        {
+          "id": "aurelius-properties",
+          "name": "Aurelius Properties",
+          "description": "Commercial real estate and luxury developments."
+        },
+        {
+          "id": "aurelius-foundation",
+          "name": "Aurelius Foundation",
+          "description": "Education, healthcare and philanthropy."
+        },
+        {
+          "id": "valmont-group",
+          "name": "Valmont Group",
+          "description": "A substantial national business group with interests in manufacturing, real estate, retail and domestic finance."
+        }
+      ],
+      "timeline": [
+        {
+          "id": "hospital-incident",
+          "title": "The newborn exchange",
+          "date": "Eighteen years before the main story",
+          "description": "A hospital incident involving a newborn exchange, falsified records and concealed evidence separates Elena from the Aurelius family."
+        },
+        {
+          "id": "elena-raised-valmont",
+          "title": "Elena grows up in the Valmont household",
+          "date": "The following eighteen years",
+          "description": "Elena is raised as the youngest Valmont daughter while the Aurelius family continues searching for its missing child."
+        },
+        {
+          "id": "dna-revelation",
+          "title": "The DNA revelation",
+          "date": "Opening events",
+          "description": "A DNA examination identifies Isabelle as the biological Valmont daughter and begins the breakdown of Elena's place in the household."
+        },
+        {
+          "id": "elena-leaves",
+          "title": "Elena leaves the Valmont estate",
+          "date": "Opening events",
+          "description": "After being gradually marginalised, Elena accepts an apartment and allowance and leaves without begging the family to keep her."
+        },
+        {
+          "id": "aurelius-discovery",
+          "title": "The Aurelius family finds Elena",
+          "date": "Main storyline",
+          "description": "The long-running investigation finally identifies the missing Aurelius daughter, setting the family reunion and the deeper hospital mystery in motion."
+        }
+      ],
+      "socialCustoms": [
+        "Formal family introductions and dinners",
+        "Inheritance and succession arrangements",
+        "Private educational institutions",
+        "Exclusive charity galas",
+        "Corporate board memberships",
+        "Family foundations",
+        "Social reputation and public appearances",
+        "Intergenerational business responsibilities"
+      ],
+      "narrativeRules": [
+        "Modern and non-supernatural setting.",
+        "Business influence must be demonstrated through credible ownership, market relationships and institutional power, not repeated claims about wealth.",
+        "The hospital mystery must be resolved through evidence and investigation.",
+        "Family reunions and trust must develop gradually.",
+        "Family affection, friendships, personal ambitions and consequences are central; romance is excluded."
+      ]
+    }
+  ]
+}
