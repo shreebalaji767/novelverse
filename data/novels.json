@@ -198,6 +198,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-18.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch19",
+              "number": "19",
+              "order": 19,
+              "title": "The Instruction That Never Arrived",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-19.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
