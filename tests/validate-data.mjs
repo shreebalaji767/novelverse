@@ -62,7 +62,7 @@ for(const world of worlds.worlds){
   }
 }
 for(const file of ['data/site.json','data/releases.json','data/announcements.json','manifest.json'])json(file);
-for(const file of ['index.html','novels.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','publish.html','sw.js'])if(!fs.existsSync(file))throw new Error('Missing required page: '+file);
+for(const file of ['index.html','novels.html','404.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','reader.html','calendar.html','about.html','publish.html','sw.js'])if(!fs.existsSync(file))throw new Error('Missing required page: '+file);
 for(const file of ['index.html','novels.html','my-library.html','calendar.html','about.html'])if(!fs.readFileSync(file,'utf8').includes('./reader.html'))throw new Error('Reader navigation missing from '+file);
 const sharedSiteScript=fs.readFileSync('js/core/site.js','utf8');
 for(const link of ['Home','Novels','Reader','Characters','Worlds','My Library','Release calendar','Publishing Studio','About'])if(!sharedSiteScript.includes("'"+link+"'"))throw new Error('Shared navigation link missing: '+link);
@@ -111,8 +111,8 @@ for(const feature of ['novelverse-publishing-package','chapterFiles','localStora
 if(!publishingScript.includes('Nothing is uploaded automatically')&&!publishingPage.includes('Nothing is uploaded automatically'))throw new Error('Publishing Studio must disclose local-only publishing');
 if(!fs.readFileSync('sw.js','utf8').includes('./publish.html'))throw new Error('Publishing Studio missing from offline app shell');
 
-for(const file of ['assets/logo/favicon.svg','assets/logo/novelverse-mark.svg'])if(!fs.existsSync(file))throw new Error('Missing transparent NovelVerse logo asset: '+file);
-for(const file of ['index.html','novels.html','reader.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','calendar.html','about.html','publish.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./assets/logo/favicon.svg'))throw new Error('Favicon missing from '+file);if(!html.includes('class="brand-logo"'))throw new Error('Brand logo missing from '+file)}
+for(const file of ['favicon.ico','assets/logo/favicon.svg','assets/logo/novelverse-mark.svg'])if(!fs.existsSync(file))throw new Error('Missing transparent NovelVerse logo asset: '+file);
+for(const file of ['index.html','novels.html','reader.html','series.html','characters.html','character.html','worlds.html','world.html','my-library.html','calendar.html','about.html','publish.html']){const html=fs.readFileSync(file,'utf8');if(!html.includes('./assets/logo/favicon.svg'))throw new Error('Favicon missing from '+file);if(file==='novels.html'&&!html.includes('./favicon.ico'))throw new Error('Project-scoped ICO favicon missing from novels.html');if(!html.includes('class="brand-logo"'))throw new Error('Brand logo missing from '+file)}
 const siteScript=fs.readFileSync('js/core/site.js','utf8');if(!siteScript.includes('beforeinstallprompt')||!siteScript.includes('Install app'))throw new Error('PWA install action missing');
 
 const novelsPage=fs.readFileSync('novels.html','utf8');
