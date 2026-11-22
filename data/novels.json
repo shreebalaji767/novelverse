@@ -126,6 +126,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-10.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch11",
+              "number": "11",
+              "order": 11,
+              "title": "The Meeting at the Archive",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-11.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
