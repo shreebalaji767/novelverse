@@ -252,6 +252,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-24.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch25",
+              "number": "25",
+              "order": 25,
+              "title": "The Woman Who Met Both Mothers",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-25.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
