@@ -129,3 +129,11 @@ for(const section of ['about-hero','about-principles','about-reading','about-how
 if(!aboutPage.includes('./css/about.css'))throw new Error('About page stylesheet missing');
 if(!fs.readFileSync('sw.js','utf8').includes('./css/about.css'))throw new Error('About stylesheet missing from offline app shell');
 if(!aboutPage.includes('Skip to content'))throw new Error('About page skip link missing');
+
+const fakeHeiress=catalogue.novels.find(n=>n.id==='fake-heiress-aurelius-dynasty');
+const publishedChapters=(fakeHeiress?.volumes||[]).flatMap(volume=>volume.chapters||[]);
+const chapter30=publishedChapters.find(chapter=>chapter.id==='fake-heiress-v1-ch30');
+if(!chapter30||chapter30.number!=='30'||chapter30.title!=='Received on Behalf of Another')throw new Error('Chapter 30 must be indexed in the novel catalogue');
+if(!chapterIndex.chapters.some(chapter=>chapter.id==='fake-heiress-v1-ch30'))throw new Error('Chapter 30 must be present in the chapter catalogue');
+if(!fs.existsSync('chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-30.md'))throw new Error('Chapter 30 content file is missing');
+if(!fs.readFileSync('sw.js','utf8').includes('./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-30.md'))throw new Error('Chapter 30 missing from offline precache');
