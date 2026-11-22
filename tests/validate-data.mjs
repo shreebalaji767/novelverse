@@ -214,6 +214,10 @@ for(const novel of catalogue.novels){
 
 
 
+const chapter58=allChapters.find(item=>item.id==='chapter-58');
+if(!chapter58||chapter58.title!=="The Signature That Wasn't There"||chapter58.path!=='novels/the-wrong-heiress/chapters/chapter-58.md')throw new Error('The Wrong Heiress Chapter 58 must be registered with its published title and path');
+const chapter58Content=fs.readFileSync(chapter58.path,'utf8');
+if(!chapter58Content.includes("## **Chapter 58 — The Signature That Wasn't There**")||!chapter58Content.trimEnd().endsWith('**Temporary authority holder: Elias Vesper.**'))throw new Error('The Wrong Heiress Chapter 58 content file is incomplete');
 const chapter57=allChapters.find(item=>item.id==='chapter-57');
 if(!chapter57||chapter57.title!=="The Man Who Was Somewhere Else"||chapter57.path!=='novels/the-wrong-heiress/chapters/chapter-57.md')throw new Error('The Wrong Heiress Chapter 57 must be registered with its published title and path');
 const chapter57Content=fs.readFileSync(chapter57.path,'utf8');
@@ -372,7 +376,7 @@ if(!readerScript.includes('Math.max(280'))throw new Error('Reader width must sup
 if(!fs.readFileSync('css/reader.css','utf8').includes('max-width:min(var(--reader-width),100%)'))throw new Error('Reader chapter column must respect its adjustable width');
 if(readerScript.includes('NovelVerseShelf.add')||readerScript.includes('novelverse.myLibrary.v1'))throw new Error('Reading chapters must never automatically add novels to My Library');
 if(!readerPage.includes('Reading never adds a series to My Library automatically'))throw new Error('Reader must explain that saving to My Library is always manual');
-if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v76'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
+if(!fs.readFileSync('sw.js','utf8').includes('novelverse-shell-v77'))throw new Error('Offline shell cache must include the latest branded logo and site assets');
 
 const publishingPage=fs.readFileSync('publish.html','utf8');
 const publishingScript=fs.readFileSync('js/pages/publish.js','utf8');
