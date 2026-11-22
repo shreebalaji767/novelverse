@@ -306,6 +306,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-30.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch31",
+              "number": "31",
+              "order": 31,
+              "title": "The Person Who Completed the Release",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-31.md",
+              "publishedAt": "2026-11-22"
             }
           ]
         },
