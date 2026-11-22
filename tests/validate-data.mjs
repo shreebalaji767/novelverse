@@ -3,6 +3,8 @@ import path from 'node:path';
 const json=(file)=>JSON.parse(fs.readFileSync(file,'utf8'));
 const catalogue=json('data/novels.json');
 if(!Array.isArray(catalogue.novels))throw new Error('novels.json must contain a novels array');
+const chapterIndex=json('data/chapters.json');
+if(!Array.isArray(chapterIndex.chapters))throw new Error('chapters.json must contain a chapters array');
 
 const ids=new Set();
 const chapterIdsByNovel=new Map();
