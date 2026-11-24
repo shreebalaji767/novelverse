@@ -756,6 +756,18 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch64",
+      "number": "64",
+      "order": 64,
+      "title": "The Twelfth-Day Correction",
+      "subtitle": "Volume 1 — The Fake Heiress",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-64.md",
+      "publishedAt": "2026-11-24",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-24"
