@@ -404,6 +404,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-41.md",
               "publishedAt": "2026-11-24"
+            },
+            {
+              "id": "fake-heiress-v1-ch42",
+              "number": "42",
+              "order": 42,
+              "title": "The Mother Who Sent the Letter",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-42.md",
+              "publishedAt": "2026-11-24"
             }
           ]
         },
