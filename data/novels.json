@@ -431,6 +431,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-44.md",
               "publishedAt": "2026-11-24"
+            },
+            {
+              "id": "fake-heiress-v1-ch45",
+              "number": "45",
+              "order": 45,
+              "title": "The Signature Beneath the Voucher",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-45.md",
+              "publishedAt": "2026-11-24"
             }
           ]
         },
