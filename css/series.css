@@ -13,13 +13,13 @@
 .series-tags{display:flex;gap:7px;flex-wrap:wrap;margin:22px 0}.series-tag{border:1px solid var(--line);border-radius:2px;padding:5px 10px;color:var(--muted);font-size:10px}
 .series-actions{display:flex;gap:10px;flex-wrap:wrap;margin:25px 0 12px}.series-actions .button{min-height:43px;align-items:center}
 .series-author{font-size:11px;color:var(--muted);margin-top:14px}
-.series-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line);margin:10px 0 54px}
+.series-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-block:1px solid var(--line);margin:10px 0 54px}
 .series-facts>div{padding:17px 20px;border-right:1px solid var(--line)}.series-facts>div:first-child{padding-left:0}.series-facts>div:last-child{border:0}
 .series-facts span,.series-facts strong{display:block}.series-facts span{font-size:9px;letter-spacing:.14em;color:var(--muted)}.series-facts strong{font:20px var(--serif);font-weight:400;margin-top:5px}
 .series-explore{display:flex;gap:24px;flex-wrap:wrap;margin:-26px 0 58px}.series-explore a{font-size:11px;color:var(--muted);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:3px}.series-explore a:hover{color:var(--gold-light);border-color:var(--gold)}
 .series-section{padding:0 0 62px;scroll-margin-top:24px}.series-section-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:22px}
 .series-section-heading h2{font:400 clamp(30px,4vw,42px)/1.15 var(--serif);margin:6px 0 0;letter-spacing:-.025em}.series-section-heading h2 em{color:var(--gold-light);font-weight:400}.section-note{font-size:11px;color:var(--muted);margin:0}
-.volume-list{display:grid;gap:22px}.volume-card{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.chapter-feed{display:block}.volume-card{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .volume-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:17px 2px 13px}.volume-heading h3{font:400 22px var(--serif);margin:0}.volume-heading span{font-size:10px;color:var(--muted)}
 .chapter-list{list-style:none;padding:0;margin:0}.chapter-list li{border-top:1px solid var(--line)}
 .chapter-list a{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:12px;align-items:center;padding:17px 10px;text-decoration:none;transition:background .18s,padding .18s}
