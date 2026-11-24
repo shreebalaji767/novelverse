@@ -315,6 +315,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-31.md",
               "publishedAt": "2026-11-22"
+            },
+            {
+              "id": "fake-heiress-v1-ch32",
+              "number": "32",
+              "order": 32,
+              "title": "The Guardian Who Was Never Told",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-32.md",
+              "publishedAt": "2026-11-24"
             }
           ]
         },
@@ -383,8 +392,8 @@
           "Maintain consistent chronology, character motivations and continuity."
         ]
       },
-      "updatedAt": "2026-11-22"
+      "updatedAt": "2026-11-24"
     }
   ],
-  "updatedAt": "2026-11-22"
+  "updatedAt": "2026-11-24"
 }
