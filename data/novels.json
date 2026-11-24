@@ -413,6 +413,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-42.md",
               "publishedAt": "2026-11-24"
+            },
+            {
+              "id": "fake-heiress-v1-ch43",
+              "number": "43",
+              "order": 43,
+              "title": "The Account in Margaret Ellison's Name",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-43.md",
+              "publishedAt": "2026-11-24"
             }
           ]
         },
