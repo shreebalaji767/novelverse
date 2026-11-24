@@ -384,6 +384,19 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch33",
+      "number": "33",
+      "order": 33,
+      "title": "The Agreement That Named No Child",
+      "subtitle": "Volume 1 — The Fake Heiress",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-33.md",
+      "publishedAt": "2026-11-24",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
-  ]
+  ],
+  "updatedAt": "2026-11-24"
 }
