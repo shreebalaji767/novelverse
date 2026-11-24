@@ -44,7 +44,7 @@ Edward paused.
 
 "Because I want to hear what she remembers before she sees the evidence."
 
-"Margaret Voss arrived two days later.
+Margaret Voss arrived two days later.
 
 She carried a leather handbag and a thin folder. Her hair was neatly arranged, and she walked with the careful movements of someone who had learned to conserve her energy.
 
