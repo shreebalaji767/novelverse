@@ -708,6 +708,18 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch60",
+      "number": "60",
+      "order": 60,
+      "title": "The Photograph That Named the Wrong Woman",
+      "subtitle": "Volume 1 — The Fake Heiress",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-60.md",
+      "publishedAt": "2026-11-24",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-24"
