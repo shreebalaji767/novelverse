@@ -953,6 +953,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-102.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch103",
+              "number": "103",
+              "order": 103,
+              "title": "The Reviewer Who Was Never Appointed",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-103.md",
+              "publishedAt": "2026-11-25"
             }
           ]
         },
