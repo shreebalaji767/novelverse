@@ -1639,6 +1639,14 @@
               "title": "The Appointment That Had No Successor",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-186.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch187",
+              "number": "187",
+              "order": 187,
+              "title": "The Decision That Had No Author",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-187.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1718,7 +1726,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 185
+      "chapterCount": 186
     }
   ],
   "updatedAt": "2026-11-25"
