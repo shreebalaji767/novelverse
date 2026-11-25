@@ -307,7 +307,7 @@ a{color:inherit}
 .reader-toolbar .button{margin-left:auto}
 .reader-progress{height:2px;margin:24px 0 30px;border:0;border-radius:0;background:rgba(218,204,174,.13);box-shadow:none}
 .reader-progress div{height:2px;background:var(--gold)}
-.chapter-body{width:100%;max-width:min(var(--reader-width,700px),100%);margin:0 auto;padding:0;border:0;border-radius:0;background:transparent!important;color:var(--text);font-size:18px;line-height:1.95;box-shadow:none!important;backdrop-filter:none!important}
+.chapter-body{width:100%;max-width:min(var(--reader-width,700px),100%);margin:0 auto;padding:0;border:0;border-radius:0;background:transparent!important;color:var(--text);font-size:var(--reader-size,19px);line-height:1.95;box-shadow:none!important;backdrop-filter:none!important}
 .chapter-body p{margin:0 0 1.35em}
 .chapter-body h1,.chapter-body h2,.chapter-body h3,.chapter-body h4{font-family:var(--serif);font-weight:400;line-height:1.25}
 .chapter-body h2{font-size:26px;margin:1.8em 0 .7em}
