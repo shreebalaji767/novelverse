@@ -1553,6 +1553,14 @@
               "publishedAt": "2026-11-25"
             },
             {
+              "id": "fake-heiress-v1-ch175",
+              "number": "175",
+              "order": 175,
+              "title": "The Session That Belonged to No One",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-175.md",
+              "publishedAt": "2026-11-25"
+            },
+            {
               "id": "fake-heiress-v1-ch176",
               "number": "176",
               "order": 176,
@@ -1782,7 +1790,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 193
+      "chapterCount": 194
     }
   ],
   "updatedAt": "2026-11-25"
