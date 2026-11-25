@@ -717,3 +717,123 @@ body:not(.reader-page){
   .series-facts{grid-template-columns:1fr!important}
   .series-facts>div{border-right:0!important;border-bottom:1px solid var(--line)!important;padding:12px 4px!important}
 }
+
+
+/* Enclose every page-level text region in a consistent card or glass surface */
+:where(
+  main > section,
+  main > .page-shell,
+  main > .ency-shell,
+  main > .series-shell,
+  main > .publish-shell,
+  main > .reader-shell,
+  .ency-heading,
+  .page-heading,
+  .publish-notice,
+  .publish-toolbar,
+  .publish-panel-heading,
+  .calendar-list,
+  .ency-tools,
+  .ency-count,
+  .about-hero,
+  .about-reading,
+  .about-how,
+  .about-privacy,
+  .about-publishing,
+  .about-final-cta,
+  .about-flow,
+  .reading-feature-list,
+  .hero-note,
+  .series-explore,
+  .series-synopsis-panel,
+  .series-download-status,
+  .reader-topline,
+  .reader-bottom
+){
+  background:rgba(29,30,25,.78)!important;
+  border:1px solid rgba(229,202,139,.15)!important;
+  border-radius:16px!important;
+  box-shadow:0 12px 32px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.03)!important;
+  -webkit-backdrop-filter:blur(16px) saturate(125%)!important;
+  backdrop-filter:blur(16px) saturate(125%)!important;
+}
+:where(
+  main > section,
+  main > .page-shell,
+  main > .ency-shell,
+  main > .series-shell,
+  main > .publish-shell,
+  main > .reader-shell,
+  .ency-heading,
+  .page-heading,
+  .publish-notice,
+  .publish-toolbar,
+  .publish-panel-heading,
+  .calendar-list,
+  .ency-tools,
+  .ency-count,
+  .about-hero,
+  .about-reading,
+  .about-how,
+  .about-privacy,
+  .about-publishing,
+  .about-final-cta,
+  .about-flow,
+  .reading-feature-list,
+  .series-explore,
+  .series-synopsis-panel
+){
+  padding:clamp(16px,2.4vw,28px)!important;
+}
+:where(.ency-shell,.series-shell,.publish-shell,.reader-shell,.page-shell){
+  background:transparent!important;border:0!important;box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;backdrop-filter:none!important;
+}
+:where(.ency-heading,.page-heading,.publish-panel-heading,.about-section-heading){
+  margin-bottom:16px!important;
+}
+:where(.ency-heading,.page-heading,.publish-panel-heading,.about-section-heading)
+:where(h1,h2,h3,p){max-width:100%;overflow-wrap:anywhere}
+:where(.hero-note,.series-author,.series-download-status,.catalogue-count,
+.ency-count,.calendar-date,.chapter-meta,.reader-subtitle,.reader-topline,
+.reader-bottom,.shelf-help,.shelf-status,.publish-validation,.publish-warning){
+  display:inline-flex;align-items:center;flex-wrap:wrap;gap:6px;
+  max-width:100%;padding:8px 11px!important;
+  border:1px solid rgba(229,202,139,.13)!important;
+  border-radius:10px!important;background:rgba(255,255,255,.025)!important;
+}
+:where(.site-header,.site-footer,.reader-header,.reader-footer){
+  border-color:rgba(229,202,139,.15)!important;
+  background:rgba(27,28,24,.9)!important;
+}
+:where(main p,main h1,main h2,main h3,main h4,main li,main blockquote,main dt,main dd){
+  overflow-wrap:anywhere;max-width:100%;
+}
+:where(.ency-grid,.novel-grid,.lore-grid,.world-details,.principle-grid,
+.about-grid,.publish-grid,.profile-sections,.reading-feature-list) > *{
+  min-width:0;max-width:100%;
+}
+:where(.ency-card,.novel-card,.lore-card,.world-details article,
+.principle-card,.about-panel,.publish-panel,.calendar-item,
+.volume-card,.chapter-item,.character-card,.world-card){
+  padding:clamp(14px,2vw,22px)!important;
+  border-radius:14px!important;
+}
+:where(.ency-card,.novel-card,.lore-card,.world-details article,
+.principle-card,.about-panel,.publish-panel,.calendar-item,
+.volume-card,.chapter-item,.character-card,.world-card) :where(h1,h2,h3,h4){
+  line-height:1.28!important;text-wrap:balance;
+}
+:where(.ency-card,.novel-card,.lore-card,.world-details article,
+.principle-card,.about-panel,.publish-panel,.calendar-item,
+.volume-card,.chapter-item,.character-card,.world-card) :where(p,li,small){
+  line-height:1.65!important;
+}
+@media(max-width:640px){
+  :where(main > section,.ency-heading,.page-heading,.publish-notice,
+  .publish-toolbar,.calendar-list,.about-hero,.about-reading,.about-how,
+  .about-privacy,.about-publishing,.about-final-cta,.about-flow,
+  .reading-feature-list,.series-explore,.series-synopsis-panel){
+    padding:15px!important;border-radius:13px!important;
+  }
+}
