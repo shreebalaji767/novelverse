@@ -2634,6 +2634,28 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch229",
+      "number": "229",
+      "order": 229,
+      "title": "The Message from the People She Had Never Known",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-229.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch230",
+      "number": "230",
+      "order": 230,
+      "title": "The Name She Chose to Carry",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-230.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
