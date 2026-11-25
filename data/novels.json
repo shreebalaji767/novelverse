@@ -1631,6 +1631,14 @@
               "title": "The Receipt That Carried No Decision",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-185.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch186",
+              "number": "186",
+              "order": 186,
+              "title": "The Appointment That Had No Successor",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-186.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1710,7 +1718,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 184
+      "chapterCount": 185
     }
   ],
   "updatedAt": "2026-11-25"
