@@ -2557,6 +2557,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch222",
+      "number": "222",
+      "order": 222,
+      "title": "The Two Originals",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-222.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
