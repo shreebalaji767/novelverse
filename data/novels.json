@@ -1503,9 +1503,17 @@
               "title": "The Objection Kept Outside the Register",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-169.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch170",
+              "number": "170",
+              "order": 170,
+              "title": "The Authority That Had No Name",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-170.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 168
+          "chapterCount": 169
         },
         {
           "id": "volume-02",
