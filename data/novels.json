@@ -1883,6 +1883,14 @@
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-215.md",
               "publishedAt": "2026-11-25",
               "subtitle": "Volume 1 — The Fake Heiress"
+            },
+            {
+              "id": "fake-heiress-v1-ch216",
+              "number": "216",
+              "order": 216,
+              "title": "The Initials Beneath the Restriction",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-216.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1962,7 +1970,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 215
+      "chapterCount": 216
     }
   ],
   "updatedAt": "2026-11-25"
