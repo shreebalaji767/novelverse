@@ -1655,6 +1655,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch140",
+      "number": "140",
+      "order": 140,
+      "title": "The Instruction That Prevented Its Own Review",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-140.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
