@@ -2139,6 +2139,17 @@
       "title": "The Instruction That Never Reached the Revocation Desk",
       "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-184.md",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "fake-heiress-v1-ch185",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1",
+      "number": "185",
+      "order": 185,
+      "title": "The Receipt That Carried No Decision",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-185.md",
+      "publishedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
