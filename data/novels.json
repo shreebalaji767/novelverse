@@ -1463,9 +1463,17 @@
               "title": "The Fifth Name on the Invitation",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-164.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch165",
+              "number": "165",
+              "order": 165,
+              "title": "The Record That Was Not Supposed to Move",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-165.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 143
+          "chapterCount": 164
         },
         {
           "id": "volume-02",
