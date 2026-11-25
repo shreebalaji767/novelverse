@@ -232,7 +232,7 @@ Arthur looked uncertain.
 
 “What sentence?”
 
-“Her eyes moved toward the window.”
+“Arthur's eyes moved toward the window.”
 
 “She said, ‘If you keep the instruction separate, you must also keep the consequences separate.’”
 
