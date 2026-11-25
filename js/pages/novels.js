@@ -28,6 +28,10 @@ function render(){
   titleLink.href=href;
   heading.append(titleLink);
   const synopsis=el('p','novel-synopsis',novel.synopsis||'');
+  const synopsisMore=el('button','read-more-toggle','Read more');
+  synopsisMore.type='button';synopsisMore.hidden=(novel.synopsis||'').length<=190;
+  synopsisMore.setAttribute('aria-expanded','false');
+  synopsisMore.addEventListener('click',()=>{const expanded=synopsis.classList.toggle('is-expanded');synopsisMore.textContent=expanded?'Read less':'Read more';synopsisMore.setAttribute('aria-expanded',String(expanded))});
   const genres=el('div','novel-genres');
   (novel.genres||[]).slice(0,4).forEach(genre=>genres.append(el('span','novel-genre',genre)));
   if((novel.genres||[]).length>4)genres.append(el('span','novel-genre novel-genre-more','+'+((novel.genres||[]).length-4)));
@@ -50,7 +54,7 @@ function render(){
    updateSaveLabel();
   });
   actions.append(view,save);
-  card.append(meta,heading,synopsis,genres,actions);
+  card.append(meta,heading,synopsis,synopsisMore,genres,actions);
   grid.append(card);
  });
 }
