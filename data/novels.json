@@ -1719,9 +1719,17 @@
               "title": "The Review That Had Already Ended",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-195.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch196",
+              "number": "196",
+              "order": 196,
+              "title": "The Two Signatures That Were Not the Same",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-196.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 195
+          "chapterCount": 196
         },
         {
           "id": "volume-02",
@@ -1798,7 +1806,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 195
+      "chapterCount": 196
     }
   ],
   "updatedAt": "2026-11-25"
