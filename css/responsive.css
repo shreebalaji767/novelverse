@@ -91,3 +91,108 @@ body.reader-page{background:var(--reader-bg,#171715);color:var(--reader-text,#f1
  .primary-nav a[href="./worlds.html"],
  .primary-nav a[href="./publish.html"]{display:none}
 }
+
+
+/* NovelVerse soft glass card system */
+:root{
+  --glass-bg:rgba(255,255,255,.72);
+  --glass-strong:rgba(255,255,255,.86);
+  --glass-border:rgba(255,255,255,.92);
+  --glass-shadow:0 16px 42px rgba(34,48,60,.075),0 2px 8px rgba(34,48,60,.035);
+}
+body:not(.reader-page){
+  background:
+    radial-gradient(ellipse at 8% 8%,rgba(220,231,231,.58),transparent 32rem),
+    radial-gradient(ellipse at 92% 24%,rgba(238,225,202,.42),transparent 30rem),
+    var(--bg);
+}
+.site-header{
+  background:rgba(255,255,255,.76);
+  border-bottom:1px solid rgba(255,255,255,.9);
+  box-shadow:0 8px 28px rgba(34,48,60,.045);
+  -webkit-backdrop-filter:blur(22px) saturate(155%);
+  backdrop-filter:blur(22px) saturate(155%);
+}
+.novel-card,.about-panel,.shelf-dashboard,.empty-state,.series-facts,
+.world-panel,.profile-section,.volume-card,.publish-panel,.reader-toolbar{
+  background:var(--glass-bg);
+  border:1px solid var(--glass-border);
+  box-shadow:var(--glass-shadow);
+  -webkit-backdrop-filter:blur(18px) saturate(145%);
+  backdrop-filter:blur(18px) saturate(145%);
+}
+.novel-card{
+  border-radius:18px;
+  padding:16px;
+  box-shadow:0 10px 30px rgba(34,48,60,.055),inset 0 1px 0 rgba(255,255,255,.9);
+}
+.novel-card:hover{
+  transform:translateY(-4px);
+  background:rgba(255,255,255,.9);
+  border-color:rgba(168,120,54,.28);
+  box-shadow:0 20px 44px rgba(34,48,60,.11);
+}
+.cover-placeholder{
+  border-radius:11px;
+  overflow:hidden;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55);
+}
+.about-panel,.shelf-dashboard,.publish-panel,.series-facts,.world-panel,.profile-section{
+  border-radius:18px;
+  padding:clamp(18px,2.5vw,28px);
+}
+.empty-state{border-style:solid;border-radius:18px}
+.search-field,.filter-select, input,select,textarea{
+  background:rgba(255,255,255,.78);
+  border:1px solid rgba(91,112,128,.16);
+  border-radius:12px;
+  box-shadow:inset 0 1px 2px rgba(34,48,60,.025);
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+}
+.search-field:focus,.filter-select:focus,input:focus,select:focus,textarea:focus{
+  background:rgba(255,255,255,.96);
+  border-color:rgba(168,120,54,.55);
+  box-shadow:0 0 0 4px rgba(168,120,54,.10);
+}
+.button,.header-cta,.install-button,.button-quiet{
+  border-radius:11px;
+}
+.button-primary{
+  box-shadow:0 7px 18px rgba(38,59,75,.16);
+}
+.button-outline,.button-quiet{
+  background:rgba(255,255,255,.58);
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+}
+.manifesto{
+  background:rgba(255,255,255,.48);
+  border-block:1px solid rgba(255,255,255,.72);
+  -webkit-backdrop-filter:blur(16px);
+  backdrop-filter:blur(16px);
+}
+.calendar-item{
+  background:rgba(255,255,255,.42);
+  border:1px solid rgba(255,255,255,.78);
+  border-radius:14px;
+  padding:16px 18px;
+}
+.site-footer{
+  background:rgba(255,255,255,.72);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+}
+body.reader-page .reader-toolbar{
+  background:rgba(31,32,29,.82);
+  border-color:rgba(255,255,255,.10);
+  box-shadow:0 12px 30px rgba(0,0,0,.2);
+}
+@media(max-width:640px){
+  .novel-card{border-radius:15px;padding:12px}
+  .about-panel,.shelf-dashboard,.publish-panel,.series-facts,.world-panel,.profile-section{border-radius:15px;padding:17px}
+  .site-header{background:rgba(255,255,255,.86)}
+}
+@media(prefers-reduced-motion:reduce){
+  .novel-card{transition:none}
+}
