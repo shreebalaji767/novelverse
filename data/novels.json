@@ -1791,6 +1791,14 @@
               "title": "The Request Behind the Revision",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-204.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch205",
+              "number": "205",
+              "order": 205,
+              "title": "The Authority Behind the Continuity",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-205.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1870,7 +1878,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 204
+      "chapterCount": 205
     }
   ],
   "updatedAt": "2026-11-25"
