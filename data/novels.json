@@ -1727,9 +1727,17 @@
               "title": "The Two Signatures That Were Not the Same",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-196.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch197",
+              "number": "197",
+              "order": 197,
+              "title": "The Authority Issued Before the Seal",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-197.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 196
+          "chapterCount": 197
         },
         {
           "id": "volume-02",
@@ -1806,7 +1814,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 196
+      "chapterCount": 197
     }
   ],
   "updatedAt": "2026-11-25"
