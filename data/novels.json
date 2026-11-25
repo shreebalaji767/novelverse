@@ -1567,6 +1567,14 @@
               "title": "The Receipt Without a Recipient",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-177.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch178",
+              "number": "178",
+              "order": 178,
+              "title": "The Custodian Who Could Not Open the Box",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-178.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1646,7 +1654,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 176
+      "chapterCount": 177
     }
   ],
   "updatedAt": "2026-11-25"
