@@ -1521,6 +1521,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch128",
+      "number": "128",
+      "order": 128,
+      "title": "The Copy Kept Behind the Locked Door",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-128.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
