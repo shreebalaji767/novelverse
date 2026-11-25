@@ -4,11 +4,8 @@ const navigation=[
  ['Home','./','home'],
  ['Novels','./novels.html','novels'],
  ['Reader','./reader.html','reader'],
- ['Characters','./characters.html','characters'],
- ['Worlds','./worlds.html','worlds'],
  ['My Library','./my-library.html','my-library'],
- ['Release calendar','./calendar.html','calendar'],
- ['Publishing Studio','./publish.html','publish'],
+ ['Calendar','./calendar.html','calendar'],
  ['About','./about.html','about']
 ];
 if(header){
@@ -41,7 +38,7 @@ if(header){
  let cta=header.querySelector('.header-cta');
  if(!cta){cta=document.createElement('a');cta.className='header-cta';header.append(cta);}
  cta.href='./novels.html';
- cta.innerHTML='Explore novels <span aria-hidden="true">↗</span>';
+ cta.innerHTML='Start reading <span aria-hidden="true">↗</span>';
  if(!header.querySelector('.install-button')){
   const install=document.createElement('button');install.className='install-button';install.type='button';install.textContent='Install app';install.setAttribute('aria-label','Install NovelVerse app');header.append(install);
   let promptEvent=null;
