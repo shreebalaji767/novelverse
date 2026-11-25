@@ -4,8 +4,11 @@ const navigation=[
  ['Home','./','home'],
  ['Novels','./novels.html','novels'],
  ['Reader','./reader.html','reader'],
+ ['Characters','./characters.html','characters'],
+ ['Worlds','./worlds.html','worlds'],
  ['My Library','./my-library.html','my-library'],
- ['Calendar','./calendar.html','calendar'],
+ ['Release calendar','./calendar.html','calendar'],
+ ['Publishing Studio','./publish.html','publish'],
  ['About','./about.html','about']
 ];
 if(header){
