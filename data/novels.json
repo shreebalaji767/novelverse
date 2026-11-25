@@ -1695,6 +1695,14 @@
               "title": "The Instruction Daniel Did Not Write",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-193.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch194",
+              "number": "194",
+              "order": 194,
+              "title": "The Custodian Who Could Not Answer Alone",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-194.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1774,7 +1782,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 192
+      "chapterCount": 193
     }
   ],
   "updatedAt": "2026-11-25"
