@@ -2304,6 +2304,17 @@
       "title": "The Report That Had No Author",
       "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-198.md",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "fake-heiress-v1-ch199",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1",
+      "number": "199",
+      "order": 199,
+      "title": "The Participant Who Had Left the Route",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-199.md",
+      "publishedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
