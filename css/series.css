@@ -77,3 +77,43 @@
   #world .world-panel p,
   #world .world-details p{font-size:12px;line-height:1.65}
 }
+
+
+/* Clean, proportionate editorial layout for Characters & cast and The world */
+#characters .lore-grid,
+#world .world-details{align-items:stretch;gap:16px}
+#characters .lore-card,
+#world .world-details article{
+  min-width:0;
+  padding:17px 16px;
+  border:1px solid var(--line);
+  border-radius:4px;
+  background:var(--surface, #1b1c18);
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+}
+#characters .lore-card h3,
+#world .world-panel h3,
+#world .world-details h4{
+  overflow-wrap:anywhere;
+  letter-spacing:0;
+}
+#characters .lore-card p,
+#world .world-panel p,
+#world .world-details p{
+  max-width:68ch;
+  overflow-wrap:anywhere;
+  margin-top:6px;
+}
+#characters .lore-card .eyebrow,
+#world .world-details .eyebrow{margin:0 0 5px}
+#characters .spoiler-note{margin-top:8px}
+#world .world-panel{padding:18px 0 0}
+#world .world-details{margin-top:18px}
+@media(max-width:700px){
+  #characters .lore-grid,
+  #world .world-details{grid-template-columns:1fr;gap:10px}
+  #characters .lore-card,
+  #world .world-details article{padding:15px 14px}
+}
