@@ -1535,6 +1535,14 @@
               "title": "The Request That Was Refused",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-173.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch174",
+              "number": "174",
+              "order": 174,
+              "title": "The Warning That Never Reached the Register",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-174.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 169
