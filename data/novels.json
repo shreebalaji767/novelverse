@@ -1711,9 +1711,17 @@
               "title": "The Custodian Who Could Not Answer Alone",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-194.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch195",
+              "number": "195",
+              "order": 195,
+              "title": "The Review That Had Already Ended",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-195.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 176
+          "chapterCount": 195
         },
         {
           "id": "volume-02",
@@ -1790,7 +1798,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 194
+      "chapterCount": 195
     }
   ],
   "updatedAt": "2026-11-25"
