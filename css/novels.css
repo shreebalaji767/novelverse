@@ -45,3 +45,11 @@
 @media(max-width:640px){.novels-page{width:calc(100% - 36px);padding-bottom:60px}.novels-intro{padding:48px 0 35px}.novels-intro h1{font-size:clamp(39px,10vw,54px)}.novels-intro-text{font-size:12px}.novels-catalogue{padding-top:33px}.catalogue-heading{align-items:flex-start;flex-direction:column;gap:7px;margin-bottom:15px}.catalogue-count{margin:0}.novels-toolbar{align-items:stretch;flex-direction:column;gap:5px;padding:8px 0}.novels-search-wrap .search-field{padding-top:10px;padding-bottom:10px}.novels-filter-wrap{justify-content:space-between;padding:7px 2px 0;border-top:1px solid var(--line);border-left:0}.novels-filter-wrap .filter-select{flex:1;text-align:right}.novels-page .novel-grid{grid-template-columns:1fr;gap:0}.novels-page .novel-card{padding:19px 0}.novels-page .novel-card h3{font-size:22px}.novel-synopsis{min-height:0;-webkit-line-clamp:5}.novel-card-actions{padding-top:12px}}
 @media(max-width:360px){.novels-page{width:calc(100% - 28px)}.novel-card-actions{align-items:flex-start}.novel-save-button{padding-inline:8px}}
 @media(prefers-reduced-motion:reduce){.novels-page .novel-card,.novel-save-button,.novel-view-link:after{transition:none}}
+
+
+/* Compact catalogue synopsis with an accessible expand control */
+.novel-synopsis{display:-webkit-box;overflow:hidden;min-height:0;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.novel-synopsis.is-expanded{display:block;overflow:visible;-webkit-line-clamp:unset}
+.read-more-toggle{display:inline-flex;align-items:center;gap:5px;width:max-content;margin:7px 0 0;padding:2px 0;border:0;background:transparent;color:var(--gold-light);font:600 10px var(--sans);cursor:pointer}
+.read-more-toggle:hover{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.read-more-toggle:focus-visible{outline:1px solid var(--gold-light);outline-offset:4px}
