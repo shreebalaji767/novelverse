@@ -1839,6 +1839,14 @@
               "title": "The Source That Could Not Be Reconstructed",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-210.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch211",
+              "number": "211",
+              "order": 211,
+              "title": "The Correction Made on the Sixth Day",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-211.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1918,7 +1926,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 210
+      "chapterCount": 211
     }
   ],
   "updatedAt": "2026-11-25"
