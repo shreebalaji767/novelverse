@@ -53,3 +53,5 @@
 .read-more-toggle{display:inline-flex;align-items:center;gap:5px;width:max-content;margin:7px 0 0;padding:2px 0;border:0;background:transparent;color:var(--gold-light);font:600 10px var(--sans);cursor:pointer}
 .read-more-toggle:hover{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
 .read-more-toggle:focus-visible{outline:1px solid var(--gold-light);outline-offset:4px}
+
+.read-more-toggle[hidden]{display:none}
