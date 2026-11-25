@@ -1677,6 +1677,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch142",
+      "number": "142",
+      "order": 142,
+      "title": "The Appointment That Ended Before the Request",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-142.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
