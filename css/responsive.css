@@ -460,3 +460,37 @@ button,.button,.button-quiet,.header-cta,.install-button{font-size:var(--font-sm
   h2{font-size:23px}
   .reader-content,.chapter-content,.chapter-body,.reader-article{font-size:15px}
 }
+
+/* Shared compact novel synopsis previews on every page that displays a novel */
+.novel-synopsis{
+  display:-webkit-box;
+  overflow:hidden;
+  min-height:0;
+  margin:8px 0 0;
+  color:var(--muted);
+  font-size:var(--font-small);
+  line-height:1.65;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:3;
+  overflow-wrap:anywhere;
+}
+.novel-synopsis.is-expanded{
+  display:block;
+  overflow:visible;
+  -webkit-line-clamp:unset;
+}
+.read-more-toggle{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  margin:6px 0 0;
+  padding:2px 0;
+  border:0;
+  background:transparent;
+  color:var(--gold-light);
+  font:600 var(--font-micro)/1.5 var(--sans);
+  cursor:pointer;
+}
+.read-more-toggle:hover{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.read-more-toggle:focus-visible{outline:1px solid var(--gold-light);outline-offset:4px}
+.read-more-toggle[hidden]{display:none}
