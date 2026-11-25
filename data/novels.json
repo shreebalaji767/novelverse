@@ -1865,6 +1865,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-213.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch214",
+              "number": "214",
+              "order": 214,
+              "title": "The Authority Behind the Sealed Request",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-214.md",
+              "publishedAt": "2026-11-25",
+              "subtitle": "Volume 1 — The Fake Heiress"
             }
           ],
           "chapterCount": 201
@@ -1944,7 +1953,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 213
+      "chapterCount": 214
     }
   ],
   "updatedAt": "2026-11-25"
