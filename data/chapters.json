@@ -1908,6 +1908,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch164",
+      "number": "164",
+      "order": 164,
+      "title": "The Fifth Name on the Invitation",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-164.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
