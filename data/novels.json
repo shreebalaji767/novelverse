@@ -1407,6 +1407,14 @@
               "title": "The Key That Was Prepared but Never Released",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-156.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch157",
+              "number": "157",
+              "order": 157,
+              "title": "The Request That Was Refused Before It Was Read",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-157.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 143
@@ -1476,7 +1484,7 @@
           "Maintain consistent chronology, character motivations and continuity."
         ]
       },
-      "updatedAt": "2026-11-25"
+      "updatedAt": "2026-11-25T00:00:00.000Z"
     }
   ],
   "updatedAt": "2026-11-25"
