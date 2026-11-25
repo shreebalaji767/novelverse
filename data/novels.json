@@ -1783,6 +1783,14 @@
               "title": "The Address That Came From Another File",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-203.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch204",
+              "number": "204",
+              "order": 204,
+              "title": "The Request Behind the Revision",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-204.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1862,7 +1870,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 203
+      "chapterCount": 204
     }
   ],
   "updatedAt": "2026-11-25"
