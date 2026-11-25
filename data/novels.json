@@ -1963,6 +1963,14 @@
               "title": "The Identity Behind the Sealed Record",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-225.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch226",
+              "number": "226",
+              "order": 226,
+              "title": "The Right to Hear the Truth",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-226.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 221
@@ -2042,7 +2050,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 225
+      "chapterCount": 226
     }
   ],
   "updatedAt": "2026-11-25"
