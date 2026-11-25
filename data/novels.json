@@ -1647,6 +1647,14 @@
               "title": "The Decision That Had No Author",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-187.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch188",
+              "number": "188",
+              "order": 188,
+              "title": "The Adviser Who Was Not Asked to Decide",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-188.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1726,7 +1734,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 186
+      "chapterCount": 187
     }
   ],
   "updatedAt": "2026-11-25"
