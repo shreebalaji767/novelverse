@@ -944,6 +944,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-101.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch102",
+              "number": "102",
+              "order": 102,
+              "title": "The Envelope Margaret Voss Had Kept",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-102.md",
+              "publishedAt": "2026-11-25"
             }
           ]
         },
