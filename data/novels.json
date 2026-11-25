@@ -1655,6 +1655,14 @@
               "title": "The Adviser Who Was Not Asked to Decide",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-188.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch189",
+              "number": "189",
+              "order": 189,
+              "title": "The Paper That Changed Departments",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-189.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1734,7 +1742,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 187
+      "chapterCount": 188
     }
   ],
   "updatedAt": "2026-11-25"
