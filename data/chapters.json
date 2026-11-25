@@ -1897,6 +1897,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch163",
+      "number": "163",
+      "order": 163,
+      "title": "The Operator Behind the Shared Account",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-163.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
