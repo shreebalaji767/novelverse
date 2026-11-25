@@ -1543,9 +1543,17 @@
               "title": "The Warning That Never Reached the Register",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-174.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch176",
+              "number": "176",
+              "order": 176,
+              "title": "The Instruction Written Beneath the Transfer",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-176.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 173
+          "chapterCount": 174
         },
         {
           "id": "volume-02",
