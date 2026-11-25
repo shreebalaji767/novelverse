@@ -1142,6 +1142,14 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-123.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch124",
+              "number": "124",
+              "order": 124,
+              "title": "The Signature That Belonged to Someone Else",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-124.md",
+              "publishedAt": "2026-11-25"
             }
           ]
         },
