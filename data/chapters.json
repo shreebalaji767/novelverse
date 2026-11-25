@@ -2095,6 +2095,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch181",
+      "number": "181",
+      "order": 181,
+      "title": "The Acknowledgement That Was Never Returned",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-181.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
