@@ -2392,6 +2392,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch207",
+      "number": "207",
+      "order": 207,
+      "title": "The Family That Initiated the Communication",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-207.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
