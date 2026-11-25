@@ -2326,6 +2326,17 @@
       "title": "The Request That Required Two Authorities",
       "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-200.md",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "fake-heiress-v1-ch201",
+      "number": "201",
+      "order": 201,
+      "title": "The Candidate Who Never Received a Decision",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-201.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
