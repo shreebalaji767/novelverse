@@ -1955,6 +1955,14 @@
               "title": "The Request That Could Not Name Its Subject",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-224.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch225",
+              "number": "225",
+              "order": 225,
+              "title": "The Identity Behind the Sealed Record",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-225.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 221
@@ -2034,7 +2042,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 224
+      "chapterCount": 225
     }
   ],
   "updatedAt": "2026-11-25"
