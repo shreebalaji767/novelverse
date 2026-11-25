@@ -2205,6 +2205,17 @@
       "title": "The Request That Stopped at the Seal",
       "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-190.md",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "fake-heiress-v1-ch191",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1",
+      "number": "191",
+      "order": 191,
+      "title": "The Recipient Who Never Acknowledged Receipt",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-191.md",
+      "publishedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
