@@ -2315,6 +2315,17 @@
       "title": "The Participant Who Had Left the Route",
       "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-199.md",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "fake-heiress-v1-ch200",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1",
+      "number": "200",
+      "order": 200,
+      "title": "The Request That Required Two Authorities",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-200.md",
+      "publishedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
