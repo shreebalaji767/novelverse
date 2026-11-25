@@ -1907,9 +1907,17 @@
               "title": "The Authority That Approved the Instruction",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-218.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch219",
+              "number": "219",
+              "order": 219,
+              "title": "The Instruction That Kept Objections Away",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-219.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 201
+          "chapterCount": 219
         },
         {
           "id": "volume-02",
@@ -1986,7 +1994,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 218
+      "chapterCount": 219
     }
   ],
   "updatedAt": "2026-11-25"
