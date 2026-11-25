@@ -1874,6 +1874,15 @@
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-214.md",
               "publishedAt": "2026-11-25",
               "subtitle": "Volume 1 — The Fake Heiress"
+            },
+            {
+              "id": "fake-heiress-v1-ch215",
+              "number": "215",
+              "order": 215,
+              "title": "The Appointment That Had Two Different Purposes",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-215.md",
+              "publishedAt": "2026-11-25",
+              "subtitle": "Volume 1 — The Fake Heiress"
             }
           ],
           "chapterCount": 201
@@ -1953,7 +1962,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 214
+      "chapterCount": 215
     }
   ],
   "updatedAt": "2026-11-25"
