@@ -1853,6 +1853,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch159",
+      "number": "159",
+      "order": 159,
+      "title": "The Identity That Was Made Conditional",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-159.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
