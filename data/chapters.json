@@ -1721,6 +1721,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch146",
+      "number": "146",
+      "order": 146,
+      "title": "The Copy That Had No Visible Signature",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-146.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
