@@ -1,0 +1,278 @@
+/* NovelVerse — unified editorial refresh
+   One restrained design system for every page and every series. */
+:root{
+  color-scheme:dark;
+  --bg:#11120f;
+  --soft:#1a1b17;
+  --paper:#20211c;
+  --surface:#191a16;
+  --text:#eeeae0;
+  --muted:#aaa596;
+  --gold:#b99a60;
+  --gold-light:#d9c18e;
+  --line:rgba(218,204,174,.16);
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --content:1160px;
+  --shadow:none;
+}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;line-height:1.7}
+::selection{background:rgba(185,154,96,.35);color:#fff}
+a{color:inherit}
+img{max-width:100%}
+.skip-link{z-index:100}
+.site-header{
+  position:relative;z-index:30;min-height:72px;height:auto;padding:10px max(4vw,24px);
+  display:flex;align-items:center;gap:clamp(14px,2vw,28px);
+  background:var(--bg);border-bottom:1px solid var(--line);
+  box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none
+}
+.brand{gap:9px}
+.brand-logo{width:38px;height:38px;flex-basis:38px}
+.brand-name{font-size:12px;letter-spacing:.17em}
+.primary-nav{display:flex;align-items:center;justify-content:flex-end;gap:clamp(10px,1.55vw,22px);margin-left:auto}
+.primary-nav a,.footer-links a{
+  color:var(--muted);font-size:11px;font-weight:550;letter-spacing:.015em;
+  text-decoration:none;transition:color .16s ease
+}
+.primary-nav a:hover,.primary-nav a.active,.primary-nav a[aria-current=page],.footer-links a:hover{color:var(--gold-light)}
+.header-cta{
+  flex:0 0 auto;padding:9px 13px;border:1px solid var(--line);border-radius:3px;
+  color:var(--gold-light);font-size:11px;text-decoration:none;background:transparent
+}
+.header-cta:hover{border-color:var(--gold);background:rgba(185,154,96,.06)}
+.menu-toggle{display:none;border:1px solid var(--line);border-radius:3px;background:transparent;color:var(--text);padding:8px 11px;font-size:11px}
+.eyebrow{color:var(--gold);font-size:9px;font-weight:650;letter-spacing:.19em;line-height:1.5}
+.button{
+  min-height:40px;display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:10px 15px;border-radius:3px;font-size:11px;font-weight:650;line-height:1.3;
+  text-decoration:none;transition:background .16s ease,border-color .16s ease,color .16s ease
+}
+.button-primary{background:var(--gold);border:1px solid var(--gold);color:#17150f}
+.button-primary:hover{background:var(--gold-light);border-color:var(--gold-light)}
+.button-outline{background:transparent;border:1px solid rgba(217,193,142,.42);color:var(--gold-light)}
+.button-outline:hover{background:rgba(185,154,96,.08);border-color:var(--gold)}
+.button-quiet{border-radius:3px}
+.text-link{color:var(--gold-light);font-size:11px;text-decoration:none}
+.text-link:hover{text-decoration:underline;text-underline-offset:4px}
+.site-footer{
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  padding:28px max(4vw,24px) 22px;border-top:1px solid var(--line);
+  background:#0e0f0d;color:var(--muted)
+}
+.site-footer .brand-logo{width:34px;height:34px;flex-basis:34px}
+.site-footer p,.site-footer small{font-size:10px}
+.site-footer p{margin:0}
+.site-footer small{width:100%;padding-top:12px;border-top:1px solid rgba(218,204,174,.08)}
+.footer-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-left:auto}
+:where(button,input,select,textarea){font:inherit}
+:where(input,select,textarea){accent-color:var(--gold)}
+:where(input,select,textarea):focus-visible,:where(button,a):focus-visible{outline:2px solid var(--gold-light);outline-offset:3px}
+.search-field,.filter-select{
+  min-height:40px;border:1px solid var(--line);border-radius:3px;
+  background:#151612;color:var(--text);padding:9px 12px
+}
+.search-field::placeholder{color:#817d72}
+.empty-state,.novels-empty,.ency-missing,.series-unavailable{
+  border:1px solid var(--line);border-radius:3px;background:var(--surface);
+  box-shadow:none;color:var(--muted)
+}
+.empty-state{padding:28px}
+.empty-state strong{color:var(--text)}
+/* Home */
+.hero{
+  width:min(var(--content),100% - 64px);min-height:520px;padding:70px 0 58px;
+  grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:clamp(24px,5vw,72px)
+}
+.hero-copy{max-width:590px}
+.hero h1{font-size:clamp(48px,6.3vw,78px);line-height:1.02;letter-spacing:-.055em;margin:17px 0 20px}
+.hero-description{max-width:490px;font-size:14px;line-height:1.9;color:var(--muted)}
+.hero-actions{gap:18px;margin-top:27px}
+.hero-note{font-size:10px;color:var(--muted)}
+.hero-art{height:340px}
+.art-orbit{border-color:rgba(185,154,96,.17)}
+.art-sun{width:155px;height:155px;opacity:.8}
+.art-book{width:148px;height:210px;border-radius:2px;box-shadow:12px 14px 28px rgba(0,0,0,.3)}
+.art-caption{font-size:8px;letter-spacing:.16em}
+.manifesto{padding:70px 24px;background:#171813;border-block:1px solid var(--line)}
+.manifesto h2{font-size:clamp(32px,4vw,46px);line-height:1.12}
+.manifesto>p:not(.eyebrow){font-size:12px;line-height:1.8}
+.section,.page-shell{width:min(var(--content),100% - 64px);padding:58px 0}
+.page-shell{min-height:64vh;padding-top:60px;padding-bottom:80px}
+.page-heading{max-width:720px;margin-bottom:34px}
+.page-heading h1{font-size:clamp(38px,5vw,58px);line-height:1.08;letter-spacing:-.045em}
+.page-heading p:last-child{max-width:65ch;color:var(--muted);font-size:13px;line-height:1.85}
+/* Catalogue: solid, quiet cards; no glass or oversized effects */
+.novels-page{width:min(var(--content),100% - 64px);padding-bottom:76px}
+.novels-intro{padding:66px 0 42px}
+.novels-intro h1{font-size:clamp(40px,5.6vw,64px);line-height:1.08}
+.novels-intro-text{font-size:13px}
+.novels-catalogue{padding-top:34px}
+.catalogue-heading h2{font-size:32px}
+.novels-toolbar{
+  display:flex;align-items:center;gap:18px;padding:8px 12px;margin-bottom:20px;
+  border:1px solid var(--line);border-radius:3px;background:#151612;
+  box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none
+}
+.novels-page .novel-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:stretch}
+.novels-page .novel-card{
+  display:flex;flex-direction:column;min-width:0;min-height:100%;padding:20px;
+  border:1px solid var(--line);border-radius:3px;background:var(--surface);
+  box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;
+  transition:border-color .16s ease,background .16s ease
+}
+.novels-page .novel-card:before{display:none}
+.novels-page .novel-card:hover{transform:none;border-color:rgba(217,193,142,.48);background:#1d1e19;box-shadow:none}
+.novels-page .novel-card h3{font-size:19px;line-height:1.35;min-height:0;margin:13px 0 8px}
+.novel-synopsis{font-size:11px;line-height:1.75}
+.novel-genres{gap:6px}
+.novel-genre{border:1px solid rgba(218,204,174,.13);border-radius:2px;background:transparent;padding:4px 7px;font-size:9px}
+.novel-status{border-radius:2px;font-size:9px}
+.novel-card-actions{padding-top:13px}
+.novel-save-button{border-radius:3px}
+.novels-filter-wrap .filter-select{border-radius:2px}
+/* Series pages: same editorial structure for every novel */
+.series-shell{width:min(100% - 64px,1000px);padding:28px 0 76px}
+.series-back{margin-bottom:38px}
+.series-hero{max-width:900px;padding-bottom:36px}
+.series-intro h1{font-size:clamp(40px,6.4vw,68px);line-height:1.05}
+.series-subtitle{font-size:17px}
+.series-synopsis-panel{max-width:760px}
+.series-synopsis{font-size:13px;line-height:1.85}
+.series-tags{gap:6px}
+.series-tag{border-radius:2px;font-size:9px}
+.series-actions{gap:9px}
+.series-actions .button{min-height:40px}
+.series-facts{margin-bottom:46px}
+.series-facts strong{font-size:19px}
+.series-section{padding-bottom:56px}
+.series-section-heading{margin-bottom:18px}
+.series-section-heading h2{font-size:clamp(27px,3.5vw,36px)}
+.chapter-list a{padding:15px 9px}
+.chapter-details strong{font-size:15px}
+.chapter-arrow{font-size:10px}
+#characters .lore-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#characters .lore-card,#world .world-details article{
+  padding:16px;border:1px solid var(--line);border-radius:3px;
+  background:#191a16;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none
+}
+#characters .lore-card h3,#world .world-panel h3{font-size:19px}
+#characters .lore-card p,#world .world-panel p,#world .world-details p{font-size:12px;line-height:1.75}
+/* Character and world encyclopedias */
+.ency-shell{width:min(100% - 64px,1080px);padding:30px 0 80px}
+.ency-heading{max-width:760px;margin:36px 0 30px}
+.ency-heading h1{font:400 clamp(38px,5.5vw,60px)/1.08 var(--serif);letter-spacing:-.045em}
+.ency-heading>p:last-child{max-width:65ch;color:var(--muted);font-size:13px}
+.ency-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 0;border-block:1px solid var(--line)}
+.ency-tools .search-field{flex:1 1 260px}
+.ency-count{font-size:10px;color:var(--muted);margin:18px 0}
+.ency-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.ency-grid>*{min-width:0}
+.profile-hero,.world-hero{padding:30px 0 34px;border-bottom:1px solid var(--line)}
+.profile-hero h1,.world-hero h1{font:400 clamp(38px,5.5vw,62px)/1.06 var(--serif);letter-spacing:-.04em}
+.profile-summary{max-width:72ch;color:var(--muted);font-size:13px;line-height:1.85}
+.profile-sections{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:26px}
+.profile-section{min-width:0;padding:18px;border:1px solid var(--line);border-radius:3px;background:var(--surface);box-shadow:none}
+.ency-tags{display:flex;gap:7px;flex-wrap:wrap}
+.ency-tag{border:1px solid var(--line);border-radius:2px;padding:4px 8px;font-size:9px;color:var(--muted)}
+/* Library, calendar and publishing */
+.shelf-dashboard,.about-panel,.publish-panel,.publish-notice{
+  border:1px solid var(--line);border-radius:3px;background:var(--surface);box-shadow:none
+}
+.shelf-dashboard{padding:20px}
+.shelf-actions{gap:8px}
+.calendar-list{gap:0;border-top:1px solid var(--line)}
+.calendar-item{padding:17px 4px;border-bottom:1px solid var(--line)}
+.calendar-date{font-size:10px}
+.about-grid{gap:12px}
+.about-panel{padding:20px}
+.publish-shell{width:min(100% - 64px,1000px);margin:auto;padding:46px 0 80px}
+.publish-toolbar{gap:8px}
+.publish-panel{padding:22px;margin:16px 0}
+.publish-panel-heading h2{font-size:22px}
+.publish-grid{gap:14px}
+.publish-grid input,.publish-grid select,.publish-grid textarea{border-radius:3px}
+/* Reader stays intentionally plain and distraction-free */
+.reader-header{position:relative;background:var(--bg);backdrop-filter:none;-webkit-backdrop-filter:none}
+.reader-shell{width:min(100% - 48px,960px);padding:24px 0 76px}
+.reader-book-heading{padding:48px 0 24px}
+.reader-book-heading h1{font-size:clamp(32px,4.5vw,48px)}
+.reader-toolbar{gap:10px;padding:10px 0}
+.reader-tool-group button,.reader-tool-group select{border-radius:3px}
+.reader-progress{margin-bottom:36px}
+.chapter-body{font-size:19px;line-height:1.95}
+.reader-bottom{margin-top:60px}
+.reader-page .reader-shell,.reader-page .reader-shell :where(.reader-topline,.reader-empty,.reader-book-heading,.reader-toolbar,.reader-progress,.chapter-body,.reader-bottom){
+  background:transparent!important;border-radius:0!important;box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;backdrop-filter:none!important
+}
+.reader-page .reader-shell .chapter-body{border:0!important}
+.reader-page .reader-shell .reader-empty,.reader-page .reader-shell .reader-book-heading{border:0!important}
+.reader-page .reader-shell .reader-toolbar{border:0!important;border-block:1px solid var(--line)!important}
+.reader-page .reader-shell .reader-bottom{border:0!important;border-top:1px solid var(--line)!important}
+/* Responsive rhythm */
+@media(max-width:1100px){
+  .site-header{min-height:68px;flex-wrap:wrap;padding:9px 22px}
+  .menu-toggle{display:block;margin-left:auto}
+  .header-cta{display:none}
+  .primary-nav{
+    display:none;position:absolute;top:100%;left:0;right:0;z-index:40;
+    margin:0;padding:10px 22px 16px;background:#151612;border-top:1px solid var(--line);
+    box-shadow:0 14px 22px rgba(0,0,0,.22);flex-direction:column;align-items:stretch;gap:0
+  }
+  .primary-nav.is-open{display:flex}
+  .primary-nav a{padding:10px 2px;border-bottom:1px solid rgba(218,204,174,.09);font-size:12px}
+}
+@media(max-width:900px){
+  .hero{grid-template-columns:minmax(0,1fr) minmax(220px,.8fr);gap:22px}
+  .novels-page .novel-grid,.ency-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #characters .lore-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:640px){
+  .site-header{padding:8px 16px;min-height:64px}
+  .brand-logo{width:34px;height:34px;flex-basis:34px}
+  .brand-name{font-size:11px}
+  .hero,.section,.page-shell,.novels-page,.series-shell,.ency-shell,.publish-shell{width:calc(100% - 36px)}
+  .hero{display:block;min-height:0;padding:46px 0 34px}
+  .hero h1{font-size:clamp(43px,12vw,58px)}
+  .hero-art{height:245px;margin-top:20px}
+  .art-book{transform:scale(.82) rotate(-8deg)}
+  .manifesto{padding:52px 18px}
+  .page-shell{padding:42px 0 58px}
+  .page-heading{margin-bottom:26px}
+  .page-heading h1{font-size:clamp(36px,10vw,48px)}
+  .novels-intro{padding:45px 0 30px}
+  .novels-page .novel-grid,.ency-grid,#characters .lore-grid,.profile-sections{grid-template-columns:1fr}
+  .novels-page .novel-card{padding:17px}
+  .novels-toolbar{align-items:stretch;flex-direction:column;gap:5px;padding:9px 11px}
+  .novels-filter-wrap{justify-content:space-between;padding:8px 0 0;border-left:0;border-top:1px solid var(--line)}
+  .catalogue-heading{align-items:flex-start;flex-direction:column;gap:5px}
+  .series-shell,.ency-shell{padding:22px 0 58px}
+  .series-back{margin-bottom:28px}
+  .series-intro h1{font-size:clamp(36px,10vw,52px)}
+  .series-facts{margin-bottom:36px}
+  .series-section{padding-bottom:42px}
+  .series-section-heading h2{font-size:28px}
+  .chapter-list a{grid-template-columns:30px minmax(0,1fr) auto;gap:8px;padding:14px 2px}
+  .chapter-details strong{font-size:14px}
+  #characters .lore-card,#world .world-details article{padding:14px}
+  .ency-heading{margin:28px 0 22px}
+  .ency-heading h1{font-size:clamp(35px,10vw,48px)}
+  .ency-tools{align-items:stretch}
+  .ency-tools .search-field,.ency-tools .filter-select{width:100%;flex-basis:100%}
+  .shelf-dashboard,.about-panel,.publish-panel{padding:16px}
+  .publish-toolbar{display:flex;flex-wrap:wrap}
+  .publish-toolbar .button{flex:1 1 100%}
+  .reader-shell{width:calc(100% - 34px);padding:18px 0 56px}
+  .reader-book-heading{padding:34px 0 20px}
+  .reader-toolbar{justify-content:flex-start}
+  .reader-toolbar .button{margin-left:0}
+  .chapter-body{font-size:18px;line-height:1.9}
+  .reader-bottom{margin-top:44px}
+  .site-footer{padding:24px 18px 18px;gap:12px}
+  .footer-links{width:100%;margin:0;gap:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
