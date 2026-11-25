@@ -1899,6 +1899,14 @@
               "title": "The Instruction to Preserve the Wrong Description",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-217.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch218",
+              "number": "218",
+              "order": 218,
+              "title": "The Authority That Approved the Instruction",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-218.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1978,7 +1986,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 217
+      "chapterCount": 218
     }
   ],
   "updatedAt": "2026-11-25"
