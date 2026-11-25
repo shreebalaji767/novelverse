@@ -1891,6 +1891,14 @@
               "title": "The Initials Beneath the Restriction",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-216.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch217",
+              "number": "217",
+              "order": 217,
+              "title": "The Instruction to Preserve the Wrong Description",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-217.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1970,7 +1978,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 216
+      "chapterCount": 217
     }
   ],
   "updatedAt": "2026-11-25"
