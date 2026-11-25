@@ -837,3 +837,44 @@ body:not(.reader-page){
     padding:15px!important;border-radius:13px!important;
   }
 }
+
+
+/* Reader is a focused reading surface, not a stack of cards */
+.reader-shell .reader-topline,
+.reader-shell .reader-book-heading,
+.reader-shell .reader-toolbar,
+.reader-shell .chapter-body,
+.reader-shell .reader-bottom{
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+.reader-shell .reader-book-heading{
+  padding:42px 0 24px!important;
+  margin:0 auto!important;
+}
+.reader-shell .reader-toolbar{
+  padding:12px 0!important;
+  margin:0 auto!important;
+  border-block:1px solid var(--line)!important;
+}
+.reader-shell .chapter-body{
+  max-width:min(var(--reader-width),100%)!important;
+  padding:0!important;
+  margin:0 auto!important;
+  color:var(--text)!important;
+}
+.reader-shell .reader-bottom{
+  padding:20px 0 0!important;
+  margin:64px auto 0!important;
+  border-top:1px solid var(--line)!important;
+}
+.reader-shell .reader-topline{padding:0!important;margin:0!important}
+@media(max-width:640px){
+  .reader-shell .reader-book-heading{padding:30px 0 20px!important}
+  .reader-shell .reader-toolbar{padding:10px 0!important}
+  .reader-shell .chapter-body{padding:0!important}
+}
