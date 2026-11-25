@@ -1455,6 +1455,14 @@
               "title": "The Operator Behind the Shared Account",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-163.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch164",
+              "number": "164",
+              "order": 164,
+              "title": "The Fifth Name on the Invitation",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-164.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 143
@@ -1524,7 +1532,7 @@
           "Maintain consistent chronology, character motivations and continuity."
         ]
       },
-      "updatedAt": "2026-11-25T00:00:00.000Z"
+      "updatedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
