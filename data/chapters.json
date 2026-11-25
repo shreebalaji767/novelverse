@@ -2590,6 +2590,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch225",
+      "number": "225",
+      "order": 225,
+      "title": "The Identity Behind the Sealed Record",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-225.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
