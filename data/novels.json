@@ -1815,6 +1815,14 @@
               "title": "The Family That Initiated the Communication",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-207.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch208",
+              "number": "208",
+              "order": 208,
+              "title": "The Institution That Never Confirmed",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-208.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1894,7 +1902,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 207
+      "chapterCount": 208
     }
   ],
   "updatedAt": "2026-11-25"
