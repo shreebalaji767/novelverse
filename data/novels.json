@@ -1847,6 +1847,15 @@
               "title": "The Correction Made on the Sixth Day",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-211.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch212",
+              "number": "212",
+              "order": 212,
+              "title": "The Band That Passed Through Meridian",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-212.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1926,7 +1935,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 211
+      "chapterCount": 212
     }
   ],
   "updatedAt": "2026-11-25"
