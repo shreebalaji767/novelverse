@@ -1644,6 +1644,17 @@
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1",
       "subtitle": "Volume 1 — The Fake Heiress"
+    },
+    {
+      "id": "fake-heiress-v1-ch139",
+      "number": "139",
+      "order": 139,
+      "title": "The Instruction Written Before Anyone Had Answered",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-139.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
