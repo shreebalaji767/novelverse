@@ -1687,6 +1687,14 @@
               "title": "The Address That Could Not Nominate Anyone",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-192.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch193",
+              "number": "193",
+              "order": 193,
+              "title": "The Instruction Daniel Did Not Write",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-193.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1766,7 +1774,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 191
+      "chapterCount": 192
     }
   ],
   "updatedAt": "2026-11-25"
