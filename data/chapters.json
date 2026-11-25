@@ -1487,6 +1487,18 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch125",
+      "number": "125",
+      "order": 125,
+      "title": "The Acknowledgement That Never Reached Its Owner",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-125.md",
+      "publishedAt": "2026-11-25",
+      "subtitle": "Volume 1 — The Fake Heiress",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
