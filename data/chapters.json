@@ -2073,6 +2073,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch179",
+      "number": "179",
+      "order": 179,
+      "title": "The Request That Came After the Refusal",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-179.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
