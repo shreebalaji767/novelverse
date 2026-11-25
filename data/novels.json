@@ -1559,9 +1559,17 @@
               "title": "The Instruction Written Beneath the Transfer",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-176.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch177",
+              "number": "177",
+              "order": 177,
+              "title": "The Receipt Without a Recipient",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-177.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 175
+          "chapterCount": 176
         },
         {
           "id": "volume-02",
@@ -1638,7 +1646,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 175
+      "chapterCount": 176
     }
   ],
   "updatedAt": "2026-11-25"
