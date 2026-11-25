@@ -1487,9 +1487,17 @@
               "title": "The Person Assigned to Explain",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-167.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch168",
+              "number": "168",
+              "order": 168,
+              "title": "The Approval That Covered Only Half the Work",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-168.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 166
+          "chapterCount": 167
         },
         {
           "id": "volume-02",
