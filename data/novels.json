@@ -1915,9 +1915,17 @@
               "title": "The Instruction That Kept Objections Away",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-219.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch220",
+              "number": "220",
+              "order": 220,
+              "title": "The Record That Became an Established Identity",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-220.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 219
+          "chapterCount": 220
         },
         {
           "id": "volume-02",
@@ -1994,7 +2002,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 219
+      "chapterCount": 220
     }
   ],
   "updatedAt": "2026-11-25"
