@@ -1856,6 +1856,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-212.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch213",
+              "number": "213",
+              "order": 213,
+              "title": "The Storage Group No One Could Name",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-213.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1935,7 +1944,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 212
+      "chapterCount": 213
     }
   ],
   "updatedAt": "2026-11-25"
