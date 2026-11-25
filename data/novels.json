@@ -1831,6 +1831,14 @@
               "title": "The Register That Preserved the Originals",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-209.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch210",
+              "number": "210",
+              "order": 210,
+              "title": "The Source That Could Not Be Reconstructed",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-210.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1910,7 +1918,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 209
+      "chapterCount": 210
     }
   ],
   "updatedAt": "2026-11-25"
