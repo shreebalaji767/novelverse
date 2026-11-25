@@ -1527,6 +1527,14 @@
               "title": "The File That Returned to Its Owner",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-172.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch173",
+              "number": "173",
+              "order": 173,
+              "title": "The Request That Was Refused",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-173.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 169
