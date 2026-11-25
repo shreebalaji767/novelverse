@@ -1607,6 +1607,14 @@
               "title": "The Access That Outlived Its Authority",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-182.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch183",
+              "number": "183",
+              "order": 183,
+              "title": "The Message That Came Before the Explanation",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-183.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1686,7 +1694,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 181
+      "chapterCount": 182
     }
   ],
   "updatedAt": "2026-11-25"
