@@ -2381,6 +2381,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch206",
+      "number": "206",
+      "order": 206,
+      "title": "The Instruction That Came Before the Arrangement",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-206.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
