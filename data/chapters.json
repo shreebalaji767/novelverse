@@ -1666,6 +1666,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch141",
+      "number": "141",
+      "order": 141,
+      "title": "The Request That Had No Collector",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-141.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
