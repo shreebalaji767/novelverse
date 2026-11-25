@@ -1807,6 +1807,14 @@
               "title": "The Instruction That Came Before the Arrangement",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-206.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch207",
+              "number": "207",
+              "order": 207,
+              "title": "The Family That Initiated the Communication",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-207.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1886,7 +1894,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 206
+      "chapterCount": 207
     }
   ],
   "updatedAt": "2026-11-25"
