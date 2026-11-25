@@ -402,8 +402,6 @@ Alexander looked toward the windows.
 
 “Not after the correspondence was transferred.”
 
-Alexander considered the names.
-
 “Dr Hale?”
 
 “He had access to the originating medical records, not Holt's transfer receipt.”
