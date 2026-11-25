@@ -2084,6 +2084,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch180",
+      "number": "180",
+      "order": 180,
+      "title": "The File That Was Not Supposed to Follow",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-180.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
