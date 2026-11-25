@@ -1599,6 +1599,14 @@
               "title": "The Acknowledgement That Was Never Returned",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-181.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch182",
+              "number": "182",
+              "order": 182,
+              "title": "The Access That Outlived Its Authority",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-182.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1678,7 +1686,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 180
+      "chapterCount": 181
     }
   ],
   "updatedAt": "2026-11-25"
