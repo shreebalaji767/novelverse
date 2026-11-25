@@ -18,6 +18,21 @@ function render(){
  }
  found.forEach(novel=>{
   const card=el('article','novel-card');
+  if(novel.profileOnly){
+   const heading=el('h3','');
+   const titleLink=el('a','',novel.title||'Untitled');
+   titleLink.href='./series.html?id='+encodeURIComponent(novel.id);
+   heading.append(titleLink);
+   const synopsis=el('p','novel-synopsis',novel.synopsis||'');
+   const more=el('button','read-more-toggle','Read more');
+   more.type='button';more.hidden=(novel.synopsis||'').length<=190;more.setAttribute('aria-expanded','false');
+   more.addEventListener('click',()=>{const expanded=synopsis.classList.toggle('is-expanded');more.textContent=expanded?'Read less':'Read more';more.setAttribute('aria-expanded',String(expanded))});
+   const genres=el('div','novel-genres');
+   (novel.genres||[]).forEach(genre=>genres.append(el('span','novel-genre',genre)));
+   card.append(heading,synopsis,more,genres);
+   grid.append(card);
+   return;
+  }
   const href='./series.html?id='+encodeURIComponent(novel.id);
   const meta=el('div','novel-card-meta');
   const status=el('span','novel-status novel-status-'+(novel.status||'published'),(novel.status||'published').replace(/-/g,' ').toUpperCase());
