@@ -1295,8 +1295,17 @@
               "title": "The Appointment That Ended Before the Request",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-142.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch143",
+              "number": "143",
+              "order": 143,
+              "title": "The Original That Was Never Returned",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-143.md",
+              "publishedAt": "2026-11-25"
             }
-          ]
+          ],
+          "chapterCount": 143
         },
         {
           "id": "volume-02",
