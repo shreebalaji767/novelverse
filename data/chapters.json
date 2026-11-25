@@ -2359,6 +2359,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch204",
+      "number": "204",
+      "order": 204,
+      "title": "The Request Behind the Revision",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-204.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
