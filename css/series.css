@@ -39,3 +39,13 @@
 
 /* PNG download icon used by the novel and per-chapter download controls */
 .download-action,.chapter-download{display:inline-flex;align-items:center;justify-content:center;gap:8px}.download-icon{display:block;width:16px;height:16px;object-fit:contain;flex:0 0 auto}.series-actions .download-icon{width:18px;height:18px}.chapter-download{min-height:38px}
+
+
+/* Short previews for synopsis, character and world descriptions */
+.series-synopsis{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:4}
+.series-synopsis.is-expanded{display:block;overflow:visible;-webkit-line-clamp:unset}
+.lore-description,.world-summary,.world-entry-description{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.lore-description.is-expanded,.world-summary.is-expanded,.world-entry-description.is-expanded{display:block;overflow:visible;-webkit-line-clamp:unset}
+.read-more-toggle{display:inline-flex;align-items:center;width:max-content;margin:5px 0 12px;padding:2px 0;border:0;background:transparent;color:var(--gold-light);font:600 10px var(--sans);cursor:pointer}
+.read-more-toggle:hover{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.read-more-toggle:focus-visible{outline:1px solid var(--gold-light);outline-offset:4px}
