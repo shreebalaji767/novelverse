@@ -1479,9 +1479,17 @@
               "title": "The Delivery That Proved Nothing",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-166.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch167",
+              "number": "167",
+              "order": 167,
+              "title": "The Person Assigned to Explain",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-167.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 165
+          "chapterCount": 166
         },
         {
           "id": "volume-02",
