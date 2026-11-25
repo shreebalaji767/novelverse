@@ -159,6 +159,114 @@
         "Family reunions and trust must develop gradually.",
         "Family affection, friendships, personal ambitions and consequences are central; romance is excluded."
       ]
+    },
+    {
+      "id": "kingdom-of-elarion",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "The Kingdom of Elarion",
+      "type": "Fantasy monarchy",
+      "summary": "Elarion is an old and prosperous monarchy with a layered aristocratic hierarchy, extensive trade networks, established magical institutions and a long history of political conflict. Its wealth is unevenly distributed, its bureaucracy is inefficient, and powerful families profit from preserving outdated arrangements. Society ranges from the royal household and great dukes to lesser nobles, merchants, guild workers, farmers, craftsmen and ordinary citizens. Daily life includes markets, schools, festivals, household management, transportation, food production, education and village administration. Magic is a structured discipline built on mana, magic circuits and catalysts. Ability varies between individuals; complex spells require training and preparation, large workings need several practitioners or specialised structures, excessive mana use causes exhaustion and circuit damage, and magical infrastructure requires regular maintenance. Healing magic cannot replace medicine, surgery or ordinary healthcare.",
+      "powerHierarchy": [
+        {
+          "level": 1,
+          "title": "Royal Crown",
+          "description": "The monarch and royal household hold the highest formal authority, though royal decisions are constrained by law, custom, the council and powerful regional interests."
+        },
+        {
+          "level": 2,
+          "title": "Great Nobility",
+          "description": "Dukes and other major nobles control extensive lands, regional administrations, resources and private forces. House Veyr is among the kingdom’s most influential ducal families."
+        },
+        {
+          "level": 3,
+          "title": "Lesser Nobility",
+          "description": "Counts, viscounts, barons and landed houses administer smaller territories, collect lawful dues and maintain local obligations."
+        },
+        {
+          "level": 4,
+          "title": "Merchant and Guild Powers",
+          "description": "Merchant families, trade guilds and manufacturing interests influence prices, supply networks, commercial regulation and employment."
+        },
+        {
+          "level": 5,
+          "title": "Religious and Professional Institutions",
+          "description": "The Holy Church, Royal Academy, healers, scholars, engineers and other specialists provide services and expertise while maintaining their own institutional interests."
+        },
+        {
+          "level": 6,
+          "title": "The General Population",
+          "description": "Farmers, workers, craftsmen, traders and village communities form the foundation of the kingdom’s economy and experience the practical consequences of policy."
+        }
+      ],
+      "locations": [
+        {
+          "id": "aurelion-capital",
+          "name": "Aurelion — Royal Capital",
+          "description": "Seat of the monarchy, royal council, aristocratic residences and central administration. Political rivalries, public expenditure and competing court factions shape the capital’s daily life."
+        },
+        {
+          "id": "veyr-northern-duchy",
+          "name": "Veyr — Northern Duchy",
+          "description": "The home territory of House Veyr, rich in agricultural land, minerals and natural resources. Its recurring challenges include winter shortages, roads and bridges, storage capacity and inherited financial mismanagement."
+        },
+        {
+          "id": "merrow-eastern-territories",
+          "name": "Merrow — Eastern Territories",
+          "description": "A major commercial and manufacturing region whose prosperity depends on trade routes, workshops and merchant agreements. Monopolies, labour conditions and outdated commercial rules are persistent concerns."
+        },
+        {
+          "id": "solmere-southern-provinces",
+          "name": "Solmere — Southern Provinces",
+          "description": "A region known for agriculture, medicine and religious institutions. Unequal taxation, medical supplies and rural poverty affect communities beyond its prosperous towns."
+        },
+        {
+          "id": "ashenford-western-marches",
+          "name": "Ashenford — Western Marches",
+          "description": "Strategic border territories containing military installations, transport routes and magical research facilities. Security, logistics and unstable magical infrastructure require sustained attention."
+        },
+        {
+          "id": "royal-academy",
+          "name": "The Royal Academy",
+          "description": "A prestigious institution for magical education and research. Its laboratories, funding arrangements, staff hierarchy and maintenance systems are as important to its success as the talent of its scholars."
+        }
+      ],
+      "organizations": [
+        {
+          "id": "royal-crown",
+          "name": "Royal Crown",
+          "description": "The monarchy and royal household, exercising national executive authority within the kingdom’s political and legal constraints."
+        },
+        {
+          "id": "royal-council",
+          "name": "Royal Council",
+          "description": "The central body responsible for coordinating government administration, policy and the work of royal ministries."
+        },
+        {
+          "id": "aristocratic-houses",
+          "name": "Aristocratic Houses",
+          "description": "Noble families that hold land, administer regions, maintain household institutions and participate in royal and local governance."
+        },
+        {
+          "id": "merchant-guilds",
+          "name": "Merchant Guilds",
+          "description": "Commercial organisations that regulate trade, negotiate privileges, coordinate crafts and transport, and sometimes protect entrenched monopolies."
+        },
+        {
+          "id": "holy-church",
+          "name": "Holy Church",
+          "description": "Religious administration and charitable institutions, including the saintess’s public service and community work."
+        },
+        {
+          "id": "royal-academy-org",
+          "name": "Royal Academy",
+          "description": "The kingdom’s principal institution for magical education, scholarship, research and the training of specialists."
+        },
+        {
+          "id": "royal-military",
+          "name": "Royal Military",
+          "description": "The kingdom’s defence forces, responsible for national security, border installations, transport and military supply."
+        }
+      ]
     }
   ]
 }
