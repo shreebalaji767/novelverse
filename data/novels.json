@@ -1439,6 +1439,14 @@
               "title": "The Appointment That Had No Date",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-161.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch162",
+              "number": "162",
+              "order": 162,
+              "title": "The Question That Was Never Answered",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-162.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 143
