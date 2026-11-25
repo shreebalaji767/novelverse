@@ -1620,6 +1620,18 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch137",
+      "number": "137",
+      "order": 137,
+      "title": "The Request That Kept His Answer Alive",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-137.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1",
+      "subtitle": "Volume 1 — The Fake Heiress"
     }
   ],
   "updatedAt": "2026-11-25"
