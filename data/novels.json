@@ -1767,6 +1767,14 @@
               "title": "The Candidate Who Never Received a Decision",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-201.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch202",
+              "number": "202",
+              "order": 202,
+              "title": "The Person Who Refused the Envelope",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-202.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 201
@@ -1846,7 +1854,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 201
+      "chapterCount": 202
     }
   ],
   "updatedAt": "2026-11-25"
