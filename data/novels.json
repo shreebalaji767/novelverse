@@ -1583,6 +1583,14 @@
               "title": "The Request That Came After the Refusal",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-179.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch180",
+              "number": "180",
+              "order": 180,
+              "title": "The File That Was Not Supposed to Follow",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-180.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1662,7 +1670,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 178
+      "chapterCount": 179
     }
   ],
   "updatedAt": "2026-11-25"
