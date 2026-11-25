@@ -878,3 +878,56 @@ body:not(.reader-page){
   .reader-shell .reader-toolbar{padding:10px 0!important}
   .reader-shell .chapter-body{padding:0!important}
 }
+
+
+/* Final reader-page override: no glass panels or cards in the reading experience */
+.reader-page .reader-shell,
+.reader-page .reader-shell :where(
+  .reader-topline,
+  .reader-empty,
+  .reader-book-heading,
+  .reader-toolbar,
+  .reader-progress,
+  .chapter-body,
+  .reader-bottom
+){
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+.reader-page .reader-shell :where(
+  .reader-topline,.reader-empty,.reader-book-heading,.reader-toolbar,
+  .chapter-body,.reader-bottom
+){
+  padding-left:0!important;padding-right:0!important;
+}
+.reader-page .reader-shell .reader-empty{
+  padding-top:48px!important;padding-bottom:48px!important;
+}
+.reader-page .reader-shell .reader-toolbar{
+  border-top:1px solid var(--line)!important;
+  border-bottom:1px solid var(--line)!important;
+}
+.reader-page .reader-shell .reader-progress{
+  height:2px!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;
+}
+.reader-page .reader-shell .reader-bottom{
+  border-top:1px solid var(--line)!important;
+}
+.reader-page .reader-shell .reader-tool-group button,
+.reader-page .reader-shell .reader-tool-group select{
+  background:transparent!important;
+  border:1px solid var(--line)!important;
+  border-radius:4px!important;
+  box-shadow:none!important;
+}
+.reader-page .reader-shell .chapter-body{
+  width:100%!important;
+  max-width:min(var(--reader-width),100%)!important;
+  margin:0 auto!important;
+  padding-top:0!important;padding-bottom:0!important;
+}
