@@ -2601,6 +2601,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch226",
+      "number": "226",
+      "order": 226,
+      "title": "The Right to Hear the Truth",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-226.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
