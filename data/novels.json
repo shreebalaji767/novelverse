@@ -1947,6 +1947,14 @@
               "title": "The Answer That Was Removed Without Being Changed",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-223.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch224",
+              "number": "224",
+              "order": 224,
+              "title": "The Request That Could Not Name Its Subject",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-224.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 221
@@ -2026,7 +2034,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 223
+      "chapterCount": 224
     }
   ],
   "updatedAt": "2026-11-25"
