@@ -1751,9 +1751,17 @@
               "title": "The Participant Who Had Left the Route",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-199.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch200",
+              "number": "200",
+              "order": 200,
+              "title": "The Request That Required Two Authorities",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-200.md",
+              "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 199
+          "chapterCount": 200
         },
         {
           "id": "volume-02",
@@ -1830,7 +1838,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 199
+      "chapterCount": 200
     }
   ],
   "updatedAt": "2026-11-25"
