@@ -1554,6 +1554,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch131",
+      "number": "131",
+      "order": 131,
+      "title": "The Person Chosen to Speak for Someone Who Had Not Answered",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-131.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
