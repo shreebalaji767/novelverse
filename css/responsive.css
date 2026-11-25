@@ -494,3 +494,84 @@ button,.button,.button-quiet,.header-cta,.install-button{font-size:var(--font-sm
 .read-more-toggle:hover{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
 .read-more-toggle:focus-visible{outline:1px solid var(--gold-light);outline-offset:4px}
 .read-more-toggle[hidden]{display:none}
+
+/* Site-wide card content containment: prevent text and controls escaping card edges */
+:where(
+  .novel-card,
+  .about-panel,
+  .shelf-dashboard,
+  .empty-state,
+  .series-facts,
+  .world-panel,
+  .profile-section,
+  .volume-card,
+  .publish-panel,
+  .reader-toolbar,
+  .lore-card,
+  .calendar-item,
+  .series-unavailable,
+  .series-synopsis-panel,
+  .chapter-list,
+  .character-card,
+  .world-card,
+  .ency-card
+){
+  min-width:0;
+  max-width:100%;
+}
+:where(
+  .novel-card,
+  .about-panel,
+  .shelf-dashboard,
+  .empty-state,
+  .series-facts,
+  .world-panel,
+  .profile-section,
+  .volume-card,
+  .publish-panel,
+  .reader-toolbar,
+  .lore-card,
+  .calendar-item,
+  .series-unavailable,
+  .series-synopsis-panel,
+  .chapter-list,
+  .character-card,
+  .world-card,
+  .ency-card
+) *{
+  min-width:0;
+  max-width:100%;
+  overflow-wrap:anywhere;
+}
+:where(
+  .novel-card,
+  .about-panel,
+  .shelf-dashboard,
+  .empty-state,
+  .series-facts,
+  .world-panel,
+  .profile-section,
+  .volume-card,
+  .publish-panel,
+  .reader-toolbar,
+  .lore-card,
+  .calendar-item,
+  .series-unavailable,
+  .series-synopsis-panel,
+  .chapter-list,
+  .character-card,
+  .world-card,
+  .ency-card
+) :where(p,h1,h2,h3,h4,h5,h6,a,span,strong,small,li,label,dd,dt,code){
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+:where(.novel-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.ency-grid) > *,
+:where(.novel-card,.about-panel,.publish-panel,.profile-section,.world-panel,.volume-card,.calendar-item) :where(.row,.actions,.card-actions,.meta,.details,.content){
+  min-width:0;
+}
+:where(.novel-card,.about-panel,.shelf-dashboard,.empty-state,.series-facts,.world-panel,.profile-section,.volume-card,.publish-panel,.reader-toolbar) img,
+:where(.novel-card,.about-panel,.shelf-dashboard,.empty-state,.series-facts,.world-panel,.profile-section,.volume-card,.publish-panel,.reader-toolbar) video,
+:where(.novel-card,.about-panel,.shelf-dashboard,.empty-state,.series-facts,.world-panel,.profile-section,.volume-card,.publish-panel,.reader-toolbar) iframe{
+  max-width:100%;
+}
