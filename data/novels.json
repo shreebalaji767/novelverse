@@ -899,6 +899,15 @@
               "subtitle": "Volume 1 — The Fake Heiress",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-96.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch97",
+              "number": "97",
+              "order": 97,
+              "title": "The Family Already Informed",
+              "subtitle": "Volume 1 — The Fake Heiress",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-97.md",
+              "publishedAt": "2026-11-25"
             }
           ]
         },
@@ -967,8 +976,8 @@
           "Maintain consistent chronology, character motivations and continuity."
         ]
       },
-      "updatedAt": "2026-11-24"
+      "updatedAt": "2026-11-25"
     }
   ],
-  "updatedAt": "2026-11-24"
+  "updatedAt": "2026-11-25"
 }
