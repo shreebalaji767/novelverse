@@ -1417,6 +1417,14 @@
               "publishedAt": "2026-11-25"
             },
             {
+              "id": "fake-heiress-v1-ch158",
+              "number": "158",
+              "order": 158,
+              "title": "The Fourth Person on the Access Register",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-158.md",
+              "publishedAt": "2026-11-25"
+            },
+            {
               "id": "fake-heiress-v1-ch159",
               "number": "159",
               "order": 159,
@@ -1553,61 +1561,70 @@
               "publishedAt": "2026-11-25"
             }
           ],
-          "chapterCount": 174
+          "chapterCount": 175
         },
         {
           "id": "volume-02",
           "title": "Volume 2",
           "order": 2,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-03",
           "title": "Volume 3",
           "order": 3,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-04",
           "title": "Volume 4",
           "order": 4,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-05",
           "title": "Volume 5",
           "order": 5,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-06",
           "title": "Volume 6",
           "order": 6,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-07",
           "title": "Volume 7",
           "order": 7,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-08",
           "title": "Volume 8",
           "order": 8,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-09",
           "title": "Volume 9",
           "order": 9,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         },
         {
           "id": "volume-10",
           "title": "Volume 10",
           "order": 10,
-          "chapters": []
+          "chapters": [],
+          "chapterCount": 0
         }
       ],
       "narrativeNotes": {
@@ -1620,7 +1637,8 @@
           "Maintain consistent chronology, character motivations and continuity."
         ]
       },
-      "updatedAt": "2026-11-25"
+      "updatedAt": "2026-11-25",
+      "chapterCount": 175
     }
   ],
   "updatedAt": "2026-11-25"
