@@ -2103,7 +2103,19 @@
         "Character Development"
       ],
       "status": "ongoing",
-      "profileOnly": true
+      "profileOnly": true,
+      "chapters": [
+        {
+          "id": "villainess-lazy-ch01",
+          "number": "01",
+          "order": 1,
+          "title": "An Extremely Inconvenient Awakening",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-01.md",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "chapterCount": 1,
+      "updatedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
