@@ -572,6 +572,104 @@
         }
       ],
       "appearances": []
+    },
+    {
+      "id": "seraphina-veyr",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Lady Seraphina Veyr",
+      "role": "Protagonist · House Veyr",
+      "summary": "Seventeen-year-old daughter of the Duke and Duchess of Veyr. After awakening with memories of a previous life, she recognises herself as the infamous villainess of a fantasy novel and knows that the original story ends with her execution. Practical, observant, blunt and notoriously lazy, she wants a peaceful life but cannot ignore obvious inefficiency. Skilled in accounting, administration, negotiation and pattern recognition; prone to procrastination, impatience and underestimating her growing influence."
+    },
+    {
+      "id": "alaric-veyr",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Duke Alaric Veyr",
+      "role": "Duke of Veyr · Seraphina’s father",
+      "summary": "A formidable, disciplined nobleman responsible for one of Elarion’s most influential duchies. Protective of his daughter and accustomed to governing through established procedures, he is increasingly baffled by her sudden interest in accounts, contracts and local administration."
+    },
+    {
+      "id": "evelyne-veyr",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Duchess Evelyne Veyr",
+      "role": "Duchess of Veyr · Seraphina’s mother",
+      "summary": "An intelligent, socially sophisticated noblewoman experienced in aristocratic politics, family diplomacy and estate management. She understands the dangers of reputation and political appearances better than her daughter, and often recognises the consequences Seraphina has not considered."
+    },
+    {
+      "id": "theodore-aurelian",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Crown Prince Theodore Aurelian",
+      "role": "First heir to the throne",
+      "summary": "A serious, cautious and politically ambitious heir. He initially suspects Seraphina’s reforms are calculated attempts to undermine the monarchy. As he examines the results rather than the rumours, he becomes a professional ally and political counterpart."
+    },
+    {
+      "id": "liora-everwyn",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Liora Everwyn",
+      "role": "Saintess",
+      "summary": "An eighteen-year-old saintess who works tirelessly among communities throughout the kingdom. Compassionate, intelligent and independent, she understands that goodwill alone cannot repair broken institutions and becomes an important partner in practical reform."
+    },
+    {
+      "id": "lucien-arkwright",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Lucien Arkwright",
+      "role": "Royal Magician",
+      "summary": "A gifted magical researcher whose organisational and administrative skills are almost nonexistent. His investigation into deteriorating magical infrastructure brings him into Seraphina’s orbit, where her questions expose problems he has long struggled to explain."
+    },
+    {
+      "id": "mira-bell",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Mira Bell",
+      "role": "Seraphina’s personal maid",
+      "summary": "A loyal, sensible and observant young woman who frequently manages the everyday consequences of Seraphina’s decisions. Her practical perspective keeps the household grounded and gives the story a view beyond aristocratic assumptions."
+    },
+    {
+      "id": "cedric-veyr",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Cedric Veyr",
+      "role": "Seraphina’s older cousin",
+      "summary": "A responsible administrator involved in the ducal estate’s management. Practical and hardworking, he is initially uncomfortable with Seraphina challenging established procedures, but cannot dismiss the results of her work."
+    },
+    {
+      "id": "roland-ashford",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Roland Ashford",
+      "role": "Ducal accountant",
+      "summary": "A meticulous and cautious accountant who knows the estate’s ledgers better than anyone. He values accurate records, dislikes unexplained changes and becomes an essential examiner of the duchy’s financial irregularities."
+    },
+    {
+      "id": "general-cassian",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "General Cassian",
+      "role": "Military commander",
+      "summary": "A disciplined, direct commander responsible for military readiness and border logistics. He approaches reforms through measurable outcomes and is wary of plans that ignore supply lines, manpower or the realities faced by soldiers."
+    },
+    {
+      "id": "minister-garrick",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Minister Garrick",
+      "role": "Royal finance minister",
+      "summary": "A defensive and politically experienced minister who has spent years navigating the royal treasury’s competing interests. He sees Seraphina’s questions as a threat to established arrangements and knows how much a proper audit could uncover."
+    },
+    {
+      "id": "amelia-rosenthal",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Baroness Amelia Rosenthal",
+      "role": "Senior aristocrat",
+      "summary": "A sharp, influential noblewoman with a deep understanding of court alliances and social reputation. She is difficult to impress and rarely accepts a public explanation without considering who benefits from it."
+    },
+    {
+      "id": "edmund-vale",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "Professor Edmund Vale",
+      "role": "Royal Academy scholar",
+      "summary": "An intellectual and stubborn scholar familiar with the Academy’s research culture and institutional weaknesses. He values evidence but is slow to accept criticism of traditions he helped preserve."
+    },
+    {
+      "id": "edmund-iii",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "name": "King Edmund III",
+      "role": "Monarch of Elarion",
+      "summary": "A pragmatic ruler constrained by court factions, inherited agreements and the practical limits of royal authority. He recognises that the kingdom needs reform but must decide how much disruption the crown can survive."
     }
   ]
 }
