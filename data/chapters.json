@@ -2370,6 +2370,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch205",
+      "number": "205",
+      "order": 205,
+      "title": "The Authority Behind the Continuity",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-205.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
