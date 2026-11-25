@@ -2216,6 +2216,17 @@
       "title": "The Recipient Who Never Acknowledged Receipt",
       "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-191.md",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "fake-heiress-v1-ch192",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1",
+      "number": "192",
+      "order": 192,
+      "title": "The Address That Could Not Nominate Anyone",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-192.md",
+      "publishedAt": "2026-11-25"
     }
   ],
   "updatedAt": "2026-11-25"
