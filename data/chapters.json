@@ -1688,6 +1688,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch143",
+      "number": "143",
+      "order": 143,
+      "title": "The Original That Was Never Returned",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-143.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
