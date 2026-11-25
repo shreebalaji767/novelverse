@@ -350,3 +350,46 @@ body.reader-page .reader-toolbar{
   .about-panel,.shelf-dashboard,.publish-panel,.series-facts,.world-panel,.profile-section{border-radius:15px;padding:17px}
 }
 @media(prefers-reduced-motion:reduce){.novel-card{transition:none}}
+
+
+/* Consistent typography scale: balanced text sizes, widths and rhythm */
+:root{
+  --type-xs:clamp(10px,.72vw,11px);
+  --type-sm:clamp(12px,.82vw,13px);
+  --type-body:clamp(13px,.92vw,15px);
+  --type-lead:clamp(14px,1.05vw,16px);
+  --type-h3:clamp(19px,1.65vw,23px);
+  --type-h2:clamp(29px,3.2vw,40px);
+}
+body:not(.reader-page){font-size:var(--type-body);line-height:1.7}
+p{max-width:70ch;line-height:1.72}
+h1,h2,h3,h4{max-width:22ch;text-wrap:balance}
+h1{line-height:1.08}
+h2{line-height:1.16}
+h3{line-height:1.28}
+.eyebrow,.card-kicker,.novel-status,.novel-author,.filter-label,.catalogue-count{
+  font-size:var(--type-xs);line-height:1.4;letter-spacing:.12em
+}
+.button,.button-quiet,.header-cta,.install-button{font-size:var(--type-xs);line-height:1.35}
+.hero-description,.novels-intro-text,.manifesto>p:not(.eyebrow){font-size:var(--type-lead);line-height:1.75}
+.section-heading h2,.manifesto h2{font-size:var(--type-h2);line-height:1.16}
+.novels-intro h1,.series-intro h1,.page-heading h1{line-height:1.08;max-width:17ch}
+.novels-page .novel-card h3,.lore-card h3,.world-panel h3{font-size:var(--type-h3);line-height:1.28}
+.novel-synopsis,.series-synopsis,.lore-description,.world-summary,.world-entry-description{
+  font-size:var(--type-sm);line-height:1.7;max-width:68ch;overflow-wrap:anywhere
+}
+.novel-synopsis{min-height:0}
+.novel-genres,.series-tag{font-size:var(--type-xs);line-height:1.45}
+.series-author,.series-facts span,.chapter-details small,.chapter-arrow,.section-note{font-size:var(--type-xs);line-height:1.5}
+.chapter-details strong{font-size:clamp(14px,1.1vw,16px);line-height:1.4}
+.series-subtitle{font-size:clamp(15px,1.4vw,18px);line-height:1.5}
+.read-more-toggle{font-size:var(--type-xs);line-height:1.5}
+.novel-card,.lore-card,.about-panel,.publish-panel,.profile-section,.world-panel{min-width:0}
+.novel-card *,.lore-card *,.world-panel *{overflow-wrap:break-word}
+@media(max-width:640px){
+  body:not(.reader-page){font-size:13px;line-height:1.68}
+  .novels-intro h1,.series-intro h1,.page-heading h1{font-size:clamp(35px,9vw,48px);line-height:1.1}
+  .novels-page .novel-card h3,.lore-card h3,.world-panel h3{font-size:20px}
+  .novel-synopsis,.series-synopsis,.lore-description,.world-summary,.world-entry-description{font-size:12px;line-height:1.68}
+  .hero-description,.novels-intro-text,.manifesto>p:not(.eyebrow){font-size:13px;line-height:1.72}
+}
