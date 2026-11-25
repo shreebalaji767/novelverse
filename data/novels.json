@@ -1663,6 +1663,14 @@
               "title": "The Paper That Changed Departments",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-189.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch190",
+              "number": "190",
+              "order": 190,
+              "title": "The Request That Stopped at the Seal",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-190.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 176
@@ -1742,7 +1750,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 188
+      "chapterCount": 189
     }
   ],
   "updatedAt": "2026-11-25"
