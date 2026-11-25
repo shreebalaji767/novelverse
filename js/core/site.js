@@ -16,6 +16,7 @@ if(header){
  if(!nav){nav=document.createElement('nav');header.append(nav);}
  nav.id='primary-nav';
  nav.className='primary-nav';
+ nav.removeAttribute('data-page-nav');
  nav.setAttribute('aria-label','Main navigation');
  const file=(location.pathname.split('/').pop()||'index.html').toLowerCase();
  const activeKey=file==='index.html'?'home':
@@ -33,6 +34,7 @@ if(header){
  let toggle=header.querySelector('.menu-toggle');
  if(!toggle){toggle=document.createElement('button');toggle.className='menu-toggle';toggle.type='button';toggle.textContent='Menu';header.insertBefore(toggle,nav);}
  toggle.setAttribute('aria-expanded','false');
+ toggle.classList.remove('is-open');
  toggle.setAttribute('aria-controls',nav.id);
  toggle.addEventListener('click',()=>{
   const open=nav.classList.toggle('is-open');
