@@ -1931,6 +1931,14 @@
               "title": "The Authority That Had Never Been Assigned",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-221.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch222",
+              "number": "222",
+              "order": 222,
+              "title": "The Two Originals",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-222.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 221
@@ -2010,7 +2018,7 @@
         ]
       },
       "updatedAt": "2026-11-25",
-      "chapterCount": 221
+      "chapterCount": 222
     }
   ],
   "updatedAt": "2026-11-25"
