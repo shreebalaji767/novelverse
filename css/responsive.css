@@ -196,3 +196,157 @@ body.reader-page .reader-toolbar{
 @media(prefers-reduced-motion:reduce){
   .novel-card{transition:none}
 }
+
+
+/* Final visual direction: original midnight + antique gold, with glass cards */
+:root{
+  --glass-bg:rgba(34,34,29,.68);
+  --glass-strong:rgba(40,39,32,.86);
+  --glass-border:rgba(218,184,112,.19);
+  --glass-shadow:0 18px 48px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,239,201,.045);
+}
+body:not(.reader-page){
+  background:
+    radial-gradient(ellipse at 12% 0%,rgba(119,91,43,.16),transparent 34rem),
+    radial-gradient(ellipse at 90% 20%,rgba(85,78,55,.13),transparent 30rem),
+    var(--bg);
+  color:var(--text);
+}
+.site-header{
+  background:rgba(17,18,15,.78);
+  border-bottom:1px solid rgba(218,184,112,.16);
+  box-shadow:0 10px 32px rgba(0,0,0,.24);
+  -webkit-backdrop-filter:blur(22px) saturate(135%);
+  backdrop-filter:blur(22px) saturate(135%);
+}
+.brand-name,.hero h1,.section-heading h2,.manifesto h2,.page-heading h1,.novel-card h3,.empty-state strong{
+  color:var(--text);
+}
+.primary-nav a,.footer-links a{color:var(--muted)}
+.primary-nav a:hover,.primary-nav a.active,.footer-links a:hover{color:var(--gold-light)}
+.header-cta,.install-button{
+  color:var(--gold-light);
+  background:rgba(199,164,94,.08);
+  border:1px solid rgba(199,164,94,.34);
+}
+.menu-toggle{
+  color:var(--text);
+  background:rgba(255,255,255,.045);
+  border:1px solid var(--glass-border);
+}
+.hero h1 em,.section-heading h2 em,.manifesto h2 em,.page-heading h1 em{color:var(--gold)}
+.hero-description,.hero-note,.novel-card p:not(.card-kicker),.manifesto>p:not(.eyebrow){color:var(--muted)}
+.eyebrow,.card-kicker,.calendar-date{color:var(--gold-light)}
+.hero-art{
+  background:radial-gradient(ellipse at 50% 45%,rgba(145,113,58,.24),rgba(55,51,40,.36) 48%,rgba(17,18,15,.08) 78%);
+  border:1px solid rgba(218,184,112,.13);
+}
+.art-orbit{border-color:rgba(218,184,112,.2)}
+.art-book{background:linear-gradient(110deg,#242d2d,#51452f 55%,#28251e);border-color:#a8874d}
+.art-book span{color:#f1dfb7}.art-caption{color:var(--muted)}
+.novel-card,.about-panel,.shelf-dashboard,.empty-state,.series-facts,
+.world-panel,.profile-section,.volume-card,.publish-panel,.reader-toolbar{
+  color:var(--text);
+  background:var(--glass-bg);
+  border:1px solid var(--glass-border);
+  box-shadow:var(--glass-shadow);
+  -webkit-backdrop-filter:blur(18px) saturate(135%);
+  backdrop-filter:blur(18px) saturate(135%);
+}
+.novel-card{
+  border-radius:17px;
+  background:linear-gradient(145deg,rgba(49,47,38,.78),rgba(27,28,24,.72));
+  padding:16px;
+  box-shadow:0 12px 32px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,239,201,.045);
+}
+.novel-card:hover{
+  transform:translateY(-4px);
+  background:linear-gradient(145deg,rgba(62,55,39,.88),rgba(31,31,25,.86));
+  border-color:rgba(218,184,112,.42);
+  box-shadow:0 22px 48px rgba(0,0,0,.32);
+}
+.novel-card h3 a{color:var(--text)}
+.novel-card h3 a:hover,.text-link{color:var(--gold-light)}
+.cover-placeholder{
+  background:linear-gradient(145deg,#55472d,#26251f 76%);
+  border:1px solid rgba(218,184,112,.3);
+  border-radius:11px;
+}
+.cover-placeholder span{color:var(--gold-light)}
+.about-panel,.shelf-dashboard,.publish-panel,.series-facts,.world-panel,.profile-section{
+  border-radius:17px;
+  background:rgba(35,35,29,.68);
+}
+.about-panel h2{color:var(--gold-light)}
+.empty-state{border-style:solid;border-radius:17px;color:var(--muted)}
+.empty-state strong{color:var(--text)}
+.search-field,.filter-select,input,select,textarea{
+  color:var(--text);
+  background:rgba(31,31,26,.78);
+  border:1px solid rgba(218,184,112,.2);
+  border-radius:11px;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.18);
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+}
+.search-field::placeholder,input::placeholder,textarea::placeholder{color:#898477}
+.search-field:focus,.filter-select:focus,input:focus,select:focus,textarea:focus{
+  color:var(--text);
+  background:rgba(38,37,30,.94);
+  border-color:rgba(218,184,112,.62);
+  box-shadow:0 0 0 4px rgba(199,164,94,.12);
+}
+.button,.header-cta,.install-button,.button-quiet{border-radius:11px}
+.button-primary{
+  color:#17150f;
+  background:linear-gradient(135deg,#d8bd7d,#b78e48);
+  border:1px solid rgba(239,215,163,.38);
+  box-shadow:0 8px 22px rgba(0,0,0,.22);
+}
+.button-primary:hover{color:#17150f;background:linear-gradient(135deg,#ead49b,#c7a45e)}
+.button-outline,.button-quiet{
+  color:var(--gold-light);
+  background:rgba(199,164,94,.055);
+  border:1px solid rgba(218,184,112,.3);
+}
+.button-outline:hover,.button-quiet:hover{background:rgba(199,164,94,.13);color:#f5dfad}
+.manifesto{
+  color:var(--text);
+  background:rgba(35,35,29,.58);
+  border-block:1px solid rgba(218,184,112,.13);
+  -webkit-backdrop-filter:blur(16px);
+  backdrop-filter:blur(16px);
+}
+.calendar-item{
+  color:var(--text);
+  background:rgba(35,35,29,.52);
+  border:1px solid rgba(218,184,112,.14);
+  border-radius:14px;
+}
+.calendar-item p,.calendar-item span{color:var(--muted)}
+.site-footer{
+  color:var(--muted);
+  background:rgba(14,15,13,.82);
+  border-top:1px solid rgba(218,184,112,.14);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+}
+.site-footer a{color:var(--muted)}
+:where(button,a,input,select,textarea):focus-visible{outline:2px solid var(--gold-light);outline-offset:3px}
+body.reader-page{background:var(--reader-bg,#11120f);color:var(--reader-text,#f2eee4)}
+body.reader-page .reader-toolbar{
+  background:rgba(31,30,25,.82);
+  border-color:rgba(218,184,112,.18);
+  box-shadow:0 14px 34px rgba(0,0,0,.28);
+}
+@media(max-width:1100px){
+  .primary-nav{background:rgba(20,20,17,.96);border-color:var(--glass-border)}
+  .primary-nav a{color:var(--muted)}
+}
+@media(max-width:640px){
+  .site-header{background:rgba(17,18,15,.88)}
+  .primary-nav{background:rgba(20,20,17,.97)}
+  .novel-card{border-radius:15px;padding:12px}
+  .about-panel,.shelf-dashboard,.publish-panel,.series-facts,.world-panel,.profile-section{border-radius:15px;padding:17px}
+}
+@media(prefers-reduced-motion:reduce){.novel-card{transition:none}}
