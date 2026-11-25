@@ -2062,6 +2062,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch178",
+      "number": "178",
+      "order": 178,
+      "title": "The Custodian Who Could Not Open the Box",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-178.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
