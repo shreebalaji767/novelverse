@@ -1351,6 +1351,14 @@
               "title": "The Exception That Was Never Approved",
               "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-149.md",
               "publishedAt": "2026-11-25"
+            },
+            {
+              "id": "fake-heiress-v1-ch150",
+              "number": "150",
+              "order": 150,
+              "title": "The Transfer That Was Refused",
+              "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-150.md",
+              "publishedAt": "2026-11-25"
             }
           ],
           "chapterCount": 143
