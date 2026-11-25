@@ -1499,6 +1499,17 @@
       "novelId": "fake-heiress-aurelius-dynasty",
       "volumeId": "volume-01",
       "volumeTitle": "Volume 1"
+    },
+    {
+      "id": "fake-heiress-v1-ch126",
+      "number": "126",
+      "order": 126,
+      "title": "The Operator Who Was Not at the Desk",
+      "path": "./chapters/fake-heiress-aurelius-dynasty/volume-01/chapter-126.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "fake-heiress-aurelius-dynasty",
+      "volumeId": "volume-01",
+      "volumeTitle": "Volume 1"
     }
   ],
   "updatedAt": "2026-11-25"
