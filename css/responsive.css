@@ -84,3 +84,10 @@ body:not(.reader-page){background:var(--bg);color:var(--text)}
 @media(max-width:1100px){.site-header{padding:10px 20px}.primary-nav{background:#fff}.hero{padding:58px 24px}.hero-art{height:320px}}
 @media(max-width:640px){.site-header{padding:9px 14px}.primary-nav{background:#fff}.hero{padding:44px 18px 34px}.hero-art{height:225px;border-radius:18px}.section{padding:44px 18px}.novel-card{border-radius:10px}.manifesto{padding:58px 18px}.site-footer{padding:26px 18px}}
 body.reader-page{background:var(--reader-bg,#171715);color:var(--reader-text,#f1eee6)}
+
+/* Keep secondary destinations in the compact desktop navigation menu */
+@media(min-width:1101px){
+ .primary-nav a[href="./characters.html"],
+ .primary-nav a[href="./worlds.html"],
+ .primary-nav a[href="./publish.html"]{display:none}
+}
