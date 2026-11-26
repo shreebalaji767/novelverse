@@ -2355,9 +2355,17 @@
           "title": "The Crown Prince Has a Very Long List",
           "path": "chapters/villainess-lazy-to-destroy-world/chapter-31.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch32",
+          "number": "32",
+          "order": 32,
+          "title": "The Proposal With Seventeen Responsibilities",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-32.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 31,
+      "chapterCount": 32,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
