@@ -2395,9 +2395,17 @@
           "title": "The File That Had Been Transferred",
           "path": "chapters/villainess-lazy-to-destroy-world/chapter-36.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch37",
+          "number": "37",
+          "order": 37,
+          "title": "The Clerk Who Had Kept the Wrong Copy",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-37.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 36,
+      "chapterCount": 37,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
