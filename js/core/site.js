@@ -31,6 +31,21 @@ if(header){
   if(key===activeKey){link.classList.add('active');link.setAttribute('aria-current','page');}
   return link;
  }));
+ // Keep the shared navigation easy to operate like the original selectable navigation:
+ // Left/Right moves between site sections; Home/End moves to the first/last section.
+ nav.addEventListener('keydown',event=>{
+  if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
+  const links=[...nav.querySelectorAll('a')];
+  const current=links.indexOf(document.activeElement);
+  if(current<0)return;
+  event.preventDefault();
+  let next=current;
+  if(event.key==='ArrowLeft')next=(current-1+links.length)%links.length;
+  if(event.key==='ArrowRight')next=(current+1)%links.length;
+  if(event.key==='Home')next=0;
+  if(event.key==='End')next=links.length-1;
+  links[next]?.focus();
+ });
  let toggle=header.querySelector('.menu-toggle');
  if(!toggle){toggle=document.createElement('button');toggle.className='menu-toggle';toggle.type='button';toggle.textContent='☰  Menu';header.insertBefore(toggle,nav);}
  toggle.setAttribute('aria-expanded','false');
