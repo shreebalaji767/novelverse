@@ -2218,9 +2218,17 @@
           "title": "The Man Who Kept the Old Receipts",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-14.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch15",
+          "number": "15",
+          "order": 15,
+          "title": "The Signature on the Winter Order",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-15.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 14,
+      "chapterCount": 15,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
