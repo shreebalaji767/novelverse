@@ -468,3 +468,148 @@ a{color:inherit}
  background-color:#343126;
  color:#f3dfb4;
 }
+
+
+/* Responsive consistency pass — keep the same visual system at every viewport.
+   This block intentionally comes last so it wins over earlier legacy overrides. */
+*,*::before,*::after{box-sizing:border-box}
+html{width:100%;min-width:320px;overflow-x:clip}
+body{width:100%;min-width:320px;max-width:100%;overflow-x:clip}
+main,header,footer,section,article,nav,aside{min-width:0}
+img,svg,video,canvas,iframe{max-width:100%}
+input,select,textarea,button{max-width:100%;min-width:0}
+p,h1,h2,h3,h4,h5,h6,a,button,label,small,strong,span{overflow-wrap:anywhere}
+pre,code{max-width:100%;overflow-wrap:anywhere;white-space:pre-wrap}
+table{max-width:100%;border-collapse:collapse}
+:where(.page-shell,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.section){
+ width:min(100% - 48px,var(--content,1160px));margin-inline:auto
+}
+:where(.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid,.series-facts){
+ grid-template-columns:repeat(2,minmax(0,1fr))
+}
+:where(.novel-card,.ency-card,.lore-card,.profile-section,.world-panel,.volume-card,.publish-panel,.about-panel){min-width:0;overflow-wrap:anywhere}
+.site-header{
+ width:100%;height:auto;min-height:76px;max-height:none;padding:10px clamp(16px,2.4vw,32px);
+ display:flex;flex-flow:row nowrap;align-items:center;gap:clamp(8px,1.2vw,18px);overflow:visible
+}
+.site-header>.brand{flex:0 0 148px;width:148px;min-width:0}
+.site-header>.menu-toggle{display:none!important}
+.site-header>.primary-nav{
+ position:static!important;inset:auto!important;display:flex!important;flex:1 1 auto;width:auto;height:auto;min-width:0;max-height:none;
+ margin:0;padding:0;overflow:visible;background:transparent;border:0;box-shadow:none;
+ flex-flow:row nowrap;align-items:center;justify-content:space-between;gap:clamp(5px,.7vw,11px)
+}
+.site-header>.primary-nav a{
+ display:inline-flex;width:auto;height:auto;min-height:44px;padding:0 2px;border:0;
+ align-items:center;justify-content:center;font-size:clamp(9px,.72vw,11px);line-height:1.2;white-space:nowrap
+}
+.site-header>.primary-nav a[aria-current=page]{border:0;padding-inline:2px;background:transparent;text-decoration:underline;text-underline-offset:6px}
+.site-header>.header-cta,.site-header>.install-button{
+ display:inline-flex!important;flex:0 0 auto;min-height:38px;height:auto;padding:8px 10px;font-size:10px
+}
+.site-header>.install-button[hidden]{display:none!important}
+.site-header>.install-help{right:12px;max-width:min(360px,calc(100vw - 24px))}
+.hero{width:min(100% - 48px,var(--content,1160px));grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)}
+.hero-copy,.hero-art,.chapter-body,.reader-book-heading,.reader-toolbar>*{min-width:0}
+.novel-grid{gap:clamp(12px,1.6vw,20px)}
+.novel-card{grid-template-columns:minmax(78px,100px) minmax(0,1fr)}
+.reader-shell{width:min(100% - 48px,960px)}
+.reader-toolbar{flex-wrap:wrap}
+.reader-toolbar .button{margin-left:auto}
+.chapter-body{overflow-wrap:anywhere}
+.series-actions,.publish-toolbar,.shelf-actions,.library-tools,.reader-bottom{flex-wrap:wrap}
+.chapter-list a{min-width:0}
+.site-footer{min-width:0}
+.footer-links{flex-wrap:wrap;min-width:0}
+
+@media(max-width:1100px){
+ .site-header{min-height:68px;padding:8px 22px;gap:12px}
+ .site-header>.brand{flex:0 0 auto;width:auto;min-width:0}
+ .site-header>.menu-toggle{
+  display:inline-flex!important;flex:0 0 auto;width:auto;min-width:84px;height:40px;min-height:40px;
+  margin-left:auto;padding:0 14px
+ }
+ .site-header>.primary-nav,.site-header>.primary-nav.is-open{
+  box-sizing:border-box;position:absolute!important;top:calc(100% + 1px)!important;left:auto!important;right:16px!important;
+  display:none!important;width:min(320px,calc(100vw - 32px));height:auto;max-height:calc(100dvh - 84px);
+  margin:0;padding:8px;overflow-y:auto;overscroll-behavior:contain;
+  flex-flow:column nowrap;align-items:stretch;justify-content:flex-start;gap:2px;
+  background:#171813;border:1px solid var(--line);border-top:2px solid var(--gold);
+  box-shadow:0 18px 38px rgba(0,0,0,.42);z-index:100
+ }
+ .site-header>.primary-nav.is-open{display:flex!important}
+ .site-header>.primary-nav a{
+  display:flex;width:100%;height:auto;min-height:44px;padding:10px 12px;
+  justify-content:flex-start;white-space:normal;font-size:12px;border-bottom:1px solid rgba(218,204,174,.08)
+ }
+ .site-header>.primary-nav a[aria-current=page]{padding-left:10px;border-left:2px solid var(--gold);background:rgba(185,154,96,.1);text-decoration:none}
+ .site-header>.header-cta,.site-header>.install-button{display:none!important}
+ .hero{min-height:0;padding-block:52px;gap:28px}
+ .page-shell{padding-block:46px 60px}
+}
+@media(max-width:760px){
+ :where(.page-shell,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.section){
+  width:calc(100% - 36px)
+ }
+ .hero{display:block;padding:42px 0 34px}
+ .hero h1{font-size:clamp(40px,9vw,58px)}
+ .hero-art{height:240px;margin-top:18px}
+ .art-orbit.orbit-one{width:min(420px,90vw)}
+ .art-orbit.orbit-two{width:min(320px,75vw);height:min(320px,75vw)}
+ .section,.page-shell{padding-block:40px 52px}
+ .section-heading{align-items:flex-start;flex-direction:column;gap:8px}
+ :where(.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid,.series-facts){
+  grid-template-columns:minmax(0,1fr)
+ }
+ .novel-card{grid-template-columns:88px minmax(0,1fr);gap:12px}
+ .novel-card h3{font-size:18px}
+ .novels-toolbar{align-items:stretch;flex-direction:column}
+ .novels-search-wrap,.novels-filter-wrap{width:100%;min-width:0}
+ .novels-search-wrap .search-field,.novels-filter-wrap .filter-select{width:100%}
+ .series-actions{align-items:stretch}
+ .series-actions>*{max-width:100%}
+ .series-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .series-section-heading{align-items:flex-start;flex-direction:column;gap:8px}
+ .chapter-list a{grid-template-columns:28px minmax(0,1fr);gap:8px}
+ .chapter-list a>*:last-child{grid-column:2}
+ .reader-shell{width:calc(100% - 32px);padding-block:16px 48px}
+ .reader-book-heading{padding-block:30px 16px}
+ .reader-toolbar{align-items:stretch;gap:8px}
+ .reader-toolbar .button{margin-left:0}
+ .reader-tool-group{min-height:40px;flex-wrap:wrap}
+ .reader-tool-group input[type=range]{width:min(100%,180px)}
+ .chapter-body{font-size:clamp(16px,4.5vw,var(--reader-size,19px));line-height:1.85}
+ .reader-bottom{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+ .reader-bottom span{grid-column:1/-1;grid-row:1;text-align:center}
+ .reader-bottom .button{min-width:0;width:100%;padding-inline:8px}
+ .publish-panel{padding:16px}
+ .publish-toolbar>*{flex:1 1 auto}
+ .calendar-item{align-items:flex-start;gap:12px}
+ .calendar-date{min-width:72px}
+ .site-footer{padding:22px 18px 18px;gap:12px}
+ .site-footer .brand{flex:0 0 auto}
+ .footer-links{width:100%;margin:0;gap:12px 16px}
+}
+@media(max-width:420px){
+ .site-header{padding-inline:12px}
+ .site-header>.menu-toggle{min-width:76px;padding-inline:10px}
+ .site-header>.primary-nav,.site-header>.primary-nav.is-open{right:10px!important;width:calc(100vw - 20px)}
+ .brand-name{font-size:10px;letter-spacing:.12em}
+ .brand-logo{width:34px;height:34px;flex-basis:34px}
+ .hero h1{font-size:clamp(37px,10vw,46px)}
+ .novel-card{grid-template-columns:74px minmax(0,1fr);padding:10px;gap:10px}
+ .cover-placeholder{min-height:112px}
+ .reader-topline{align-items:flex-start;flex-direction:column;gap:6px}
+ .reader-toolbar .reader-tool-group{width:100%}
+ .reader-bottom{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .shelf-actions .button,.publish-toolbar .button{width:100%}
+}
+@media(orientation:landscape) and (max-height:520px) and (max-width:1100px){
+ .site-header>.primary-nav,.site-header>.primary-nav.is-open{max-height:calc(100dvh - 76px)}
+ .reader-empty{margin:36px auto}
+ .reader-book-heading{padding-top:22px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{transition:none!important;animation:none!important}
+}
