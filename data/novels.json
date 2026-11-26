@@ -2167,9 +2167,17 @@
           "title": "The Village That Nobody Visits",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-08.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch09",
+          "number": "09",
+          "order": 9,
+          "title": "I Only Wanted Better Storage",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-09.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 8,
+      "chapterCount": 9,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
