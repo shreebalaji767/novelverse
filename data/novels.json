@@ -2127,9 +2127,17 @@
           "title": "The Villainess Has a Schedule",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-03.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch04",
+          "number": "04",
+          "order": 4,
+          "title": "Why Is the Household Spending So Much?",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-04.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 3,
+      "chapterCount": 4,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
