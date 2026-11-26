@@ -2135,9 +2135,17 @@
           "title": "Why Is the Household Spending So Much?",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-04.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch05",
+          "number": "05",
+          "order": 5,
+          "title": "The Accountant Is Having a Terrible Day",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-05.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 4,
+      "chapterCount": 5,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
