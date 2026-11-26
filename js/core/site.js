@@ -62,7 +62,7 @@ if(header){
   if(nav.classList.contains('is-open')&&!header.contains(event.target))closeMenu();
  });
  window.addEventListener('resize',()=>{
-  if(window.matchMedia('(min-width: 1201px)').matches)closeMenu();
+  if(window.matchMedia('(min-width: 1281px)').matches)closeMenu();
  });
  let cta=header.querySelector('.header-cta');
  if(!cta){cta=document.createElement('a');cta.className='header-cta';header.append(cta);}
