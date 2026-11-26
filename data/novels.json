@@ -2175,9 +2175,17 @@
           "title": "I Only Wanted Better Storage",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-09.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch10",
+          "number": "10",
+          "order": 10,
+          "title": "The Duke's Daughter Has Changed",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-10.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 9,
+      "chapterCount": 10,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
@@ -2190,5 +2198,5 @@
       "plannedChapterCount": 100
     }
   ],
-  "updatedAt": "2026-11-25"
+  "updatedAt": "2026-11-26"
 }
