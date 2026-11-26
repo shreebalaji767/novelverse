@@ -481,13 +481,13 @@ input,select,textarea,button{max-width:100%;min-width:0}
 p,h1,h2,h3,h4,h5,h6,a,button,label,small,strong,span{overflow-wrap:anywhere}
 pre,code{max-width:100%;overflow-wrap:anywhere;white-space:pre-wrap}
 table{max-width:100%;border-collapse:collapse}
-:where(.page-shell,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.section){
+(.page-shell,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.section){
  width:min(100% - 48px,var(--content,1160px));margin-inline:auto
 }
-:where(.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid,.series-facts){
+(.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid,.series-facts){
  grid-template-columns:repeat(2,minmax(0,1fr))
 }
-:where(.novel-card,.ency-card,.lore-card,.profile-section,.world-panel,.volume-card,.publish-panel,.about-panel){min-width:0;overflow-wrap:anywhere}
+(.novel-card,.ency-card,.lore-card,.profile-section,.world-panel,.volume-card,.publish-panel,.about-panel){min-width:0;overflow-wrap:anywhere}
 .site-header{
  width:100%;height:auto;min-height:76px;max-height:none;padding:10px clamp(16px,2.4vw,32px);
  display:flex;flex-flow:row nowrap;align-items:center;gap:clamp(8px,1.2vw,18px);overflow:visible
@@ -548,7 +548,7 @@ table{max-width:100%;border-collapse:collapse}
  .page-shell{padding-block:46px 60px}
 }
 @media(max-width:760px){
- :where(.page-shell,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.section){
+ (.page-shell,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.section){
   width:calc(100% - 36px)
  }
  .hero{display:block;padding:42px 0 34px}
@@ -558,7 +558,7 @@ table{max-width:100%;border-collapse:collapse}
  .art-orbit.orbit-two{width:min(320px,75vw);height:min(320px,75vw)}
  .section,.page-shell{padding-block:40px 52px}
  .section-heading{align-items:flex-start;flex-direction:column;gap:8px}
- :where(.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid,.series-facts){
+ (.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid,.series-facts){
   grid-template-columns:minmax(0,1fr)
  }
  .novel-card{grid-template-columns:88px minmax(0,1fr);gap:12px}
