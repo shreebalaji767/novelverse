@@ -2658,6 +2658,15 @@
       "volumeTitle": "Volume 1"
     },
     {
+      "id": "villainess-lazy-ch01",
+      "number": "01",
+      "order": 1,
+      "title": "An Extremely Inconvenient Awakening",
+      "path": "./chapters/villainess-lazy-to-destroy-world/chapter-01.md",
+      "publishedAt": "2026-11-25",
+      "novelId": "villainess-lazy-to-destroy-world"
+    },
+    {
       "id": "villainess-lazy-ch02",
       "number": "02",
       "order": 2,
