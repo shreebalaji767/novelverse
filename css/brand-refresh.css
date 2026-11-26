@@ -359,7 +359,7 @@ a{color:inherit}
 .site-header>.menu-toggle{display:none}
 .site-header .install-help{top:calc(100% + 8px)}
 .reader-header{position:relative;top:auto;background:var(--bg);backdrop-filter:none;-webkit-backdrop-filter:none}
-@media(max-width:1200px){
+@media(max-width:1280px){
  .site-header{
   height:68px;min-height:68px;max-height:68px;padding:0 22px;
   flex-flow:row nowrap;gap:14px
@@ -390,4 +390,31 @@ a{color:inherit}
  .site-header>.brand{min-width:0}
  .site-header>.menu-toggle{flex-basis:84px;width:84px}
  .site-header>.primary-nav{padding-left:16px;padding-right:16px}
+}
+
+
+/* Navigation polish: consistent open/closed states and keyboard visibility */
+.site-header>.menu-toggle{
+ box-sizing:border-box;align-items:center;justify-content:center;
+ border:1px solid var(--line);border-radius:3px;
+ background:transparent;color:var(--text);
+ font:600 10px/1 var(--sans);letter-spacing:.08em;
+ cursor:pointer;transition:background .18s ease,border-color .18s ease,color .18s ease
+}
+.site-header>.menu-toggle:hover,
+.site-header>.menu-toggle[aria-expanded="true"]{
+ border-color:var(--gold);background:rgba(197,166,109,.1);color:var(--gold-light)
+}
+.site-header>.primary-nav a[aria-current="page"]{
+ color:var(--gold-light);text-decoration:underline;
+ text-decoration-color:var(--gold);text-underline-offset:7px;
+}
+@media(max-width:1280px){
+ .site-header>.primary-nav a[aria-current="page"]{
+  text-decoration:none;background:rgba(197,166,109,.08);
+  border-left:2px solid var(--gold);padding-left:10px
+ }
+}
+@media(prefers-reduced-motion:reduce){
+ .site-header>.menu-toggle{transition:none}
 }
