@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11120f">
+  <meta name="description" content="A quiet corner of NovelVerse for daily notes, memories and reflections.">
+  <title>Journal — NovelVerse</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/pages.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/brand-refresh.css">
+  <link rel="stylesheet" href="./css/journal.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="NovelVerse home">
+      <img class="brand-logo" src="./assets/logo/novelverse-mark.svg" alt="" width="38" height="38">
+      <span class="brand-name">NOVEL<span>VERSE</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"></nav>
+  </header>
+
+  <main id="main" class="journal-page page-shell">
+    <section class="journal-intro">
+      <p class="eyebrow">A PERSONAL COLLECTION</p>
+      <h1>Small moments,<br><em>kept close.</em></h1>
+      <p>A gentle timeline of memories, routines and little discoveries.</p>
+    </section>
+
+    <section class="journal-shell" aria-label="Journal entries">
+      <div class="journal-topline">
+        <div>
+          <p class="eyebrow">THE JOURNAL</p>
+          <h2 id="journal-month">May memories</h2>
+        </div>
+        <p class="journal-count" id="journal-count" aria-live="polite">Entry 3 of 5</p>
+      </div>
+
+      <div class="journal-layout">
+        <aside class="journal-rail" aria-label="Choose a journal entry">
+          <p class="journal-rail-label">YOUR DAYS</p>
+          <ol id="journal-timeline" class="journal-timeline">
+            <li><button type="button" disabled>Loading entries…</button></li>
+          </ol>
+        </aside>
+
+        <div class="journal-main">
+          <article id="journal-entry" class="journal-entry" aria-live="polite" aria-atomic="true">
+            <p class="journal-entry-date">15 <span>MAY</span></p>
+            <h3>Wednesday reflections</h3>
+            <div class="journal-entry-content">
+              <p>Organized my thoughts in my journal 🖊️.</p>
+              <p>The clarity it brought made me feel peaceful 🕊️.</p>
+            </div>
+          </article>
+          <div class="journal-controls">
+            <button id="journal-prev" class="journal-arrow" type="button" aria-label="Previous entry">← <span>Previous</span></button>
+            <div class="journal-progress" aria-label="Reading progress"><span id="journal-progress-bar"></span></div>
+            <button id="journal-next" class="journal-arrow journal-next" type="button" aria-label="Next entry"><span>Next</span> →</button>
+          </div>
+          <p id="journal-status" class="journal-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+    <p class="journal-note">A quiet space for the moments that make a day yours.</p>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="./"><img class="brand-logo" src="./assets/logo/novelverse-mark.svg" alt="" width="38" height="38"><span class="brand-name">NOVEL<span>VERSE</span></span></a>
+    <div class="footer-links"><a href="./novels.html">Novels</a><a href="./my-library.html">My Library</a><a href="./about.html">About</a></div>
+    <small>© <span id="year"></span> NovelVerse.</small>
+  </footer>
+  <script src="./js/core/site.js" defer></script>
+  <script src="./js/pages/journal.js" defer></script>
+</body>
+</html>
