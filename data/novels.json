@@ -2347,9 +2347,17 @@
           "title": "The Station That Was Not on the Map",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-30.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch31",
+          "number": "31",
+          "order": 31,
+          "title": "The Crown Prince Has a Very Long List",
+          "path": "chapters/villainess-lazy-to-destroy-world/chapter-31.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 30,
+      "chapterCount": 31,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
