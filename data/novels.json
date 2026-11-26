@@ -2192,9 +2192,18 @@
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-11.md",
           "publishedAt": "2026-11-26",
           "novelId": "villainess-lazy-to-destroy-world"
+        },
+        {
+          "id": "villainess-lazy-ch12",
+          "number": "12",
+          "order": 12,
+          "title": "The Price of a Bag of Grain",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-12.md",
+          "publishedAt": "2026-11-26",
+          "novelId": "villainess-lazy-to-destroy-world"
         }
       ],
-      "chapterCount": 11,
+      "chapterCount": 12,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
