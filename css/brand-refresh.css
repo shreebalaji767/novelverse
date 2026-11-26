@@ -452,3 +452,19 @@ a{color:inherit}
  }
  .site-header>.install-button{display:none}
 }
+
+/* Native catalogue status dropdown — keep the opened option list dark too */
+.novels-page .novels-filter-wrap .filter-select{
+ color-scheme:dark;
+ background-color:#151612;
+ color:var(--text);
+}
+.novels-page .novels-filter-wrap .filter-select option,
+.novels-page .novels-filter-wrap .filter-select optgroup{
+ background-color:#151612;
+ color:#eeeae0;
+}
+.novels-page .novels-filter-wrap .filter-select option:checked{
+ background-color:#343126;
+ color:#f3dfb4;
+}
