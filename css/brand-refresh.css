@@ -804,3 +804,149 @@ table{max-width:100%;border-collapse:collapse}
 @media(prefers-reduced-motion:reduce){
  .site-header>.primary-nav a,.site-header>.header-cta{transition:none!important}
 }
+
+
+/* ── Cross-device layout hardening ── */
+*,*::before,*::after{box-sizing:border-box}
+html{width:100%;max-width:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{width:100%;max-width:100%;min-width:0;overflow-x:clip}
+main,header,footer,section,article,aside,nav,div{min-width:0}
+img,picture,video,canvas,svg,iframe{max-width:100%}
+img,video{height:auto}
+pre,code,table{max-width:100%}
+pre{overflow-x:auto}
+table{display:block;overflow-x:auto}
+p,li,h1,h2,h3,h4,h5,h6,a,button,label,small,strong,span{overflow-wrap:anywhere}
+button,input,select,textarea{min-width:0;max-width:100%}
+input,select,textarea{width:auto}
+:where(.page-shell,.section,.hero,.novels-page,.series-shell,.ency-shell,.reader-shell,.publish-shell,.about-page,.site-footer){min-width:0}
+:where(.novel-grid,.ency-grid,.lore-grid,.world-details,.profile-sections,.about-grid,.principle-grid,.publish-grid,.publish-chapter-grid){grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+:where(.novel-card,.ency-card,.lore-card,.profile-section,.world-panel,.volume-card,.publish-panel,.publish-chapter){min-width:0;overflow-wrap:anywhere}
+:where(.hero,.about-hero,.profile-hero,.series-hero,.about-reading,.about-privacy){min-width:0}
+:where(.hero-copy,.about-hero-copy,.reader-book-heading,.chapter-body,.publish-panel){min-width:0;max-width:100%}
+:where(.button,.button-primary,.button-outline,.button-quiet,.file-button,.novel-save-button,.chapter-download){min-height:40px;max-width:100%;white-space:normal}
+:where(.search-field,.filter-select,.publish-panel input,.publish-panel select,.publish-panel textarea){max-width:100%}
+:where(.site-footer,.footer-links){min-width:0;flex-wrap:wrap}
+.site-footer{width:100%;max-width:100%}
+.footer-links a{overflow-wrap:anywhere}
+.novel-card,.ency-card,.lore-card,.profile-section,.publish-panel,.publish-chapter{overflow-wrap:anywhere}
+.chapter-body{overflow-wrap:anywhere;word-break:normal}
+.chapter-body img{display:block;max-width:100%;height:auto;margin:1.5em auto}
+.chapter-body pre,.chapter-body table{max-width:100%;overflow-x:auto}
+.reader-toolbar,.reader-tool-group,.reader-bottom,.novels-toolbar,.ency-tools,.publish-toolbar,.shelf-actions{min-width:0;flex-wrap:wrap}
+.reader-tool-group input{max-width:100%}
+.reader-bottom>*{min-width:0}
+.calendar-item{min-width:0;flex-wrap:wrap}
+.calendar-item>*{min-width:0}
+.series-facts>*{min-width:0}
+.chapter-list li{min-width:0}
+.chapter-list li>a{min-width:0;overflow-wrap:anywhere}
+.publish-panel-heading{min-width:0;flex-wrap:wrap}
+.publish-check-panel{min-width:0}
+@media(min-width:1600px){
+ .nav-container,.site-header{padding-left:clamp(32px,5vw,100px);padding-right:clamp(32px,5vw,100px)}
+ .hero,.section,.about-hero,.about-principles,.about-how,.about-privacy,.about-publishing{max-width:1320px}
+}
+@media(max-width:1180px){
+ .site-header{width:100%;max-width:100%;flex-wrap:nowrap}
+ .site-header>.primary-nav{max-width:calc(100vw - 24px)}
+}
+@media(max-width:900px){
+ .hero{grid-template-columns:minmax(0,1fr) minmax(0,.8fr)}
+ .about-hero{grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:24px}
+ .about-reading,.about-privacy{grid-template-columns:1fr;gap:26px}
+ .about-reading-copy{margin-left:0}
+ .about-flow{grid-template-columns:1fr;gap:12px}
+ .about-flow-arrow{justify-self:center;transform:rotate(90deg)}
+ .publish-panel-heading{align-items:flex-start}
+}
+@media(max-width:700px){
+ .hero{display:block;padding:42px 18px 30px}
+ .hero-art{height:clamp(190px,58vw,270px);margin-top:16px}
+ .section,.page-shell{padding:38px 18px}
+ .novels-page,.series-shell,.ency-shell{width:calc(100% - 32px)}
+ .novels-page{padding-bottom:54px}
+ .novels-intro{padding:42px 0 32px}
+ .novels-toolbar{align-items:stretch;flex-direction:column;gap:8px}
+ .novels-filter-wrap{width:100%;justify-content:space-between;padding:10px 0 0;border-left:0;border-top:1px solid var(--line)}
+ .novels-filter-wrap .filter-select{min-width:0;max-width:65%}
+ .catalogue-heading{align-items:flex-start;flex-direction:column}
+ .series-shell,.ency-shell{padding-top:20px}
+ .series-intro h1,.ency-heading h1{font-size:clamp(34px,9vw,52px)}
+ .series-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .series-section-heading{align-items:flex-start;flex-direction:column}
+ .chapter-list a{grid-template-columns:28px minmax(0,1fr) auto;gap:7px}
+ .profile-hero{grid-template-columns:1fr;gap:14px}
+ .profile-monogram{width:78px}
+ .profile-sections,.publish-grid,.publish-chapter-grid{grid-template-columns:1fr}
+ .publish-wide,.profile-section.wide{grid-column:auto}
+ .publish-shell{width:calc(100% - 28px);padding:28px 0 54px}
+ .publish-panel{padding:16px}
+ .publish-panel-heading{gap:10px}
+ .publish-panel-heading h2{font-size:22px}
+ .reader-shell{width:calc(100% - 30px);padding:18px 0 52px}
+ .reader-book-heading{padding:34px 0 20px}
+ .reader-toolbar{justify-content:flex-start;gap:7px}
+ .reader-tool-group{flex-wrap:wrap}
+ .reader-toolbar .button{margin-left:0}
+ .reader-bottom{flex-wrap:wrap;gap:8px}
+ .reader-bottom .button{flex:1 1 calc(50% - 8px);justify-content:center}
+ .reader-bottom span{order:3;width:100%;text-align:center}
+ .chapter-body{font-size:clamp(16px,4.3vw,19px);line-height:1.85}
+ .about-hero{display:block;padding:42px 18px 30px}
+ .about-emblem{min-height:230px;margin-top:16px}
+ .about-principles,.about-how,.about-privacy{padding:44px 18px}
+ .about-reading{display:block;padding:44px 18px}
+ .reading-feature-list{margin-top:22px}
+ .about-publishing{padding:42px 18px}
+ .about-final-cta{padding:50px 16px}
+ .site-footer{padding:24px 16px 18px}
+ .footer-links{gap:10px 16px}
+}
+@media(max-width:480px){
+ .site-header{padding-inline:12px!important}
+ .site-header .brand-name{font-size:9px!important;letter-spacing:.12em!important}
+ .site-header .brand-logo{width:32px!important;height:32px!important;flex-basis:32px!important}
+ .site-header>.menu-toggle{width:40px!important;min-width:40px!important;height:38px!important}
+ .site-header>.primary-nav{left:8px!important;right:8px!important;max-width:calc(100vw - 16px)!important}
+ .hero h1{font-size:clamp(36px,10.5vw,48px)}
+ .section-heading h2,.manifesto h2{font-size:clamp(28px,8vw,38px)}
+ .page-heading h1,.novels-intro h1{font-size:clamp(34px,9vw,46px)}
+ .novels-page,.series-shell,.ency-shell{width:calc(100% - 28px)}
+ .novels-page .novel-grid,.novel-grid,.ency-grid,.lore-grid,.world-details,.principle-grid,.about-grid,.profile-sections,.publish-grid,.publish-chapter-grid{grid-template-columns:minmax(0,1fr)}
+ .novels-filter-wrap{gap:8px}
+ .novels-filter-wrap .filter-select{max-width:62%}
+ .ency-back{flex-wrap:wrap;gap:8px 14px}
+ .ency-tools{align-items:stretch}
+ .ency-tools .search-field,.ency-tools .filter-select{width:100%;flex-basis:100%;min-width:0}
+ .calendar-item{gap:8px;padding:14px 0}
+ .reader-topline{align-items:flex-start;flex-direction:column;gap:7px}
+ .reader-tool-group{width:100%}
+ .reader-toolbar .button{width:100%;justify-content:center}
+ .reader-bottom .button{flex:1 1 100%}
+ .chapter-list li{grid-template-columns:minmax(0,1fr);gap:6px}
+ .chapter-download{justify-self:start}
+ .series-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .publish-toolbar .button{flex:1 1 100%}
+ .publish-check-panel>.button-primary{margin:10px 0 0}
+ .empty-state{padding:26px 16px}
+}
+@media(max-width:360px){
+ .site-header .brand-name{font-size:8px!important;letter-spacing:.08em!important}
+ .site-header>.menu-toggle{width:38px!important;min-width:38px!important}
+ .reader-shell{width:calc(100% - 22px)}
+ .reader-tool-group{gap:5px}
+ .reader-tool-group button,.reader-tool-group select{padding-inline:6px}
+ .series-facts{grid-template-columns:1fr}
+}
+@media(orientation:landscape) and (max-height:520px) and (max-width:900px){
+ .site-header{min-height:58px!important}
+ .site-header>.primary-nav{max-height:calc(100dvh - 72px)!important}
+ .hero{padding-top:26px;padding-bottom:24px}
+ .reader-empty{margin:38px auto}
+ .reader-book-heading{padding-top:22px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+}
