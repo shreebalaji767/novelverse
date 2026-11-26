@@ -36,15 +36,18 @@ if(header){
  toggle.setAttribute('aria-expanded','false');
  toggle.setAttribute('aria-controls',nav.id);
  toggle.setAttribute('aria-label','Open navigation menu');
+ toggle.textContent='Menu';
  const closeMenu=()=>{
   nav.classList.remove('is-open');
   toggle.setAttribute('aria-expanded','false');
   toggle.setAttribute('aria-label','Open navigation menu');
+  toggle.textContent='Menu';
  };
  toggle.addEventListener('click',()=>{
   const open=nav.classList.toggle('is-open');
   toggle.setAttribute('aria-expanded',String(open));
   toggle.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');
+  toggle.textContent=open?'Close':'Menu';
  });
  nav.addEventListener('click',event=>{
   if(event.target.closest('a'))closeMenu();
