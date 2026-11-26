@@ -7,7 +7,6 @@ const navigation=[
  ['Characters','./characters.html','characters'],
  ['Worlds','./worlds.html','worlds'],
  ['My Library','./my-library.html','my-library'],
- ['Journal','./journal.html','journal'],
  ['Release calendar','./calendar.html','calendar'],
  ['Publishing Studio','./publish.html','publish'],
  ['About','./about.html','about']
