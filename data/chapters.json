@@ -2737,6 +2737,15 @@
       "path": "./chapters/villainess-lazy-to-destroy-world/chapter-09.md",
       "publishedAt": "2026-11-26",
       "novelId": "villainess-lazy-to-destroy-world"
+    },
+    {
+      "id": "villainess-lazy-ch10",
+      "novelId": "villainess-lazy-to-destroy-world",
+      "number": "10",
+      "order": 10,
+      "title": "The Duke's Daughter Has Changed",
+      "path": "./chapters/villainess-lazy-to-destroy-world/chapter-10.md",
+      "publishedAt": "2026-11-26"
     }
   ],
   "updatedAt": "2026-11-26"
