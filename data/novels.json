@@ -2210,9 +2210,17 @@
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-13.md",
           "publishedAt": "2026-11-26",
           "novelId": "villainess-lazy-to-destroy-world"
+        },
+        {
+          "id": "villainess-lazy-ch14",
+          "number": "14",
+          "order": 14,
+          "title": "The Man Who Kept the Old Receipts",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-14.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 13,
+      "chapterCount": 14,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
