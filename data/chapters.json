@@ -2674,7 +2674,16 @@
       "path": "./chapters/villainess-lazy-to-destroy-world/chapter-03.md",
       "publishedAt": "2026-11-26",
       "novelId": "villainess-lazy-to-destroy-world"
+    },
+    {
+      "id": "villainess-lazy-ch04",
+      "number": "04",
+      "order": 4,
+      "title": "Why Is the Household Spending So Much?",
+      "path": "./chapters/villainess-lazy-to-destroy-world/chapter-04.md",
+      "publishedAt": "2026-11-26",
+      "novelId": "villainess-lazy-to-destroy-world"
     }
   ],
-  "updatedAt": "2026-11-25"
+  "updatedAt": "2026-11-26"
 }
