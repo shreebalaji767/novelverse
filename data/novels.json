@@ -2282,9 +2282,17 @@
           "title": "The Crown Prince's Unbudgeted Question",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-22.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch23",
+          "number": "23",
+          "order": 23,
+          "title": "The Invitation That Could Not Be Ignored",
+          "path": "chapters/villainess-lazy-to-destroy-world/chapter-23.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 22,
+      "chapterCount": 23,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
