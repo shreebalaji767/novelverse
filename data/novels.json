@@ -2119,9 +2119,17 @@
           "title": "I Refuse to Die Dramatically",
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-02.md",
           "publishedAt": "2026-11-26"
+        },
+        {
+          "id": "villainess-lazy-ch03",
+          "number": "03",
+          "order": 3,
+          "title": "The Villainess Has a Schedule",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-03.md",
+          "publishedAt": "2026-11-26"
         }
       ],
-      "chapterCount": 2,
+      "chapterCount": 3,
       "updatedAt": "2026-11-26",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
