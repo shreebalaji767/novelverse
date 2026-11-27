@@ -670,6 +670,472 @@
       "name": "King Edmund III",
       "role": "Monarch of Elarion",
       "summary": "A pragmatic ruler constrained by court factions, inherited agreements and the practical limits of royal authority. He recognises that the kingdom needs reform but must decide how much disruption the crown can survive."
+    },
+    {
+      "id": "xu-yuru",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Xu Yuru",
+      "role": "Main protagonist · Empress of Great Yong",
+      "summary": "Thirty-eight-year-old Xu Yuru is the composed, practical and politically perceptive empress. Years of experience have made her the person everyone relies on to keep the imperial household functioning. Her dry humour and growing refusal to accept every responsibility conceal neither incompetence nor cruelty: she simply wants duties returned to the offices that should perform them.",
+      "personality": "Intelligent, composed, practical, observant and firm. Kind without being endlessly accommodating; dislikes needless confrontation and struggles to delegate.",
+      "history": "Born into the Xu aristocratic clan and educated in literature, classical texts, etiquette, household management, financial administration and political history. She became crown princess and later empress. Her resignation follows years of administrative imbalance.",
+      "relationships": [
+        {
+          "characterId": "zhao-jingheng",
+          "type": "Husband and emperor"
+        },
+        {
+          "characterId": "zhao-chengan",
+          "type": "Son · Crown prince"
+        },
+        {
+          "characterId": "zhao-chengyu",
+          "type": "Son · Second prince"
+        },
+        {
+          "characterId": "zhao-minglan",
+          "type": "Daughter · Third princess"
+        },
+        {
+          "characterId": "wei-dowager",
+          "type": "Mother-in-law · Empress Dowager"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "shen-mingzhao",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Shen Mingzhao",
+      "role": "Second protagonist · Eldest daughter of the Marquis of Qingyuan",
+      "summary": "Twenty-six-year-old Shen Mingzhao is proud, calculating, observant and exceptionally particular about money. For years she has managed her family's estate and accounts while being expected to sacrifice her own interests. When her family tries to favour her younger brother while keeping her responsible for its affairs, she demands a formal division of the fortune and leaves to establish an independent household.",
+      "personality": "Proud, demanding, intelligent, suspicious and occasionally vindictive. Negotiates aggressively, remembers insults and can be controlling; her decisions are not automatically correct.",
+      "history": "Raised in the Qingyuan Marquisate and educated in classical literature, household administration, accounting, estate management, etiquette, correspondence and commercial affairs. Her departure exposes financial and administrative problems previously hidden by her work.",
+      "relationships": [
+        {
+          "characterId": "shen-guowei",
+          "type": "Father"
+        },
+        {
+          "characterId": "madam-liang",
+          "type": "Mother"
+        },
+        {
+          "characterId": "shen-mingyuan",
+          "type": "Younger brother"
+        },
+        {
+          "characterId": "shen-mingxiu",
+          "type": "Younger sister"
+        },
+        {
+          "characterId": "old-madam-shen",
+          "type": "Grandmother"
+        },
+        {
+          "characterId": "zhou-de",
+          "type": "Senior steward"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "zhao-jingheng",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Zhao Jingheng",
+      "role": "Emperor of Great Yong",
+      "summary": "Forty-three-year-old Zhao Jingheng is an intelligent, experienced ruler who has become accustomed to relying on the empress for the inner imperial household's administration. He is not foolish; his blind spot is believing that asking Yuru to handle a problem is an efficient solution.",
+      "personality": "Intelligent, politically experienced, accustomed to delegation and slow to recognise how much responsibility has accumulated on the empress.",
+      "history": "Rules Great Yong and enjoys the stability created by Yuru's administration. Her resignation forces him to distinguish imperial authority from the daily work of the imperial household.",
+      "relationships": [
+        {
+          "characterId": "xu-yuru",
+          "type": "Empress and wife"
+        },
+        {
+          "characterId": "zhao-chengan",
+          "type": "Crown prince and son"
+        },
+        {
+          "characterId": "zhao-chengyu",
+          "type": "Second prince and son"
+        },
+        {
+          "characterId": "zhao-minglan",
+          "type": "Third princess and daughter"
+        },
+        {
+          "characterId": "wei-dowager",
+          "type": "Mother"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "zhao-chengan",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Zhao Cheng'an",
+      "role": "Crown Prince · Eldest surviving son",
+      "summary": "Twenty-one-year-old Zhao Cheng'an is serious and disciplined. He respects his mother but has little experience with the inner palace's daily administration. His responsibilities gradually teach him that imperial authority depends on functioning institutions, not on one capable person quietly doing everyone's work.",
+      "personality": "Serious, disciplined, respectful and inexperienced in internal household administration.",
+      "history": "The designated heir of Great Yong and eldest surviving son of the emperor and empress.",
+      "relationships": [
+        {
+          "characterId": "xu-yuru",
+          "type": "Mother"
+        },
+        {
+          "characterId": "zhao-jingheng",
+          "type": "Father"
+        },
+        {
+          "characterId": "zhao-chengyu",
+          "type": "Younger brother"
+        },
+        {
+          "characterId": "zhao-minglan",
+          "type": "Younger sister"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "zhao-chengyu",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Zhao Chengyu",
+      "role": "Second Prince",
+      "summary": "Eighteen-year-old Zhao Chengyu is competitive, confident and ambitious. His awareness of rank and succession creates occasional political complications, but he is not inherently evil or treacherous.",
+      "personality": "Competitive, confident, ambitious and conscious of political status.",
+      "history": "The emperor and empress's second son. His relationship with the crown prince develops through the ordinary pressures of imperial family and court life.",
+      "relationships": [
+        {
+          "characterId": "xu-yuru",
+          "type": "Mother"
+        },
+        {
+          "characterId": "zhao-jingheng",
+          "type": "Father"
+        },
+        {
+          "characterId": "zhao-chengan",
+          "type": "Elder brother"
+        },
+        {
+          "characterId": "zhao-minglan",
+          "type": "Younger sister"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "zhao-minglan",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Zhao Minglan",
+      "role": "Third Princess",
+      "summary": "Sixteen-year-old Zhao Minglan is curious and observant, with a strong interest in education, administration and the practical operation of the imperial household. Her relationship with Yuru includes instruction, disagreements and gradual independence.",
+      "personality": "Observant, curious, studious and interested in practical administration.",
+      "history": "The emperor and empress's daughter. She watches the consequences of her mother's resignation and begins learning how institutions work.",
+      "relationships": [
+        {
+          "characterId": "xu-yuru",
+          "type": "Mother"
+        },
+        {
+          "characterId": "zhao-jingheng",
+          "type": "Father"
+        },
+        {
+          "characterId": "zhao-chengan",
+          "type": "Elder brother"
+        },
+        {
+          "characterId": "zhao-chengyu",
+          "type": "Elder brother"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "wei-dowager",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Empress Dowager Wei",
+      "role": "Empress Dowager",
+      "summary": "At sixty-four, Empress Dowager Wei is traditional, influential and protective of imperial authority. She believes the empress's position carries obligations beyond personal preference, placing her at odds with Yuru's understanding of duty and institutional responsibility.",
+      "personality": "Traditional, influential, politically aware and protective of imperial authority.",
+      "history": "The emperor's mother and senior woman of the imperial family. Her disagreements with Yuru arise from different views of the empress's obligations.",
+      "relationships": [
+        {
+          "characterId": "zhao-jingheng",
+          "type": "Son"
+        },
+        {
+          "characterId": "xu-yuru",
+          "type": "Daughter-in-law"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "shen-guowei",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Shen Guowei",
+      "role": "Marquis of Qingyuan · Father",
+      "summary": "Fifty-two-year-old Shen Guowei is proud and politically cautious. He wants to preserve the family's standing, dislikes public disputes and initially expects Mingzhao to compromise rather than challenge the household's distribution of responsibilities and property.",
+      "personality": "Proud, politically cautious, reputation-conscious and reluctant to confront internal unfairness.",
+      "history": "Head of the Qingyuan Marquisate. He has allowed household privileges and obligations to become unevenly distributed.",
+      "relationships": [
+        {
+          "characterId": "madam-liang",
+          "type": "Wife"
+        },
+        {
+          "characterId": "shen-mingzhao",
+          "type": "Eldest daughter"
+        },
+        {
+          "characterId": "shen-mingyuan",
+          "type": "Son"
+        },
+        {
+          "characterId": "shen-mingxiu",
+          "type": "Younger daughter"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "madam-liang",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Madam Liang",
+      "role": "Legal wife of the Marquis · Mother",
+      "summary": "Forty-eight-year-old Madam Liang is status-conscious and emotionally complicated. She expects Mingzhao to understand her family responsibilities without questioning them, and her concern for reputation shapes her response to the division of property.",
+      "personality": "Status-conscious, socially aware, emotionally complicated and concerned with family hierarchy.",
+      "history": "The legal wife of Shen Guowei and mother of the Shen children. Her relationship with Mingzhao is strained by expectations that the eldest daughter should keep sacrificing.",
+      "relationships": [
+        {
+          "characterId": "shen-guowei",
+          "type": "Husband"
+        },
+        {
+          "characterId": "shen-mingzhao",
+          "type": "Eldest daughter"
+        },
+        {
+          "characterId": "shen-mingyuan",
+          "type": "Son"
+        },
+        {
+          "characterId": "shen-mingxiu",
+          "type": "Younger daughter"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "shen-mingyuan",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Shen Mingyuan",
+      "role": "Eldest son of the Qingyuan Marquisate",
+      "summary": "Twenty-three-year-old Shen Mingyuan is the favoured son. He has enjoyed family privileges without being required to understand the accounts and obligations that support his lifestyle. He is not automatically malicious; his choices and their consequences shape his development.",
+      "personality": "Favoured, careless with money and accustomed to privilege.",
+      "history": "The marquis's eldest son and Mingzhao's younger brother. The division of family property forces him to confront responsibilities he previously left to others.",
+      "relationships": [
+        {
+          "characterId": "shen-mingzhao",
+          "type": "Elder sister"
+        },
+        {
+          "characterId": "shen-guowei",
+          "type": "Father"
+        },
+        {
+          "characterId": "madam-liang",
+          "type": "Mother"
+        },
+        {
+          "characterId": "shen-mingxiu",
+          "type": "Sister"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "shen-mingxiu",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Shen Mingxiu",
+      "role": "Younger daughter of the Qingyuan Marquisate",
+      "summary": "Nineteen-year-old Shen Mingxiu is charming, ambitious and socially perceptive. She sometimes benefits from her mother's favouritism and struggles to understand why Mingzhao refuses to continue making sacrifices for the family.",
+      "personality": "Charming, ambitious, socially perceptive and conscious of family standing.",
+      "history": "The younger daughter of the Marquis of Qingyuan. Her position in the family is affected by the division and the changing relationships among the siblings.",
+      "relationships": [
+        {
+          "characterId": "shen-mingzhao",
+          "type": "Elder sister"
+        },
+        {
+          "characterId": "shen-mingyuan",
+          "type": "Brother"
+        },
+        {
+          "characterId": "shen-guowei",
+          "type": "Father"
+        },
+        {
+          "characterId": "madam-liang",
+          "type": "Mother"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "old-madam-shen",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Old Madam Shen",
+      "role": "Matriarch of the Shen family",
+      "summary": "Seventy-three-year-old Old Madam Shen prioritises continuity, obedience and the family's public reputation. Her traditional view of family hierarchy informs her opposition to Mingzhao's decision, though she has her own history and reasons for holding it.",
+      "personality": "Traditional, authoritative and concerned with family hierarchy and reputation.",
+      "history": "The senior matriarch of the Qingyuan household and grandmother of Mingzhao.",
+      "relationships": [
+        {
+          "characterId": "shen-mingzhao",
+          "type": "Granddaughter"
+        },
+        {
+          "characterId": "shen-guowei",
+          "type": "Son"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "zhou-de",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Zhou De",
+      "role": "Senior steward of the Qingyuan Marquisate",
+      "summary": "Fifty-seven-year-old Zhou De is an experienced and cautious steward who understands the estate's practical affairs better than most members of the family. His knowledge of financial records makes him important to the property division and later investigations.",
+      "personality": "Experienced, cautious, observant and knowledgeable about estate administration.",
+      "history": "Long-serving senior steward of the Shen household, familiar with its property, accounts and day-to-day operations.",
+      "relationships": [
+        {
+          "characterId": "shen-mingzhao",
+          "type": "The daughter whose accounts he knows"
+        },
+        {
+          "characterId": "shen-guowei",
+          "type": "Employer"
+        }
+      ],
+      "appearances": []
+    },
+    {
+      "id": "fang-ru",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Fang Ru",
+      "role": "Senior palace administrator",
+      "summary": "A competent, conservative and experienced palace administrator. Fang Ru understands the routines and regulations of the imperial household and is concerned about how its work will be distributed after Yuru resigns.",
+      "personality": "Competent, conservative, experienced and procedural.",
+      "history": "A senior administrator within the imperial household.",
+      "appearances": []
+    },
+    {
+      "id": "consort-liu",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Consort Liu",
+      "role": "Imperial consort",
+      "summary": "Politically intelligent and ambitious, Consort Liu understands the influence that palace administration and ceremonial arrangements can carry.",
+      "personality": "Politically intelligent, ambitious and attentive to court dynamics.",
+      "history": "An imperial consort whose interests sometimes intersect with changes in inner-palace administration.",
+      "appearances": []
+    },
+    {
+      "id": "consort-han",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Consort Han",
+      "role": "Imperial consort",
+      "summary": "Quiet, observant and cautious, Consort Han tends to notice tensions and changes before speaking about them.",
+      "personality": "Quiet, observant and cautious.",
+      "history": "An imperial consort within the Great Yong inner palace.",
+      "appearances": []
+    },
+    {
+      "id": "gao-shun",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Gao Shun",
+      "role": "Chief eunuch",
+      "summary": "An experienced palace official familiar with the routines, personnel and practical machinery of the imperial household.",
+      "personality": "Experienced, discreet and administratively knowledgeable.",
+      "history": "Serves as chief eunuch in the imperial palace.",
+      "appearances": []
+    },
+    {
+      "id": "wei-zhong",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Wei Zhong",
+      "role": "Senior court minister",
+      "summary": "A senior minister who supports administrative accountability and believes that responsibilities should be handled by the proper offices.",
+      "personality": "Experienced, principled about administrative accountability and attentive to jurisdiction.",
+      "history": "Serves in the central court of Great Yong.",
+      "appearances": []
+    },
+    {
+      "id": "minister-lu",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Minister Lu",
+      "role": "Revenue official",
+      "summary": "A revenue official concerned with expenditure, taxation and the accuracy of public accounts.",
+      "personality": "Practical, financially minded and concerned with expenditure and taxation.",
+      "history": "Works within Great Yong's central revenue administration.",
+      "appearances": []
+    },
+    {
+      "id": "qiao-yue",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Qiao Yue",
+      "role": "Personal attendant to Shen Mingzhao",
+      "summary": "Mingzhao's loyal but outspoken personal attendant. She supports her mistress's independent household while retaining her own opinions.",
+      "personality": "Loyal, outspoken and practical.",
+      "history": "Serves Shen Mingzhao before and after her departure from the Qingyuan Marquisate.",
+      "appearances": []
+    },
+    {
+      "id": "lin-shuyun",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Lin Shuyun",
+      "role": "Merchant · Commercial associate",
+      "summary": "An independent merchant and potential commercial associate of Mingzhao. Her business interests give her reasons to negotiate carefully rather than simply agree with a noblewoman.",
+      "personality": "Independent, commercially minded and pragmatic.",
+      "history": "A merchant active in Yongjing's commercial networks.",
+      "appearances": []
+    },
+    {
+      "id": "steward-he",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Steward He",
+      "role": "Estate manager of Mingzhao's independent household",
+      "summary": "Responsible for the daily administration of Mingzhao's independent residence and its household operations.",
+      "personality": "Practical, organised and responsible.",
+      "history": "Manages the day-to-day affairs of Mingzhao's new household.",
+      "appearances": []
+    },
+    {
+      "id": "accountant-sun",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Accountant Sun",
+      "role": "Financial clerk",
+      "summary": "Handles commercial accounts and financial records for Mingzhao's independent affairs.",
+      "personality": "Careful, methodical and financially literate.",
+      "history": "Works with Mingzhao's independent household and commercial accounts.",
+      "appearances": []
+    },
+    {
+      "id": "madam-xu",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "Madam Xu",
+      "role": "Neighbouring noblewoman",
+      "summary": "A neighbouring noblewoman who becomes a social acquaintance and occasional rival to Mingzhao.",
+      "personality": "Socially perceptive and competitive.",
+      "history": "Moves within the noble society of Yongjing.",
+      "appearances": []
     }
   ]
 }
