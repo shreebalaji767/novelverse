@@ -3198,9 +3198,17 @@
           "title": "The Empress Has Five Days Left. The Marquis's Eldest Daughter Has One. The Family Has Discovered That Packing Is Also an Accounting Problem.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-27.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-28",
+          "number": "28",
+          "order": 28,
+          "title": "The Empress Has Four Days Left. The Marquis's Eldest Daughter Has Finally Left. The Marquisate Has Discovered That a Departure Requires More Signatures Than an Arrival.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-28.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 27,
+      "chapterCount": 28,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
