@@ -3126,9 +3126,17 @@
           "title": "The Emperor Has Discovered That a Successful Transition Creates More Questions. The Marquis Has Discovered That His Son Can Read an Account Book.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-18.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-19",
+          "number": "19",
+          "order": 19,
+          "title": "The Emperor Has Asked the Empress About Her Future. The Marquis Has Asked His Daughter About Her Price. Both Conversations Have Gone Poorly.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-19.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 18,
+      "chapterCount": 19,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
