@@ -3006,9 +3006,17 @@
           "title": "The Empress's Resignation Has Reached the Palace. The Brooms Have Become a Government Matter.",
           "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-03.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-ch04",
+          "number": "04",
+          "order": 4,
+          "title": "The Palace Has Discovered That Nobody Knows Who Orders the Brooms. The Marquisate Has Discovered That Nobody Knows Who Owns the Grain.",
+          "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-04.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 3,
+      "chapterCount": 4,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
