@@ -3014,9 +3014,17 @@
           "title": "The Palace Has Discovered That Nobody Knows Who Orders the Brooms. The Marquisate Has Discovered That Nobody Knows Who Owns the Grain.",
           "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-04.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-ch05",
+          "number": "05",
+          "order": 5,
+          "title": "The Crown Prince Has Been Given a Household Account Book. The Marquis's Heir Has Been Asked for Three Hundred Taels' Worth of Receipts.",
+          "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-05.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 4,
+      "chapterCount": 5,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
