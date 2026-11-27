@@ -2990,9 +2990,17 @@
           "title": "The Empress Has Submitted Her Resignation. The Emperor Has Developed a Headache.",
           "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-01.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-ch02",
+          "number": "02",
+          "order": 2,
+          "title": "The Family Wants a Peaceful Discussion. The Empress Wants a Department That Can Count.",
+          "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-02.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 1,
+      "chapterCount": 2,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
