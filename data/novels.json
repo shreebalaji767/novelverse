@@ -3086,9 +3086,17 @@
           "title": "The Empress Has Been Given a Choice Between Two Committees. The Marquis's Eldest Daughter Has Been Given a Choice Between Two Bad Houses.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-13.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-14",
+          "number": "14",
+          "order": 14,
+          "title": "The Empress Has Been Told That Her Resignation Is Still Under Review. The Marquis's Eldest Daughter Has Been Told That Her Departure Is Also Under Review.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-14.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 13,
+      "chapterCount": 14,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
