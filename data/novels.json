@@ -3054,9 +3054,17 @@
           "title": "The Empress Has Been Asked to Explain the Difference Between Advice and Approval. The Marquis's Eldest Daughter Has Been Asked to Explain the Difference Between Leaving and Abandoning the Family.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-09.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-10",
+          "number": "10",
+          "order": 10,
+          "title": "The Palace Has Created a New Register for Exceptional Expenses. The Marquisate Has Created a New List of People Who Claim They Know Nothing.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-10.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 9,
+      "chapterCount": 10,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
