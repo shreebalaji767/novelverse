@@ -3222,9 +3222,17 @@
           "title": "The Empress Has Two Days Left. The Marquis's Eldest Daughter Has Discovered That Freedom Comes with Rent. The Emperor Has Discovered That Nobody Knows Where to Put the Ceremonial Screens.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-30.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-31",
+          "number": "31",
+          "order": 31,
+          "title": "The Empress Has Finally Resigned. The Emperor Has Lost His Most Experienced Administrator. The Palace Has Prepared a Grand Ceremony and Forgotten to Decide Who Will Carry the Last Box.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-31.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 30,
+      "chapterCount": 31,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
