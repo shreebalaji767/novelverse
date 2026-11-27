@@ -3150,9 +3150,17 @@
           "title": "The Empress Has Been Given a Date for Her Departure. The Marquis's Eldest Daughter Has Been Given Another List of Things She Cannot Take.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-21.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-22",
+          "number": "22",
+          "order": 22,
+          "title": "The Empress Has Ten Days Left. The Marquis's Eldest Daughter Has Been Asked to Prove That Her Own Money Is Actually Hers.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-22.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 21,
+      "chapterCount": 22,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
