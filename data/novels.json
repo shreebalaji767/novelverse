@@ -3062,9 +3062,17 @@
           "title": "The Palace Has Created a New Register for Exceptional Expenses. The Marquisate Has Created a New List of People Who Claim They Know Nothing.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-10.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-11",
+          "number": "11",
+          "order": 11,
+          "title": "The Emperor Has Asked for a List of Things the Empress Cannot Delegate. The Marquis Has Asked His Daughter to Stop Counting Things He Cannot Explain.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-11.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 10,
+      "chapterCount": 11,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
