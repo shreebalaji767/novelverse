@@ -3134,9 +3134,17 @@
           "title": "The Emperor Has Asked the Empress About Her Future. The Marquis Has Asked His Daughter About Her Price. Both Conversations Have Gone Poorly.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-19.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-20",
+          "number": "20",
+          "order": 20,
+          "title": "The Emperor Has Finally Made a Decision. The Empress Has Asked Him to Put It in Writing. The Marquis Has Discovered That a Departure Date Is Not a Property Settlement.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-20.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 19,
+      "chapterCount": 20,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
