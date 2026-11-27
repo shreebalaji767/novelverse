@@ -1,6 +1,12 @@
 # **Chapter 24: The Empress Has Been Told That Her Successor Will Be Decided Later. The Marquis's Eldest Daughter Has Been Told That Her Debts Must Be Decided First.**
 
+
+
 **16th Day of the Fourth Month, 18th Year of Yonghe.**
+
+
+
+
 
 
 
@@ -8,7 +14,15 @@ The Emperor had received three recommendations concerning the future of the Empr
 
 
 
+
+
+
+
 The first recommended appointing a new Empress as soon as possible.
+
+
+
+
 
 
 
@@ -16,7 +30,15 @@ The second recommended allowing a temporary period without a new appointment whi
 
 
 
+
+
+
+
 The third recommended establishing a special supervisory office to oversee the inner palace until a new Empress was appointed.
+
+
+
+
 
 
 
@@ -24,7 +46,15 @@ Zhao Jingheng read all three.
 
 
 
+
+
+
+
 Then he looked at Minister Han.
+
+
+
+
 
 
 
@@ -32,7 +62,15 @@ Then he looked at Minister Han.
 
 
 
+
+
+
+
 Minister Han bowed.
+
+
+
+
 
 
 
@@ -40,7 +78,15 @@ Minister Han bowed.
 
 
 
+
+
+
+
 "What authority would this office possess?"
+
+
+
+
 
 
 
@@ -48,7 +94,15 @@ Minister Han bowed.
 
 
 
+
+
+
+
 "Which responsibilities?"
+
+
+
+
 
 
 
@@ -56,7 +110,15 @@ Minister Han bowed.
 
 
 
+
+
+
+
 The Emperor looked at the document.
+
+
+
+
 
 
 
@@ -64,7 +126,15 @@ The Emperor looked at the document.
 
 
 
+
+
+
+
 "Some have, Your Majesty."
+
+
+
+
 
 
 
@@ -72,7 +142,15 @@ The Emperor looked at the document.
 
 
 
+
+
+
+
 Minister Han paused.
+
+
+
+
 
 
 
@@ -80,7 +158,15 @@ Minister Han paused.
 
 
 
+
+
+
+
 "Who would supervise the office?"
+
+
+
+
 
 
 
@@ -88,7 +174,15 @@ Minister Han paused.
 
 
 
+
+
+
+
 "Who would appoint its officials?"
+
+
+
+
 
 
 
@@ -96,7 +190,15 @@ Minister Han paused.
 
 
 
+
+
+
+
 "Who would pay for it?"
+
+
+
+
 
 
 
@@ -104,7 +206,15 @@ Minister Han hesitated.
 
 
 
+
+
+
+
 The Emperor set down the report.
+
+
+
+
 
 
 
@@ -112,7 +222,15 @@ The Emperor set down the report.
 
 
 
+
+
+
+
 Minister Han bowed lower.
+
+
+
+
 
 
 
@@ -120,7 +238,15 @@ Minister Han bowed lower.
 
 
 
+
+
+
+
 "Then it should have remained preliminary."
+
+
+
+
 
 
 
@@ -128,11 +254,23 @@ The Emperor returned the document.
 
 
 
+
+
+
+
 "Reject the third recommendation. The existing offices will continue their responsibilities. If a specific gap is identified, submit a proposal addressing that gap."
 
 
 
+
+
+
+
 "Yes, Your Majesty."
+
+
+
+
 
 
 
@@ -140,7 +278,15 @@ The Emperor examined the other two recommendations.
 
 
 
+
+
+
+
 He did not immediately approve either.
+
+
+
+
 
 
 
@@ -148,7 +294,15 @@ He did not immediately approve either.
 
 
 
+
+
+
+
 Minister Han bowed.
+
+
+
+
 
 
 
@@ -156,7 +310,15 @@ The Emperor added:
 
 
 
+
+
+
+
 "And stop sending me proposals for offices that do not yet have a purpose."
+
+
+
+
 
 
 
@@ -164,7 +326,15 @@ Minister Han accepted the instruction.
 
 
 
+
+
+
+
 He had begun to suspect that the Emperor's current administrative philosophy could be summarized in a sentence:
+
+
+
+
 
 
 
@@ -172,9 +342,19 @@ If something did not need to exist, it should not be created.
 
 
 
+
+
+
+
 This was an inconvenient philosophy for officials whose careers depended on creating things.
 
+
+
 At Chengming Palace, Yuru received the Emperor's decision.
+
+
+
+
 
 
 
@@ -182,7 +362,15 @@ Fang Ru placed the written notice before her.
 
 
 
+
+
+
+
 "The position will remain vacant until His Majesty decides otherwise."
+
+
+
+
 
 
 
@@ -190,7 +378,15 @@ Yuru read it.
 
 
 
+
+
+
+
 "Good."
+
+
+
+
 
 
 
@@ -198,7 +394,15 @@ Yuru read it.
 
 
 
+
+
+
+
 "That is also good."
+
+
+
+
 
 
 
@@ -206,7 +410,15 @@ Fang Ru hesitated.
 
 
 
+
+
+
+
 "Your Majesty, some senior palace officials are concerned about the absence of an Empress."
+
+
+
+
 
 
 
@@ -214,11 +426,23 @@ Fang Ru hesitated.
 
 
 
+
+
+
+
 Fang Ru lowered her head.
 
 
 
+
+
+
+
 "I cannot say."
+
+
+
+
 
 
 
@@ -226,7 +450,15 @@ Yuru smiled faintly.
 
 
 
+
+
+
+
 "Then they should identify the concern before submitting another report."
+
+
+
+
 
 
 
@@ -234,7 +466,15 @@ Fang Ru took the notice.
 
 
 
+
+
+
+
 "Shall I inform the senior administrators?"
+
+
+
+
 
 
 
@@ -242,7 +482,15 @@ Fang Ru took the notice.
 
 
 
+
+
+
+
 "Understood."
+
+
+
+
 
 
 
@@ -250,7 +498,15 @@ Yuru looked toward the garden.
 
 
 
+
+
+
+
 Eight days remained until the ceremony.
+
+
+
+
 
 
 
@@ -258,7 +514,15 @@ She had expected the final days to involve packing, arrangements, and perhaps a 
 
 
 
+
+
+
+
 Instead, the palace continued to discover new ways to ask her to solve problems that would remain after she left.
+
+
+
+
 
 
 
@@ -266,9 +530,19 @@ She would have to be careful.
 
 
 
+
+
+
+
 A person could spend an entire life preparing to leave and still find herself working on the day of departure.
 
+
+
 The Crown Prince arrived shortly afterward.
+
+
+
+
 
 
 
@@ -276,7 +550,15 @@ He carried the latest Eastern Palace accounts.
 
 
 
+
+
+
+
 Yuru looked at the documents.
+
+
+
+
 
 
 
@@ -284,7 +566,15 @@ Yuru looked at the documents.
 
 
 
+
+
+
+
 "Yes, Mother."
+
+
+
+
 
 
 
@@ -292,7 +582,15 @@ Yuru looked at the documents.
 
 
 
+
+
+
+
 "The Eastern Palace accountant and the financial clerk."
+
+
+
+
 
 
 
@@ -300,7 +598,15 @@ Yuru looked at the documents.
 
 
 
+
+
+
+
 "Not initially."
+
+
+
+
 
 
 
@@ -308,11 +614,23 @@ Yuru looked at the documents.
 
 
 
+
+
+
+
 "The accountant included the remaining lamp oil from the previous month in the current month's stock. The clerk counted only the new delivery."
 
 
 
+
+
+
+
 Yuru looked at him.
+
+
+
+
 
 
 
@@ -320,7 +638,15 @@ Yuru looked at him.
 
 
 
+
+
+
+
 "We compared the opening inventory, new purchases, distribution, and remaining stock."
+
+
+
+
 
 
 
@@ -328,7 +654,15 @@ Yuru looked at him.
 
 
 
+
+
+
+
 The Crown Prince placed the corrected report before her.
+
+
+
+
 
 
 
@@ -336,7 +670,15 @@ Yuru examined the figures.
 
 
 
+
+
+
+
 They were consistent.
+
+
+
+
 
 
 
@@ -344,7 +686,15 @@ She handed the report back.
 
 
 
+
+
+
+
 "Submit it to the designated office."
+
+
+
+
 
 
 
@@ -352,7 +702,15 @@ Cheng'an nodded.
 
 
 
+
+
+
+
 He did not immediately leave.
+
+
+
+
 
 
 
@@ -360,7 +718,15 @@ He did not immediately leave.
 
 
 
+
+
+
+
 "Ask."
+
+
+
+
 
 
 
@@ -368,11 +734,23 @@ He did not immediately leave.
 
 
 
+
+
+
+
 Yuru looked at him.
 
 
 
+
+
+
+
 "No."
+
+
+
+
 
 
 
@@ -380,7 +758,15 @@ Yuru looked at him.
 
 
 
+
+
+
+
 "Your responsibility is the Eastern Palace and your duties as Crown Prince. The inner palace has established offices. The Emperor retains authority over matters that require his decision."
+
+
+
+
 
 
 
@@ -388,7 +774,15 @@ Yuru looked at him.
 
 
 
+
+
+
+
 "Then the responsible office should follow the proper procedure. If the dispute exceeds its authority, it should be referred to the Emperor."
+
+
+
+
 
 
 
@@ -396,7 +790,15 @@ Cheng'an thought about this.
 
 
 
+
+
+
+
 "So I should not become the person everyone sends their reports to."
+
+
+
+
 
 
 
@@ -404,7 +806,15 @@ Yuru looked at him.
 
 
 
+
+
+
+
 "Have you not learned anything from the last three weeks?"
+
+
+
+
 
 
 
@@ -412,7 +822,15 @@ He gave a small, embarrassed smile.
 
 
 
+
+
+
+
 "I have."
+
+
+
+
 
 
 
@@ -420,7 +838,15 @@ He gave a small, embarrassed smile.
 
 
 
+
+
+
+
 Cheng'an bowed.
+
+
+
+
 
 
 
@@ -428,9 +854,19 @@ He was beginning to understand that becoming a ruler did not mean accepting ever
 
 
 
+
+
+
+
 Sometimes it meant refusing responsibilities that belonged elsewhere.
 
+
+
 At the Qingyuan Marquisate, the additional table had arrived.
+
+
+
+
 
 
 
@@ -438,7 +874,15 @@ It was placed in Mingzhao's study.
 
 
 
+
+
+
+
 Qiao Yue stood beside it, looking pleased.
+
+
+
+
 
 
 
@@ -446,7 +890,15 @@ Qiao Yue stood beside it, looking pleased.
 
 
 
+
+
+
+
 Mingzhao examined the table.
+
+
+
+
 
 
 
@@ -454,7 +906,15 @@ One side held personal-property records.
 
 
 
+
+
+
+
 The other held family-estate accounts.
+
+
+
+
 
 
 
@@ -462,7 +922,15 @@ A smaller section was reserved for commercial interests.
 
 
 
+
+
+
+
 The remaining space contained unresolved claims and liabilities.
+
+
+
+
 
 
 
@@ -470,7 +938,15 @@ Mingzhao looked at the arrangement.
 
 
 
+
+
+
+
 "Better."
+
+
+
+
 
 
 
@@ -478,7 +954,15 @@ Qiao Yue placed the latest report on the commercial section.
 
 
 
+
+
+
+
 "The silk buyer has confirmed the delivery schedule."
+
+
+
+
 
 
 
@@ -486,7 +970,15 @@ Mingzhao read it.
 
 
 
+
+
+
+
 The first inspected group would be delivered the following day.
+
+
+
+
 
 
 
@@ -494,7 +986,15 @@ The remaining stock would be inspected after finishing.
 
 
 
+
+
+
+
 The buyer had agreed to pay the outstanding balance upon delivery, according to the contract.
+
+
+
+
 
 
 
@@ -502,7 +1002,15 @@ The buyer had agreed to pay the outstanding balance upon delivery, according to 
 
 
 
+
+
+
+
 "Yes. Lin Shuyun has confirmed the arrangements."
+
+
+
+
 
 
 
@@ -510,7 +1018,15 @@ The buyer had agreed to pay the outstanding balance upon delivery, according to 
 
 
 
+
+
+
+
 Qiao Yue nodded.
+
+
+
+
 
 
 
@@ -518,7 +1034,15 @@ Mingzhao examined the report again.
 
 
 
+
+
+
+
 The transaction was progressing properly.
+
+
+
+
 
 
 
@@ -526,7 +1050,15 @@ She placed it with the partnership records.
 
 
 
+
+
+
+
 Then she turned to the liabilities schedule.
+
+
+
+
 
 
 
@@ -534,7 +1066,15 @@ Sun Qiming had arrived and was waiting with a new report.
 
 
 
+
+
+
+
 "Miss Shen, I have reviewed the documents you provided yesterday."
+
+
+
+
 
 
 
@@ -542,7 +1082,15 @@ Sun Qiming had arrived and was waiting with a new report.
 
 
 
+
+
+
+
 "Several have been clarified. Others remain unresolved."
+
+
+
+
 
 
 
@@ -550,7 +1098,15 @@ Sun Qiming had arrived and was waiting with a new report.
 
 
 
+
+
+
+
 "Nine are now supported by sufficient evidence. Four have been partially confirmed. Ten remain uncertain."
+
+
+
+
 
 
 
@@ -558,7 +1114,15 @@ Mingzhao examined the list.
 
 
 
+
+
+
+
 "Which nine?"
+
+
+
+
 
 
 
@@ -566,7 +1130,15 @@ Sun Qiming pointed to the entries.
 
 
 
+
+
+
+
 They included payments for grain seed, several household repairs, and medical expenses.
+
+
+
+
 
 
 
@@ -574,7 +1146,15 @@ The evidence showed that Mingzhao had paid the amounts from her personal funds.
 
 
 
+
+
+
+
 In two cases, the estate had later reimbursed her.
+
+
+
+
 
 
 
@@ -582,7 +1162,15 @@ In the others, the original payment remained outstanding.
 
 
 
+
+
+
+
 Mingzhao checked the figures.
+
+
+
+
 
 
 
@@ -590,7 +1178,15 @@ Mingzhao checked the figures.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -598,7 +1194,15 @@ Mingzhao checked the figures.
 
 
 
+
+
+
+
 "The payments are established, but the repayment arrangements are not."
+
+
+
+
 
 
 
@@ -606,7 +1210,15 @@ Mingzhao checked the figures.
 
 
 
+
+
+
+
 Sun Qiming nodded.
+
+
+
+
 
 
 
@@ -614,7 +1226,15 @@ Mingzhao examined the ten remaining entries.
 
 
 
+
+
+
+
 Some were old.
+
+
+
+
 
 
 
@@ -622,7 +1242,15 @@ Some had no receipts.
 
 
 
+
+
+
+
 Others had only a brief notation in the household ledger.
+
+
+
+
 
 
 
@@ -630,7 +1258,15 @@ She recognized several.
 
 
 
+
+
+
+
 One concerned a payment to a travelling physician.
+
+
+
+
 
 
 
@@ -638,7 +1274,15 @@ Another involved a shipment of grain.
 
 
 
+
+
+
+
 The third was a contribution to repairs at a secondary residence.
+
+
+
+
 
 
 
@@ -646,7 +1290,15 @@ She could not establish whether those amounts had been repaid.
 
 
 
+
+
+
+
 "Do not include them in the confirmed total."
+
+
+
+
 
 
 
@@ -654,7 +1306,15 @@ She could not establish whether those amounts had been repaid.
 
 
 
+
+
+
+
 Mingzhao placed the documents down.
+
+
+
+
 
 
 
@@ -662,7 +1322,15 @@ The confirmed claims were smaller than the amount she had initially expected.
 
 
 
+
+
+
+
 She was not pleased.
+
+
+
+
 
 
 
@@ -670,9 +1338,19 @@ But the evidence was clear.
 
 
 
+
+
+
+
 She would not turn uncertainty into a claim simply because she wanted a larger settlement.
 
+
+
 The property assessor arrived later that morning.
+
+
+
+
 
 
 
@@ -680,7 +1358,15 @@ Master Luo had completed his inspection of the agricultural holdings.
 
 
 
+
+
+
+
 He presented his preliminary findings to Shen Guowei, Mr. Liang, Mingzhao, and Sun Qiming.
+
+
+
+
 
 
 
@@ -688,7 +1374,15 @@ He presented his preliminary findings to Shen Guowei, Mr. Liang, Mingzhao, and S
 
 
 
+
+
+
+
 Shen Guowei examined the report.
+
+
+
+
 
 
 
@@ -696,7 +1390,15 @@ Shen Guowei examined the report.
 
 
 
+
+
+
+
 "Because their current productivity is different."
+
+
+
+
 
 
 
@@ -704,7 +1406,15 @@ Shen Guowei examined the report.
 
 
 
+
+
+
+
 "Yes, Marquis. But their value is affected by soil condition, water access, location, and the cost of bringing them back into cultivation."
+
+
+
+
 
 
 
@@ -712,7 +1422,15 @@ Mingzhao looked through the details.
 
 
 
+
+
+
+
 One parcel had been unused for two years because of drainage problems.
+
+
+
+
 
 
 
@@ -720,7 +1438,15 @@ Another had been leased at a fixed rate.
 
 
 
+
+
+
+
 A third was productive but had a disputed boundary with a neighbouring estate.
+
+
+
+
 
 
 
@@ -728,7 +1454,15 @@ A third was productive but had a disputed boundary with a neighbouring estate.
 
 
 
+
+
+
+
 "Not yet. The neighbouring owner must be notified before the survey."
+
+
+
+
 
 
 
@@ -736,7 +1470,15 @@ A third was productive but had a disputed boundary with a neighbouring estate.
 
 
 
+
+
+
+
 Master Luo nodded.
+
+
+
+
 
 
 
@@ -744,11 +1486,23 @@ Shen Guowei looked displeased.
 
 
 
+
+
+
+
 "Must every property have a separate qualification?"
 
 
 
+
+
+
+
 "Yes," Mingzhao replied.
+
+
+
+
 
 
 
@@ -756,7 +1510,15 @@ He turned toward her.
 
 
 
+
+
+
+
 "You make the process sound endless."
+
+
+
+
 
 
 
@@ -764,7 +1526,15 @@ He turned toward her.
 
 
 
+
+
+
+
 Mr. Liang coughed.
+
+
+
+
 
 
 
@@ -772,7 +1542,15 @@ It was not clear whether he was suppressing a laugh.
 
 
 
+
+
+
+
 Master Luo continued.
+
+
+
+
 
 
 
@@ -780,7 +1558,15 @@ Master Luo continued.
 
 
 
+
+
+
+
 Mingzhao nodded.
+
+
+
+
 
 
 
@@ -788,7 +1574,15 @@ Mingzhao nodded.
 
 
 
+
+
+
+
 Shen Guowei looked at the report again.
+
+
+
+
 
 
 
@@ -796,13 +1590,27 @@ He had expected the assessor to provide a single figure.
 
 
 
+
+
+
+
 Instead, he had received a document full of conditions.
+
+
+
+
 
 
 
 The Marquisate was discovering that its wealth was not as simple as the number of fields it owned.
 
+
+
 At midday, the transport contractor returned with his notebook.
+
+
+
+
 
 
 
@@ -810,7 +1618,15 @@ Liu Shun placed the small book before Sun Qiming.
 
 
 
+
+
+
+
 The pages contained dates, destinations, cart numbers, and payment entries.
+
+
+
+
 
 
 
@@ -818,7 +1634,15 @@ The handwriting was inconsistent.
 
 
 
+
+
+
+
 Several pages were stained.
+
+
+
+
 
 
 
@@ -826,7 +1650,15 @@ Sun Qiming examined the relevant dates.
 
 
 
+
+
+
+
 "Here. This entry."
+
+
+
+
 
 
 
@@ -834,7 +1666,15 @@ Liu Shun leaned forward.
 
 
 
+
+
+
+
 "That was during the warehouse repairs."
+
+
+
+
 
 
 
@@ -842,7 +1682,15 @@ Liu Shun leaned forward.
 
 
 
+
+
+
+
 "Three carts went to the southern road."
+
+
+
+
 
 
 
@@ -850,7 +1698,15 @@ Liu Shun leaned forward.
 
 
 
+
+
+
+
 Liu Shun studied the page.
+
+
+
+
 
 
 
@@ -858,7 +1714,15 @@ Liu Shun studied the page.
 
 
 
+
+
+
+
 "How many sacks?"
+
+
+
+
 
 
 
@@ -866,7 +1730,15 @@ Liu Shun studied the page.
 
 
 
+
+
+
+
 "Did you count them?"
+
+
+
+
 
 
 
@@ -874,7 +1746,15 @@ Liu Shun studied the page.
 
 
 
+
+
+
+
 "Who received the goods?"
+
+
+
+
 
 
 
@@ -882,7 +1762,15 @@ Liu Shun studied the page.
 
 
 
+
+
+
+
 Mingzhao examined the notebook.
+
+
+
+
 
 
 
@@ -890,7 +1778,15 @@ There was another entry later that day.
 
 
 
+
+
+
+
 It recorded a journey to the outer road.
+
+
+
+
 
 
 
@@ -898,7 +1794,15 @@ She pointed to it.
 
 
 
+
+
+
+
 "What does this refer to?"
+
+
+
+
 
 
 
@@ -906,7 +1810,15 @@ Liu Shun looked.
 
 
 
+
+
+
+
 "I remember that journey. One cart had a damaged wheel."
+
+
+
+
 
 
 
@@ -914,7 +1826,15 @@ Liu Shun looked.
 
 
 
+
+
+
+
 "I do not know."
+
+
+
+
 
 
 
@@ -922,7 +1842,15 @@ Liu Shun looked.
 
 
 
+
+
+
+
 "I cannot say."
+
+
+
+
 
 
 
@@ -930,7 +1858,15 @@ Sun Qiming wrote down the answer.
 
 
 
+
+
+
+
 The notebook established that the contractor had made several journeys during the repair period.
+
+
+
+
 
 
 
@@ -938,7 +1874,15 @@ It did not establish the quantity of grain transported.
 
 
 
+
+
+
+
 It did not establish the destination of every load.
+
+
+
+
 
 
 
@@ -946,7 +1890,15 @@ It did not confirm the two sacks.
 
 
 
+
+
+
+
 Mingzhao looked at the records.
+
+
+
+
 
 
 
@@ -954,7 +1906,15 @@ Mingzhao looked at the records.
 
 
 
+
+
+
+
 Liu Shun thought.
+
+
+
+
 
 
 
@@ -962,11 +1922,23 @@ Liu Shun thought.
 
 
 
+
+
+
+
 "Can you provide their names?"
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -974,7 +1946,15 @@ Liu Shun thought.
 
 
 
+
+
+
+
 Liu Shun bowed.
+
+
+
+
 
 
 
@@ -982,11 +1962,23 @@ After he left, Sun Qiming closed the notebook.
 
 
 
+
+
+
+
 "The transport records are useful, but they do not resolve the discrepancy."
 
 
 
+
+
+
+
 Mingzhao nodded.
+
+
+
+
 
 
 
@@ -994,7 +1986,15 @@ Mingzhao nodded.
 
 
 
+
+
+
+
 Steward Zhou looked at the documents.
+
+
+
+
 
 
 
@@ -1002,7 +2002,15 @@ Steward Zhou looked at the documents.
 
 
 
+
+
+
+
 "They could have been," Sun Qiming replied. "But we have no evidence that they were."
+
+
+
+
 
 
 
@@ -1010,7 +2018,15 @@ Mingzhao looked at him.
 
 
 
+
+
+
+
 "Do not write that they were."
+
+
+
+
 
 
 
@@ -1018,7 +2034,15 @@ Mingzhao looked at him.
 
 
 
+
+
+
+
 The investigation continued.
+
+
+
+
 
 
 
@@ -1026,7 +2050,15 @@ The original difference remained forty-seven sacks.
 
 
 
+
+
+
+
 Eighteen had been confirmed in southern storage.
+
+
+
+
 
 
 
@@ -1034,7 +2066,15 @@ Two were covered by the movement instruction but lacked confirmed receipt.
 
 
 
+
+
+
+
 Twenty-seven remained unexplained.
+
+
+
+
 
 
 
@@ -1042,9 +2082,19 @@ The contractor's notebook had added information.
 
 
 
+
+
+
+
 It had not produced a miracle.
 
+
+
 That afternoon, Mingyuan arrived with another set of documents.
+
+
+
+
 
 
 
@@ -1052,7 +2102,15 @@ He had been examining the old household accounts with Steward Zhou.
 
 
 
+
+
+
+
 He placed the records before Sun Qiming.
+
+
+
+
 
 
 
@@ -1060,7 +2118,15 @@ He placed the records before Sun Qiming.
 
 
 
+
+
+
+
 Sun Qiming examined it.
+
+
+
+
 
 
 
@@ -1068,7 +2134,15 @@ The document bore the steward's mark and the approval of Shen Guowei.
 
 
 
+
+
+
+
 The amount corresponded to the seventy-two-tael payment.
+
+
+
+
 
 
 
@@ -1076,7 +2150,15 @@ Sun Qiming compared it with the carpenter's receipt.
 
 
 
+
+
+
+
 The figures matched.
+
+
+
+
 
 
 
@@ -1084,7 +2166,15 @@ He examined the description of the work.
 
 
 
+
+
+
+
 The repairs were limited to roof beams, wall plaster, and damaged flooring.
+
+
+
+
 
 
 
@@ -1092,7 +2182,15 @@ There was no mention of decorative additions.
 
 
 
+
+
+
+
 He looked up.
+
+
+
+
 
 
 
@@ -1100,7 +2198,15 @@ He looked up.
 
 
 
+
+
+
+
 Mingyuan seemed relieved.
+
+
+
+
 
 
 
@@ -1108,11 +2214,23 @@ Mingyuan seemed relieved.
 
 
 
+
+
+
+
 "Yes. It can be recorded as a verified estate expense."
 
 
 
+
+
+
+
 Mingzhao nodded.
+
+
+
+
 
 
 
@@ -1120,7 +2238,15 @@ Mingzhao nodded.
 
 
 
+
+
+
+
 Sun Qiming made a note.
+
+
+
+
 
 
 
@@ -1128,7 +2254,15 @@ Mingyuan looked at his sister.
 
 
 
+
+
+
+
 "Then the amount under examination is now two hundred and twenty-eight taels."
+
+
+
+
 
 
 
@@ -1136,7 +2270,15 @@ Mingyuan looked at his sister.
 
 
 
+
+
+
+
 He hesitated.
+
+
+
+
 
 
 
@@ -1144,7 +2286,15 @@ He hesitated.
 
 
 
+
+
+
+
 "Then continue examining the records."
+
+
+
+
 
 
 
@@ -1152,7 +2302,15 @@ He hesitated.
 
 
 
+
+
+
+
 "Then the evidence will show that."
+
+
+
+
 
 
 
@@ -1160,7 +2318,15 @@ Mingyuan lowered his eyes.
 
 
 
+
+
+
+
 "I know."
+
+
+
+
 
 
 
@@ -1168,7 +2334,15 @@ Mingzhao studied him for a moment.
 
 
 
+
+
+
+
 He had begun to take the matter more seriously.
+
+
+
+
 
 
 
@@ -1176,7 +2350,15 @@ That did not erase the years in which he had avoided responsibility.
 
 
 
+
+
+
+
 It did, however, make the current work easier.
+
+
+
+
 
 
 
@@ -1184,7 +2366,15 @@ She returned to the accounts.
 
 
 
+
+
+
+
 "Ask the household clerk to provide the original vouchers for the remaining entries."
+
+
+
+
 
 
 
@@ -1192,13 +2382,27 @@ Mingyuan nodded.
 
 
 
+
+
+
+
 "I will."
+
+
+
+
 
 
 
 He took the instruction and left.
 
+
+
 In the afternoon, Shen Mingxiu came to the study with a question about the secondary residences.
+
+
+
+
 
 
 
@@ -1206,7 +2410,15 @@ In the afternoon, Shen Mingxiu came to the study with a question about the secon
 
 
 
+
+
+
+
 Mingzhao accepted the document.
+
+
+
+
 
 
 
@@ -1214,7 +2426,15 @@ The report contained the income and expenditure of the secondary residences.
 
 
 
+
+
+
+
 It also separated ordinary repairs, agricultural expenses, staff wages, and household supplies.
+
+
+
+
 
 
 
@@ -1222,7 +2442,15 @@ Mingzhao examined the figures.
 
 
 
+
+
+
+
 "Why is the eastern residence's repair expenditure higher this month?"
+
+
+
+
 
 
 
@@ -1230,7 +2458,15 @@ Mingxiu pointed to the relevant entry.
 
 
 
+
+
+
+
 "The drainage channel collapsed after the rain. The steward ordered repairs."
+
+
+
+
 
 
 
@@ -1238,7 +2474,15 @@ Mingxiu pointed to the relevant entry.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1246,7 +2490,15 @@ Mingxiu pointed to the relevant entry.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1254,7 +2506,15 @@ Mingxiu pointed to the relevant entry.
 
 
 
+
+
+
+
 Mingxiu checked her notes.
+
+
+
+
 
 
 
@@ -1262,7 +2522,15 @@ Mingxiu checked her notes.
 
 
 
+
+
+
+
 "Then who authorized the additional amount?"
+
+
+
+
 
 
 
@@ -1270,7 +2538,15 @@ Mingxiu checked her notes.
 
 
 
+
+
+
+
 Mingzhao nodded.
+
+
+
+
 
 
 
@@ -1278,7 +2554,15 @@ Mingzhao nodded.
 
 
 
+
+
+
+
 Mingxiu looked relieved.
+
+
+
+
 
 
 
@@ -1286,7 +2570,15 @@ Mingxiu looked relieved.
 
 
 
+
+
+
+
 "Mostly."
+
+
+
+
 
 
 
@@ -1294,7 +2586,15 @@ Mingxiu's expression fell slightly.
 
 
 
+
+
+
+
 "What is wrong?"
+
+
+
+
 
 
 
@@ -1302,7 +2602,15 @@ Mingxiu's expression fell slightly.
 
 
 
+
+
+
+
 Mingxiu looked at the entry.
+
+
+
+
 
 
 
@@ -1310,7 +2618,15 @@ Mingxiu looked at the entry.
 
 
 
+
+
+
+
 "It is part of the harvest. It is not a sale."
+
+
+
+
 
 
 
@@ -1318,7 +2634,15 @@ Mingxiu checked the figures.
 
 
 
+
+
+
+
 She had included the same quantity in two places.
+
+
+
+
 
 
 
@@ -1326,7 +2650,15 @@ She had included the same quantity in two places.
 
 
 
+
+
+
+
 "Correct it."
+
+
+
+
 
 
 
@@ -1334,7 +2666,15 @@ She had included the same quantity in two places.
 
 
 
+
+
+
+
 Mingxiu took the report back.
+
+
+
+
 
 
 
@@ -1342,7 +2682,15 @@ Then she looked at Mingzhao.
 
 
 
+
+
+
+
 "Second Sister, when you leave, who will check these summaries?"
+
+
+
+
 
 
 
@@ -1350,7 +2698,15 @@ Then she looked at Mingzhao.
 
 
 
+
+
+
+
 "Will they notice mistakes?"
+
+
+
+
 
 
 
@@ -1358,7 +2714,15 @@ Then she looked at Mingzhao.
 
 
 
+
+
+
+
 "What if they do not?"
+
+
+
+
 
 
 
@@ -1366,7 +2730,15 @@ Then she looked at Mingzhao.
 
 
 
+
+
+
+
 Mingxiu frowned.
+
+
+
+
 
 
 
@@ -1374,7 +2746,15 @@ Mingxiu frowned.
 
 
 
+
+
+
+
 "It is not supposed to be."
+
+
+
+
 
 
 
@@ -1382,7 +2762,15 @@ Mingzhao returned to her own work.
 
 
 
+
+
+
+
 Mingxiu stood there for a moment.
+
+
+
+
 
 
 
@@ -1390,13 +2778,27 @@ Then she took the report and left.
 
 
 
+
+
+
+
 She was beginning to understand that taking responsibility did not mean receiving constant reassurance.
+
+
+
+
 
 
 
 It meant learning to check one's own work.
 
+
+
 At Chengming Palace, the Empress was preparing for her final official audience with the senior palace administrators.
+
+
+
+
 
 
 
@@ -1404,7 +2806,15 @@ The meeting would review the responsibilities that remained under her direct aut
 
 
 
+
+
+
+
 Madam Zhao presented the list.
+
+
+
+
 
 
 
@@ -1412,7 +2822,15 @@ There were twelve responsibilities still recorded under the Empress's direct aut
 
 
 
+
+
+
+
 Five had already been examined.
+
+
+
+
 
 
 
@@ -1420,7 +2838,15 @@ Seven remained pending.
 
 
 
+
+
+
+
 Yuru read the list.
+
+
+
+
 
 
 
@@ -1428,7 +2854,15 @@ Yuru read the list.
 
 
 
+
+
+
+
 Madam Zhao answered.
+
+
+
+
 
 
 
@@ -1436,11 +2870,23 @@ Madam Zhao answered.
 
 
 
+
+
+
+
 "Then mark it as transferred, with the current reconciliation pending."
 
 
 
+
+
+
+
 "Yes, Your Majesty."
+
+
+
+
 
 
 
@@ -1448,7 +2894,15 @@ Yuru examined the next entry.
 
 
 
+
+
+
+
 "Disputes concerning senior attendants?"
+
+
+
+
 
 
 
@@ -1456,7 +2910,15 @@ Yuru examined the next entry.
 
 
 
+
+
+
+
 "Are all disputes submitted to me?"
+
+
+
+
 
 
 
@@ -1464,11 +2926,23 @@ Yuru examined the next entry.
 
 
 
+
+
+
+
 "Then the register should identify which disputes require my decision and which do not."
 
 
 
+
+
+
+
 Madam Zhao nodded.
+
+
+
+
 
 
 
@@ -1476,7 +2950,15 @@ Yuru continued.
 
 
 
+
+
+
+
 She was not going to spend the final days approving every ordinary decision simply because the old paperwork still carried her name.
+
+
+
+
 
 
 
@@ -1484,7 +2966,15 @@ The meeting continued for nearly two hours.
 
 
 
+
+
+
+
 At the end, the list had been reduced to matters that genuinely required her authority before the ceremony.
+
+
+
+
 
 
 
@@ -1492,7 +2982,15 @@ Madam Zhao gathered the papers.
 
 
 
+
+
+
+
 "Your Majesty, the departments are making progress."
+
+
+
+
 
 
 
@@ -1500,7 +2998,15 @@ Madam Zhao gathered the papers.
 
 
 
+
+
+
+
 "Some officials remain uncertain."
+
+
+
+
 
 
 
@@ -1508,7 +3014,15 @@ Madam Zhao gathered the papers.
 
 
 
+
+
+
+
 Madam Zhao bowed.
+
+
+
+
 
 
 
@@ -1516,7 +3030,15 @@ Yuru looked at her.
 
 
 
+
+
+
+
 "Do not let them believe that every mistake means the arrangement has failed."
+
+
+
+
 
 
 
@@ -1524,7 +3046,15 @@ Yuru looked at her.
 
 
 
+
+
+
+
 "Nor should they believe that every mistake can be blamed on the person who previously held the responsibility."
+
+
+
+
 
 
 
@@ -1532,7 +3062,15 @@ Madam Zhao nodded.
 
 
 
+
+
+
+
 The Empress looked at the remaining list.
+
+
+
+
 
 
 
@@ -1540,13 +3078,27 @@ It was shorter.
 
 
 
+
+
+
+
 Not perfect.
+
+
+
+
 
 
 
 But shorter.
 
+
+
 The Emperor visited Chengming Palace that evening.
+
+
+
+
 
 
 
@@ -1554,7 +3106,15 @@ Yuru was reading a book.
 
 
 
+
+
+
+
 He looked at the table.
+
+
+
+
 
 
 
@@ -1562,7 +3122,15 @@ There were no administrative reports.
 
 
 
+
+
+
+
 "Have you finished your work?"
+
+
+
+
 
 
 
@@ -1570,7 +3138,15 @@ There were no administrative reports.
 
 
 
+
+
+
+
 "That is unusual."
+
+
+
+
 
 
 
@@ -1578,7 +3154,15 @@ There were no administrative reports.
 
 
 
+
+
+
+
 He smiled.
+
+
+
+
 
 
 
@@ -1586,7 +3170,15 @@ He smiled.
 
 
 
+
+
+
+
 "Leaving."
+
+
+
+
 
 
 
@@ -1594,7 +3186,15 @@ The Emperor sat opposite her.
 
 
 
+
+
+
+
 He looked at the book.
+
+
+
+
 
 
 
@@ -1602,7 +3202,15 @@ He looked at the book.
 
 
 
+
+
+
+
 "A record of agricultural taxation."
+
+
+
+
 
 
 
@@ -1610,7 +3218,15 @@ He stared at her.
 
 
 
+
+
+
+
 "That is your idea of rest?"
+
+
+
+
 
 
 
@@ -1618,7 +3234,15 @@ He stared at her.
 
 
 
+
+
+
+
 "It is a taxation record."
+
+
+
+
 
 
 
@@ -1626,7 +3250,15 @@ He stared at her.
 
 
 
+
+
+
+
 The Emperor laughed.
+
+
+
+
 
 
 
@@ -1634,7 +3266,15 @@ Yuru closed it.
 
 
 
+
+
+
+
 He looked at her.
+
+
+
+
 
 
 
@@ -1642,7 +3282,15 @@ He looked at her.
 
 
 
+
+
+
+
 "I know."
+
+
+
+
 
 
 
@@ -1650,7 +3298,15 @@ He looked at her.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1658,7 +3314,15 @@ He looked at her.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1666,7 +3330,15 @@ He paused.
 
 
 
+
+
+
+
 "Is there anything else you require?"
+
+
+
+
 
 
 
@@ -1674,11 +3346,23 @@ Yuru considered the question.
 
 
 
+
+
+
+
 "An uninterrupted morning."
 
 
 
+
+
+
+
 He looked at her.
+
+
+
+
 
 
 
@@ -1686,11 +3370,23 @@ He looked at her.
 
 
 
+
+
+
+
 "Without reports."
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1698,7 +3394,15 @@ He looked at her.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1706,7 +3410,15 @@ He looked at her.
 
 
 
+
+
+
+
 The Emperor laughed again.
+
+
+
+
 
 
 
@@ -1714,13 +3426,27 @@ The Emperor laughed again.
 
 
 
+
+
+
+
 Yuru looked satisfied.
+
+
+
+
 
 
 
 For once, the palace might allow her to have a morning without administrative responsibility.
 
+
+
 At the Marquisate, Mingzhao received the updated settlement schedule.
+
+
+
+
 
 
 
@@ -1728,7 +3454,15 @@ The personal-property inventory was nearly complete.
 
 
 
+
+
+
+
 The independent commercial assets were being examined.
+
+
+
+
 
 
 
@@ -1736,7 +3470,15 @@ The family estate valuation was in progress.
 
 
 
+
+
+
+
 The confirmed advances had been separated from disputed claims.
+
+
+
+
 
 
 
@@ -1744,7 +3486,15 @@ The liabilities schedule remained incomplete.
 
 
 
+
+
+
+
 The warehouse discrepancy remained unresolved.
+
+
+
+
 
 
 
@@ -1752,7 +3502,15 @@ The property division could proceed in stages, but the final settlement could no
 
 
 
+
+
+
+
 Mingzhao read the document.
+
+
+
+
 
 
 
@@ -1760,7 +3518,15 @@ Then she turned to the departure schedule.
 
 
 
+
+
+
+
 The transition of ordinary household responsibilities had largely been completed.
+
+
+
+
 
 
 
@@ -1768,7 +3534,15 @@ Steward Zhou was managing daily operations.
 
 
 
+
+
+
+
 Mingyuan was reviewing principal accounts.
+
+
+
+
 
 
 
@@ -1776,7 +3550,15 @@ Mingxiu was preparing the secondary residence and agricultural summaries.
 
 
 
+
+
+
+
 The estate clerk was producing monthly expenditure reports.
+
+
+
+
 
 
 
@@ -1784,7 +3566,15 @@ The remaining work involved unresolved records and the transfer of authority ove
 
 
 
+
+
+
+
 Mingzhao looked at the proposed date.
+
+
+
+
 
 
 
@@ -1792,7 +3582,15 @@ The family had suggested the twentieth day of the fourth month.
 
 
 
+
+
+
+
 She examined it.
+
+
+
+
 
 
 
@@ -1800,7 +3598,15 @@ Three days from now.
 
 
 
+
+
+
+
 It was earlier than she had expected.
+
+
+
+
 
 
 
@@ -1808,7 +3614,15 @@ She read the conditions.
 
 
 
+
+
+
+
 The transition of ordinary duties would be completed before that date.
+
+
+
+
 
 
 
@@ -1816,7 +3630,15 @@ Outstanding accounts would remain under examination.
 
 
 
+
+
+
+
 The property division would continue separately.
+
+
+
+
 
 
 
@@ -1824,7 +3646,15 @@ She looked at Sun Qiming.
 
 
 
+
+
+
+
 "Can the handover be completed by the twentieth?"
+
+
+
+
 
 
 
@@ -1832,7 +3662,15 @@ She looked at Sun Qiming.
 
 
 
+
+
+
+
 "Will the unfinished accounts prevent the handover?"
+
+
+
+
 
 
 
@@ -1840,7 +3678,15 @@ She looked at Sun Qiming.
 
 
 
+
+
+
+
 Mingzhao looked at the document.
+
+
+
+
 
 
 
@@ -1848,7 +3694,15 @@ Mingzhao looked at the document.
 
 
 
+
+
+
+
 Qiao Yue, who stood nearby, looked at her.
+
+
+
+
 
 
 
@@ -1856,7 +3710,15 @@ Qiao Yue, who stood nearby, looked at her.
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1864,7 +3726,15 @@ Qiao Yue, who stood nearby, looked at her.
 
 
 
+
+
+
+
 "Not yet."
+
+
+
+
 
 
 
@@ -1872,7 +3742,15 @@ Qiao Yue stared at her.
 
 
 
+
+
+
+
 "Miss."
+
+
+
+
 
 
 
@@ -1880,7 +3758,15 @@ Qiao Yue stared at her.
 
 
 
+
+
+
+
 "You are leaving in three days."
+
+
+
+
 
 
 
@@ -1888,7 +3774,15 @@ Qiao Yue stared at her.
 
 
 
+
+
+
+
 "And you have not purchased a residence."
+
+
+
+
 
 
 
@@ -1896,7 +3790,15 @@ Qiao Yue stared at her.
 
 
 
+
+
+
+
 "Where will we go?"
+
+
+
+
 
 
 
@@ -1904,7 +3806,15 @@ Mingzhao looked at her.
 
 
 
+
+
+
+
 "An inn, if necessary. Or a temporary rented residence."
+
+
+
+
 
 
 
@@ -1912,7 +3822,15 @@ Qiao Yue looked horrified.
 
 
 
+
+
+
+
 "The Marquis's eldest daughter staying at an inn?"
+
+
+
+
 
 
 
@@ -1920,7 +3838,15 @@ Qiao Yue looked horrified.
 
 
 
+
+
+
+
 Qiao Yue opened her mouth.
+
+
+
+
 
 
 
@@ -1928,7 +3854,15 @@ Then closed it.
 
 
 
+
+
+
+
 Mingzhao returned to the schedule.
+
+
+
+
 
 
 
@@ -1936,7 +3870,15 @@ She had spent weeks searching for a suitable residence.
 
 
 
+
+
+
+
 The northern house needed more repairs than expected.
+
+
+
+
 
 
 
@@ -1944,7 +3886,15 @@ The eastern property still had a boundary dispute.
 
 
 
+
+
+
+
 She would not purchase either simply because the departure date had arrived.
+
+
+
+
 
 
 
@@ -1952,13 +3902,27 @@ A temporary residence was inconvenient.
 
 
 
+
+
+
+
 It was also preferable to buying the wrong property.
+
+
+
+
 
 
 
 She signed the acceptance.
 
+
+
 That evening, Shen Guowei read the signed schedule.
+
+
+
+
 
 
 
@@ -1966,7 +3930,15 @@ He looked at the date.
 
 
 
+
+
+
+
 "The twentieth?"
+
+
+
+
 
 
 
@@ -1974,11 +3946,23 @@ He looked at the date.
 
 
 
+
+
+
+
 "You have agreed?"
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1986,11 +3970,23 @@ He looked at her for a long moment.
 
 
 
+
+
+
+
 "Three days."
 
 
 
+
+
+
+
 "Yes."
+
+
+
+
 
 
 
@@ -1998,7 +3994,15 @@ He looked at her for a long moment.
 
 
 
+
+
+
+
 "The schedule states that it will continue separately."
+
+
+
+
 
 
 
@@ -2006,7 +4010,15 @@ He looked at her for a long moment.
 
 
 
+
+
+
+
 "Sun Qiming will continue the examination."
+
+
+
+
 
 
 
@@ -2014,7 +4026,15 @@ He looked at her for a long moment.
 
 
 
+
+
+
+
 "I will arrange temporary accommodation."
+
+
+
+
 
 
 
@@ -2022,7 +4042,15 @@ Shen Guowei frowned.
 
 
 
+
+
+
+
 "That is not suitable."
+
+
+
+
 
 
 
@@ -2030,7 +4058,15 @@ Shen Guowei frowned.
 
 
 
+
+
+
+
 He looked at her.
+
+
+
+
 
 
 
@@ -2038,7 +4074,15 @@ He looked at her.
 
 
 
+
+
+
+
 Mingzhao was silent.
+
+
+
+
 
 
 
@@ -2046,7 +4090,15 @@ Then she replied.
 
 
 
+
+
+
+
 "I did not expect to spend six years managing the household without a clear agreement about my own property."
+
+
+
+
 
 
 
@@ -2054,7 +4106,15 @@ Her father looked away.
 
 
 
+
+
+
+
 The statement was not loud.
+
+
+
+
 
 
 
@@ -2062,7 +4122,15 @@ It did not need to be.
 
 
 
+
+
+
+
 After a moment, he nodded.
+
+
+
+
 
 
 
@@ -2070,7 +4138,15 @@ After a moment, he nodded.
 
 
 
+
+
+
+
 Mingzhao stood.
+
+
+
+
 
 
 
@@ -2078,7 +4154,15 @@ Mingzhao stood.
 
 
 
+
+
+
+
 She bowed and left.
+
+
+
+
 
 
 
@@ -2086,7 +4170,15 @@ Shen Guowei remained seated.
 
 
 
+
+
+
+
 For the first time, the date was no longer a subject for negotiation.
+
+
+
+
 
 
 
@@ -2094,7 +4186,15 @@ His eldest daughter was leaving.
 
 
 
+
+
+
+
 The property division would continue.
+
+
+
+
 
 
 
@@ -2102,9 +4202,19 @@ The household would remain.
 
 
 
+
+
+
+
 And the family would have to discover whether it could manage its affairs without her.
 
+
+
 That night, Yuru reviewed the final ceremonial schedule.
+
+
+
+
 
 
 
@@ -2112,7 +4222,15 @@ Seven days remained.
 
 
 
+
+
+
+
 Mingzhao reviewed the signed departure schedule.
+
+
+
+
 
 
 
@@ -2120,7 +4238,15 @@ Three days remained.
 
 
 
+
+
+
+
 One woman was leaving a palace after years of responsibility.
+
+
+
+
 
 
 
@@ -2128,7 +4254,15 @@ The other was leaving a family estate after years of management.
 
 
 
+
+
+
+
 Neither had completed every matter.
+
+
+
+
 
 
 
@@ -2136,7 +4270,15 @@ Neither intended to wait until every other person was comfortable.
 
 
 
+
+
+
+
 The Emperor had decided not to appoint a new Empress immediately.
+
+
+
+
 
 
 
@@ -2144,7 +4286,15 @@ The Marquis had agreed that his daughter could depart before the property settle
 
 
 
+
+
+
+
 For the first time, both departures had become unavoidable facts rather than proposals.
+
+
+
+
 
 
 
@@ -2152,7 +4302,15 @@ Unfortunately, the palace still had one question.
 
 
 
+
+
+
+
 The Imperial Archives had asked whether the seals should be counted before being placed in their ceremonial cases.
+
+
+
+
 
 
 
@@ -2160,7 +4318,15 @@ And at the Marquisate, Steward Zhou had asked whether Mingzhao's departure inven
 
 
 
+
+
+
+
 Mingzhao had answered immediately.
+
+
+
+
 
 
 
@@ -2168,7 +4334,15 @@ Mingzhao had answered immediately.
 
 
 
+
+
+
+
 Steward Zhou had nodded.
+
+
+
+
 
 
 
@@ -2176,7 +4350,15 @@ Then he had asked whether the documents on it belonged to her.
 
 
 
+
+
+
+
 Mingzhao had stared at him.
+
+
+
+
 
 
 
@@ -2184,7 +4366,15 @@ For several seconds, she had not answered.
 
 
 
+
+
+
+
 Finally, she said:
+
+
+
+
 
 
 
@@ -2192,7 +4382,15 @@ Finally, she said:
 
 
 
+
+
+
+
 Steward Zhou considered this.
+
+
+
+
 
 
 
@@ -2200,7 +4398,15 @@ Then he asked whether the table could remain where it was.
 
 
 
+
+
+
+
 Mingzhao closed her eyes.
+
+
+
+
 
 
 
@@ -2208,7 +4414,15 @@ Mingzhao closed her eyes.
 
 
 
+
+
+
+
 The table would stay.
+
+
+
+
 
 
 
@@ -2216,7 +4430,15 @@ The documents would remain.
 
 
 
+
+
+
+
 And Shen Mingzhao would leave without taking the furniture required to store the problems she had spent six years managing.
+
+
+
+
 
 
 
