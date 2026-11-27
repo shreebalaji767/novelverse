@@ -3022,9 +3022,17 @@
           "title": "The Crown Prince Has Been Given a Household Account Book. The Marquis's Heir Has Been Asked for Three Hundred Taels' Worth of Receipts.",
           "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-05.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-ch06",
+          "number": "06",
+          "order": 6,
+          "title": "The Second Prince Has Discovered That Personal Expenditure Is Not a Household Expense. The Marquis Has Discovered That His Daughter Keeps Copies.",
+          "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-06.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 5,
+      "chapterCount": 6,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
