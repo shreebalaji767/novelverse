@@ -3190,9 +3190,17 @@
           "title": "The Empress Has Six Days Left. The Marquis's Eldest Daughter Has Two. The Neighbour Has Brought a Measuring Rope and an Opinion.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-26.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-27",
+          "number": "27",
+          "order": 27,
+          "title": "The Empress Has Five Days Left. The Marquis's Eldest Daughter Has One. The Family Has Discovered That Packing Is Also an Accounting Problem.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-27.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 26,
+      "chapterCount": 27,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
