@@ -2982,8 +2982,17 @@
         "Character-Driven Fiction"
       ],
       "status": "ongoing",
-      "chapters": [],
-      "chapterCount": 0,
+      "chapters": [
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-ch01",
+          "number": "01",
+          "order": 1,
+          "title": "The Empress Has Submitted Her Resignation. The Emperor Has Developed a Headache.",
+          "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-01.md",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "chapterCount": 1,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
