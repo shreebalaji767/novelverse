@@ -3094,9 +3094,17 @@
           "title": "The Empress Has Been Told That Her Resignation Is Still Under Review. The Marquis's Eldest Daughter Has Been Told That Her Departure Is Also Under Review.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-14.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-15",
+          "number": "15",
+          "order": 15,
+          "title": "The Empress Has Been Asked to Attend a Meeting About Her Own Replacement. The Marquis's Eldest Daughter Has Been Asked to Train the People Who Will Replace Her.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-15.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 14,
+      "chapterCount": 15,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
