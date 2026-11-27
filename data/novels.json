@@ -2998,9 +2998,17 @@
           "title": "The Family Wants a Peaceful Discussion. The Empress Wants a Department That Can Count.",
           "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-02.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-ch03",
+          "number": "03",
+          "order": 3,
+          "title": "The Empress's Resignation Has Reached the Palace. The Brooms Have Become a Government Matter.",
+          "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-03.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 2,
+      "chapterCount": 3,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
