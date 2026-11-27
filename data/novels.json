@@ -3142,9 +3142,17 @@
           "title": "The Emperor Has Finally Made a Decision. The Empress Has Asked Him to Put It in Writing. The Marquis Has Discovered That a Departure Date Is Not a Property Settlement.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-20.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-21",
+          "number": "21",
+          "order": 21,
+          "title": "The Empress Has Been Given a Date for Her Departure. The Marquis's Eldest Daughter Has Been Given Another List of Things She Cannot Take.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-21.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 20,
+      "chapterCount": 21,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
