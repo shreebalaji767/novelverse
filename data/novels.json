@@ -3166,9 +3166,17 @@
           "title": "The Empress Has Been Asked to Choose Her Successor. The Marquis's Eldest Daughter Has Been Asked to Choose Which Debts She Is Willing to Inherit.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-23.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-24",
+          "number": "24",
+          "order": 24,
+          "title": "The Empress Has Been Told That Her Successor Will Be Decided Later. The Marquis's Eldest Daughter Has Been Told That Her Debts Must Be Decided First.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-24.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 23,
+      "chapterCount": 24,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
