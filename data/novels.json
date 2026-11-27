@@ -3070,9 +3070,17 @@
           "title": "The Emperor Has Asked for a List of Things the Empress Cannot Delegate. The Marquis Has Asked His Daughter to Stop Counting Things He Cannot Explain.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-11.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-12",
+          "number": "12",
+          "order": 12,
+          "title": "The Empress Has Been Asked to Stop Solving Everyone's Problems. The Marquis's Heir Has Been Asked to Start Solving His Own.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-12.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 11,
+      "chapterCount": 12,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
