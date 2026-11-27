@@ -2671,10 +2671,19 @@
           "path": "./chapters/villainess-lazy-to-destroy-world/chapter-70.md",
           "publishedAt": "2026-11-26",
           "novelId": "villainess-lazy-to-destroy-world"
+        },
+        {
+          "id": "villainess-lazy-ch71",
+          "number": "71",
+          "order": 235,
+          "title": "The Road That Had Been Closed Before the Snow",
+          "path": "./chapters/villainess-lazy-to-destroy-world/chapter-71.md",
+          "publishedAt": "2026-11-27",
+          "novelId": "villainess-lazy-to-destroy-world"
         }
       ],
-      "chapterCount": 70,
-      "updatedAt": "2026-11-26",
+      "chapterCount": 71,
+      "updatedAt": "2026-11-27",
       "subtitle": "A villainess's quiet-life plan becomes an accidental kingdom-wide reform project.",
       "author": "Original NovelVerse Story",
       "tags": [
@@ -2686,5 +2695,5 @@
       "plannedChapterCount": 100
     }
   ],
-  "updatedAt": "2026-11-26"
+  "updatedAt": "2026-11-27"
 }
