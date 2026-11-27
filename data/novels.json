@@ -3030,9 +3030,17 @@
           "title": "The Second Prince Has Discovered That Personal Expenditure Is Not a Household Expense. The Marquis Has Discovered That His Daughter Keeps Copies.",
           "path": "./chapters/empress-resigned-villainous-eldest-daughter/chapter-06.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-07",
+          "number": "07",
+          "order": 7,
+          "title": "The Empress Has Been Asked to Approve a New Regulation. The Marquis's Eldest Daughter Has Been Asked to Explain an Old One.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-07.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 6,
+      "chapterCount": 7,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
