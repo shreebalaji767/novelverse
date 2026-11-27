@@ -267,6 +267,146 @@
           "description": "The kingdom’s defence forces, responsible for national security, border installations, transport and military supply."
         }
       ]
+    },
+    {
+      "id": "great-yong-dynasty",
+      "novelId": "empress-resigned-villainous-eldest-daughter",
+      "name": "The Great Yong Dynasty",
+      "type": "Fictional Chinese-inspired historical imperial setting",
+      "summary": "Great Yong is a prosperous but administratively complicated hereditary imperial monarchy. The emperor governs through central ministries, provincial authorities and established imperial institutions, while hereditary aristocratic families hold land, property and commercial interests. The imperial household is institutionally separate from the civil ministries, although its expenditure and contracts can intersect with government responsibilities. The story's comedy comes from real administrative burdens, family expectations, financial disputes and ceremonial procedure—not magic or supernatural events.",
+      "geography": "The capital, Yongjing, contains the imperial city, noble residences, commercial districts, government offices and river transport quarter. The wider dynasty includes agricultural regions, manufacturing centres, trade routes and provincial administrations.",
+      "history": "Great Yong's political and household institutions have developed over generations. Regulations created to solve earlier problems have accumulated, and some have become outdated or needlessly complicated. The imperial household has its own defined responsibilities, while the central government is organised through six principal ministries.",
+      "powerHierarchy": [
+        {
+          "level": 1,
+          "title": "Imperial Throne and Imperial Household",
+          "description": "Emperor Zhao Jingheng holds sovereign authority. The empress has authority over defined inner-household matters, not the entire civil government; the imperial household maintains its own personnel, expenditure, ceremonies and internal regulations."
+        },
+        {
+          "level": 2,
+          "title": "Central Government and Six Ministries",
+          "description": "The ministries of Personnel, Revenue, Rites, War, Justice and Works administer civil appointments, public finance, ceremonies and education, military affairs, justice, and infrastructure respectively."
+        },
+        {
+          "level": 3,
+          "title": "Provincial Authorities and Hereditary Aristocracy",
+          "description": "Provincial authorities administer local affairs. Dukes, marquises, counts, viscounts and barons hold ranks and privileges under succession rules; noble households may own estates, investments and businesses."
+        },
+        {
+          "level": 4,
+          "title": "Merchants, Guilds and Commercial Houses",
+          "description": "Merchants, trading houses, lenders, transport operators and craft producers support regional and capital commerce and can influence supply, contracts and prices."
+        },
+        {
+          "level": 5,
+          "title": "Scholars, Craftspeople and Ordinary Households",
+          "description": "Scholars, artisans, farmers, workers, traders and ordinary families form the wider social and economic life of the dynasty."
+        }
+      ],
+      "locations": [
+        {
+          "id": "yongjing",
+          "name": "Yongjing — Imperial Capital",
+          "description": "The political, commercial and cultural centre of Great Yong, containing the imperial city, noble residences, government offices, markets and river trade."
+        },
+        {
+          "id": "imperial-city",
+          "name": "Imperial City",
+          "description": "The emperor's palace and the principal institutions of imperial authority and ceremony."
+        },
+        {
+          "id": "outer-court",
+          "name": "Outer Court",
+          "description": "The emperor's principal political and ceremonial space, where official audiences and state functions take place."
+        },
+        {
+          "id": "inner-palace",
+          "name": "Inner Palace",
+          "description": "The residential and administrative sphere of the empress, imperial consorts and imperial children."
+        },
+        {
+          "id": "chengming-palace",
+          "name": "Chengming Palace",
+          "description": "Xu Yuru's principal residence, including her private study, administrative offices and residential courtyard."
+        },
+        {
+          "id": "imperial-household-administration",
+          "name": "Imperial Household Administration",
+          "description": "The offices responsible for palace personnel, supplies, finances, ceremonies and internal regulations."
+        },
+        {
+          "id": "imperial-archives",
+          "name": "Imperial Archives",
+          "description": "The repository for decrees, accounts, administrative records and historical documents."
+        },
+        {
+          "id": "qingyuan-marquisate",
+          "name": "Qingyuan Marquisate",
+          "description": "The Shen family's residence and the centre of Mingzhao's family and inheritance dispute."
+        },
+        {
+          "id": "mingzhao-residence",
+          "name": "Mingzhao's Independent Residence",
+          "description": "The household Mingzhao establishes with her legally settled personal resources after the division of the family fortune."
+        },
+        {
+          "id": "eastern-commercial-street",
+          "name": "Eastern Commercial Street",
+          "description": "A major commercial area for merchants, suppliers, trading houses, contracts and negotiations."
+        },
+        {
+          "id": "river-quarter",
+          "name": "River Quarter",
+          "description": "The capital's transport and warehouse district, connecting trade routes, storage and commercial activity."
+        }
+      ],
+      "organizations": [
+        {
+          "id": "imperial-household",
+          "name": "Imperial Household",
+          "description": "The institution responsible for the inner palace's personnel, supplies, finances, ceremonies and internal regulations, distinct from the civil ministries."
+        },
+        {
+          "id": "ministry-personnel",
+          "name": "Ministry of Personnel",
+          "description": "Responsible for civil appointments and evaluations."
+        },
+        {
+          "id": "ministry-revenue",
+          "name": "Ministry of Revenue",
+          "description": "Responsible for taxation, public finance and state accounts."
+        },
+        {
+          "id": "ministry-rites",
+          "name": "Ministry of Rites",
+          "description": "Responsible for ceremonies, education and diplomatic protocol."
+        },
+        {
+          "id": "ministry-war",
+          "name": "Ministry of War",
+          "description": "Responsible for military administration."
+        },
+        {
+          "id": "ministry-justice",
+          "name": "Ministry of Justice",
+          "description": "Responsible for legal administration and judicial affairs."
+        },
+        {
+          "id": "ministry-works",
+          "name": "Ministry of Works",
+          "description": "Responsible for infrastructure, construction and public projects."
+        },
+        {
+          "id": "qingyuan-house",
+          "name": "Qingyuan Marquisate",
+          "description": "A hereditary aristocratic household whose income and assets include land, family investments and commercial arrangements."
+        },
+        {
+          "id": "merchant-houses",
+          "name": "Merchant and Trading Houses",
+          "description": "Commercial families and businesses involved in goods, transport, lending, supplies and trade."
+        }
+      ]
     }
   ]
 }
