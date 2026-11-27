@@ -3046,9 +3046,17 @@
           "title": "The Brooms Have Been Counted Twice. The Marquis's Accounts Have Been Counted Three Times. Nobody Is Happier.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-08.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-09",
+          "number": "09",
+          "order": 9,
+          "title": "The Empress Has Been Asked to Explain the Difference Between Advice and Approval. The Marquis's Eldest Daughter Has Been Asked to Explain the Difference Between Leaving and Abandoning the Family.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-09.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 8,
+      "chapterCount": 9,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
