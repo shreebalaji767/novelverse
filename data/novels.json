@@ -3078,9 +3078,17 @@
           "title": "The Empress Has Been Asked to Stop Solving Everyone's Problems. The Marquis's Heir Has Been Asked to Start Solving His Own.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-12.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-13",
+          "number": "13",
+          "order": 13,
+          "title": "The Empress Has Been Given a Choice Between Two Committees. The Marquis's Eldest Daughter Has Been Given a Choice Between Two Bad Houses.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-13.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 12,
+      "chapterCount": 13,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
