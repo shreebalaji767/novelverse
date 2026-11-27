@@ -3118,9 +3118,17 @@
           "title": "The Palace Has Transferred Another Responsibility. The Marquis Has Transferred Another Ledger. Neither Has Managed to Transfer the Consequences.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-17.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-18",
+          "number": "18",
+          "order": 18,
+          "title": "The Emperor Has Discovered That a Successful Transition Creates More Questions. The Marquis Has Discovered That His Son Can Read an Account Book.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-18.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 17,
+      "chapterCount": 18,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
