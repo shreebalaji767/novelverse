@@ -3214,9 +3214,17 @@
           "title": "The Empress Has Three Days Left. The Marquis's Eldest Daughter Has One Full Day of Independence. The Palace Has Rehearsed Its Ceremony. The New Household Has Misplaced a Cooking Pot.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-29.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-30",
+          "number": "30",
+          "order": 30,
+          "title": "The Empress Has Two Days Left. The Marquis's Eldest Daughter Has Discovered That Freedom Comes with Rent. The Emperor Has Discovered That Nobody Knows Where to Put the Ceremonial Screens.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-30.md",
+          "publishedAt": "2026-11-27"
         }
       ],
-      "chapterCount": 29,
+      "chapterCount": 30,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-27"
     }
