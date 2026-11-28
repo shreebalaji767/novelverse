@@ -3630,9 +3630,17 @@
           "title": "The Former Empress Has Decided That Her Father's Next Book Can Wait. The Marquis's Eldest Daughter Has Sent Three Corrections to Her Family. The Workshop Has Invited the Buyer to Inspect Fifty-Six Bolts and Has Discovered That an Invitation Is Not the Same as Acceptance.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-81.md",
           "publishedAt": "2026-11-28"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-82",
+          "number": "82",
+          "order": 82,
+          "title": "The Former Empress Has Been Invited to Borrow a Book and Has Not Yet Agreed to Attend a Lecture. The Marquis's Eldest Daughter Has Completed Her First Large Order and Has Discovered That a Finished Contract Can Still Occupy an Accountant for Several Days. The Marquisate Has Introduced a New Procedure and Is Waiting to See Whether Its Clerks Can Read It.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-82.md",
+          "publishedAt": "2026-11-28"
         }
       ],
-      "chapterCount": 81,
+      "chapterCount": 82,
       "plannedChapterCount": 240,
       "updatedAt": "2026-11-28"
     }
