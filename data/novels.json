@@ -3414,12 +3414,20 @@
           "title": "The Former Empress Has Been Invited to Visit the Imperial Gardens. The Marquis's Eldest Daughter Has Been Invited to Inspect the Workshop. One Invitation Promises Flowers. The Other Promises Four Workers Who Have All Discovered That Training Is Not the Same as Working.",
           "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-54.md",
           "publishedAt": "2026-11-27"
+        },
+        {
+          "id": "empress-resigned-villainous-eldest-daughter-chapter-55",
+          "number": "55",
+          "order": 55,
+          "title": "The Former Empress Has Been Invited to Inspect the Imperial Gardens. The Marquis's Eldest Daughter Has Been Invited to Inspect a Production Report. One Garden Has Too Many Gardeners. One Workshop Has Too Many Opinions About the Correct Way to Fold Silk.",
+          "path": "chapters/empress-resigned-villainous-eldest-daughter/chapter-55.md",
+          "publishedAt": "2026-11-28"
         }
       ],
-      "chapterCount": 54,
+      "chapterCount": 55,
       "plannedChapterCount": 240,
-      "updatedAt": "2026-11-27"
+      "updatedAt": "2026-11-28"
     }
   ],
-  "updatedAt": "2026-11-27"
+  "updatedAt": "2026-11-28"
 }
